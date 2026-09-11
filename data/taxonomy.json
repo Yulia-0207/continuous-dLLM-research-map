@@ -1,0 +1,297 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-09-11",
+  "organization": "research_problem",
+  "multi_label": true,
+  "categories": [
+    {
+      "id": "representation",
+      "label": "Continuous Representation",
+      "parent_id": null,
+      "research_question": "连续状态如何承载离散文本？",
+      "description": "连续状态如何承载离散文本？",
+      "paper_count": 28,
+      "coverage_status": "covered"
+    },
+    {
+      "id": "representation.embedding",
+      "label": "Embedding-space diffusion",
+      "parent_id": "representation",
+      "research_question": "在 token embedding 或上下文 embedding 中加连续噪声。",
+      "description": "在 token embedding 或上下文 embedding 中加连续噪声。",
+      "paper_count": 13,
+      "coverage_status": "covered"
+    },
+    {
+      "id": "representation.categorical",
+      "label": "Categorical / simplex geometry",
+      "parent_id": "representation",
+      "research_question": "one-hot、词表 logits、simplex 或统计流形上的连续表示；不等同于离散状态。",
+      "description": "one-hot、词表 logits、simplex 或统计流形上的连续表示；不等同于离散状态。",
+      "paper_count": 7,
+      "coverage_status": "covered"
+    },
+    {
+      "id": "representation.latent",
+      "label": "Latent diffusion",
+      "parent_id": "representation",
+      "research_question": "编码器或自编码器构建的文本潜变量；不要求一定压缩序列。",
+      "description": "编码器或自编码器构建的文本潜变量；不要求一定压缩序列。",
+      "paper_count": 7,
+      "coverage_status": "covered"
+    },
+    {
+      "id": "representation.binary",
+      "label": "Binary / compact continuous codes",
+      "parent_id": "representation",
+      "research_question": "干净目标是二进制码，但带噪状态为实数 analog bits。",
+      "description": "干净目标是二进制码，但带噪状态为实数 analog bits。",
+      "paper_count": 2,
+      "coverage_status": "covered"
+    },
+    {
+      "id": "learning",
+      "label": "Learning & Scaling",
+      "parent_id": null,
+      "research_question": "如何训练、扩展和复用连续语言模型？",
+      "description": "如何训练、扩展和复用连续语言模型？",
+      "paper_count": 14,
+      "coverage_status": "covered"
+    },
+    {
+      "id": "learning.objective",
+      "label": "Likelihood / objective",
+      "parent_id": "learning",
+      "research_question": "似然界、flow matching、交叉熵及训练目标设计。",
+      "description": "似然界、flow matching、交叉熵及训练目标设计。",
+      "paper_count": 10,
+      "coverage_status": "covered"
+    },
+    {
+      "id": "learning.scaling",
+      "label": "Scaling law",
+      "parent_id": "learning",
+      "research_question": "有计算量、参数或数据量的系统缩放分析，不能仅凭模型较大归类。",
+      "description": "有计算量、参数或数据量的系统缩放分析，不能仅凭模型较大归类。",
+      "paper_count": 3,
+      "coverage_status": "covered"
+    },
+    {
+      "id": "learning.large_scale",
+      "label": "Large-scale continuous dLLM",
+      "parent_id": "learning",
+      "research_question": "已核实十亿级连续模型或研究明确涉及该规模。",
+      "description": "已核实十亿级连续模型或研究明确涉及该规模。",
+      "paper_count": 5,
+      "coverage_status": "covered"
+    },
+    {
+      "id": "learning.adaptation",
+      "label": "Discrete-to-continuous adaptation",
+      "parent_id": "learning",
+      "research_question": "从已有离散 dLLM 参数或推理接口迁移。",
+      "description": "从已有离散 dLLM 参数或推理接口迁移。",
+      "paper_count": 1,
+      "coverage_status": "covered"
+    },
+    {
+      "id": "sampling",
+      "label": "Sampling & Generation",
+      "parent_id": null,
+      "research_question": "如何减少迭代并保持生成质量？",
+      "description": "如何减少迭代并保持生成质量？",
+      "paper_count": 13,
+      "coverage_status": "covered"
+    },
+    {
+      "id": "sampling.few_step",
+      "label": "Few-step generation",
+      "parent_id": "sampling",
+      "research_question": "低步数采样或求解器。",
+      "description": "低步数采样或求解器。",
+      "paper_count": 10,
+      "coverage_status": "covered"
+    },
+    {
+      "id": "sampling.one_step",
+      "label": "One-step / flow map",
+      "parent_id": "sampling",
+      "research_question": "直接学习或蒸馏跨时间映射。",
+      "description": "直接学习或蒸馏跨时间映射。",
+      "paper_count": 5,
+      "coverage_status": "covered"
+    },
+    {
+      "id": "sampling.distillation",
+      "label": "Distillation",
+      "parent_id": "sampling",
+      "research_question": "压缩教师轨迹或分布。",
+      "description": "压缩教师轨迹或分布。",
+      "paper_count": 5,
+      "coverage_status": "covered"
+    },
+    {
+      "id": "sampling.adaptive",
+      "label": "Adaptive refinement",
+      "parent_id": "sampling",
+      "research_question": "停止、重采样或根据状态分配计算。",
+      "description": "停止、重采样或根据状态分配计算。",
+      "paper_count": 3,
+      "coverage_status": "covered"
+    },
+    {
+      "id": "sampling.token_time",
+      "label": "Token-wise diffusion time",
+      "parent_id": "sampling",
+      "research_question": "不同位置具有不同扩散进度；不只是全局连续时间。",
+      "description": "不同位置具有不同扩散进度；不只是全局连续时间。",
+      "paper_count": 1,
+      "coverage_status": "covered"
+    },
+    {
+      "id": "decoder",
+      "label": "Decoder Interface",
+      "parent_id": null,
+      "research_question": "连续状态如何可靠地变成 token？",
+      "description": "连续状态如何可靠地变成 token？",
+      "paper_count": 19,
+      "coverage_status": "covered"
+    },
+    {
+      "id": "decoder.readout",
+      "label": "Continuous state → token",
+      "parent_id": "decoder",
+      "research_question": "最终 token 读出机制。",
+      "description": "最终 token 读出机制。",
+      "paper_count": 13,
+      "coverage_status": "covered"
+    },
+    {
+      "id": "decoder.rounding",
+      "label": "Token rounding",
+      "parent_id": "decoder",
+      "research_question": "最近邻、投影或上下文化离散化的误差。",
+      "description": "最近邻、投影或上下文化离散化的误差。",
+      "paper_count": 3,
+      "coverage_status": "covered"
+    },
+    {
+      "id": "decoder.alignment",
+      "label": "Representation–decoder alignment",
+      "parent_id": "decoder",
+      "research_question": "可去噪性与可解码性之间的一致性。",
+      "description": "可去噪性与可解码性之间的一致性。",
+      "paper_count": 7,
+      "coverage_status": "covered"
+    },
+    {
+      "id": "decoder.learned",
+      "label": "Learned / VAE / AR decoder",
+      "parent_id": "decoder",
+      "research_question": "学习到的读出、自编码器 decoder 或 AR decoder；需分别标注。",
+      "description": "学习到的读出、自编码器 decoder 或 AR decoder；需分别标注。",
+      "paper_count": 7,
+      "coverage_status": "covered"
+    },
+    {
+      "id": "hybrid",
+      "label": "Hybrid Discrete–Continuous",
+      "parent_id": null,
+      "research_question": "怎样结合离散身份与连续信息？",
+      "description": "怎样结合离散身份与连续信息？",
+      "paper_count": 3,
+      "coverage_status": "covered"
+    },
+    {
+      "id": "hybrid.candi",
+      "label": "Decoupled corruptions (CANDI)",
+      "parent_id": "hybrid",
+      "research_question": "分离离散身份损坏与连续几何损坏。",
+      "description": "分离离散身份损坏与连续几何损坏。",
+      "paper_count": 1,
+      "coverage_status": "covered"
+    },
+    {
+      "id": "hybrid.cadd",
+      "label": "Continuous augmentation (CADD)",
+      "parent_id": "hybrid",
+      "research_question": "为离散 mask 增加连续语义提示。",
+      "description": "为离散 mask 增加连续语义提示。",
+      "paper_count": 1,
+      "coverage_status": "covered"
+    },
+    {
+      "id": "hybrid.other",
+      "label": "Other hybrid methods",
+      "parent_id": "hybrid",
+      "research_question": "需有显式离散与连续过程结合证据；AR+连续不自动等于此类。",
+      "description": "需有显式离散与连续过程结合证据；AR+连续不自动等于此类。",
+      "paper_count": 1,
+      "coverage_status": "covered"
+    },
+    {
+      "id": "systems",
+      "label": "Systems & Infrastructure",
+      "parent_id": null,
+      "research_question": "端到端推理成本由哪些环节决定？",
+      "description": "端到端推理成本由哪些环节决定？",
+      "paper_count": 16,
+      "coverage_status": "covered"
+    },
+    {
+      "id": "systems.algorithmic",
+      "label": "Algorithmic inference efficiency",
+      "parent_id": "systems",
+      "research_question": "减少 NFE、采样步、冗余更新或算术复杂度；与系统实现优化分开。",
+      "description": "减少 NFE、采样步、冗余更新或算术复杂度；与系统实现优化分开。",
+      "paper_count": 16,
+      "coverage_status": "covered"
+    },
+    {
+      "id": "systems.runtime",
+      "label": "GPU runtime / kernel",
+      "parent_id": "systems",
+      "research_question": "单步 GPU latency、memory traffic、融合、kernel/runtime overhead 的直接证据。",
+      "description": "GPU 单步或固定 NFE 的 runtime / memory profiling；贡献类型必须区分表示架构、kernel 创新与测量。CoBit 本轮仅提供表示边界 profiling。",
+      "paper_count": 1,
+      "coverage_status": "covered"
+    },
+    {
+      "id": "systems.serving",
+      "label": "Serving / scheduling",
+      "parent_id": "systems",
+      "research_question": "批处理、请求调度、SLO、服务成本。",
+      "description": "批处理、请求调度、SLO、服务成本。",
+      "paper_count": 0,
+      "coverage_status": "open_evidence_gap"
+    },
+    {
+      "id": "systems.hardware",
+      "label": "Hardware co-design",
+      "parent_id": "systems",
+      "research_question": "模型与硬件结构的联合设计；仅在某硬件训练不满足。",
+      "description": "模型与硬件结构的联合设计；仅在某硬件训练不满足。",
+      "paper_count": 0,
+      "coverage_status": "open_evidence_gap"
+    }
+  ],
+  "scope_policy": {
+    "include": [
+      "continuous_state",
+      "hybrid_discrete_continuous"
+    ],
+    "context_only": [
+      "discrete_masked"
+    ],
+    "exclude": [
+      "continuous_time_only_without_continuous_state",
+      "unrelated_same_alias"
+    ],
+    "empty_categories": "保留作为本轮证据空缺，不能推断该方向没有论文。"
+  },
+  "efficiency_axes": {
+    "algorithmic": "NFE / steps / arithmetic / refinement",
+    "systems": "per-step latency / memory traffic / kernel / runtime / serving",
+    "architecture": "单步算术或表示复杂度降低单列，不自动标为 systems。"
+  }
+}

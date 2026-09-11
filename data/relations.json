@@ -1,0 +1,272 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-09-11",
+  "direction": "prior_or_background_work_to_followup; not necessarily chronological",
+  "allowed_types": [
+    "extends",
+    "builds_on",
+    "modernizes",
+    "distills",
+    "adapts",
+    "hybridizes",
+    "addresses_limitation_of",
+    "research_evolution"
+  ],
+  "relations": [
+    {
+      "id": "diffusion-lm--research_evolution--elf",
+      "source": "diffusion-lm",
+      "target": "elf",
+      "type": "research_evolution",
+      "rationale": "从连续 embedding 去噪发展到上下文表示上的 flow matching 与共享 decoder。",
+      "evidence_level": "editorial",
+      "verified": false,
+      "verification_sources": [
+        {
+          "url": "https://arxiv.org/abs/2605.10938",
+          "locator": "Abstract / related work",
+          "accessed_at": "2026-09-11"
+        }
+      ],
+      "note": "research_evolution 是编辑性问题谱系，不表示作者直接继承代码。"
+    },
+    {
+      "id": "plaid--modernizes--replaid",
+      "source": "plaid",
+      "target": "replaid",
+      "type": "modernizes",
+      "rationale": "作者明确重访 Plaid 并统一到现代架构。",
+      "evidence_level": "explicit",
+      "verified": true,
+      "verification_sources": [
+        {
+          "url": "https://arxiv.org/abs/2605.18530",
+          "locator": "Abstract / related work",
+          "accessed_at": "2026-09-11"
+        }
+      ],
+      "note": null
+    },
+    {
+      "id": "diffuseq--extends--diffuseq-v2",
+      "source": "diffuseq",
+      "target": "diffuseq-v2",
+      "type": "extends",
+      "rationale": "官方共用项目明确 v2 延续 DiffuSeq。",
+      "evidence_level": "explicit",
+      "verified": true,
+      "verification_sources": [
+        {
+          "url": "https://github.com/Shark-NLP/DiffuSeq",
+          "locator": "Abstract / related work",
+          "accessed_at": "2026-09-11"
+        }
+      ],
+      "note": null
+    },
+    {
+      "id": "llada--adapts--dsl-llada",
+      "source": "llada",
+      "target": "dsl-llada",
+      "type": "adapts",
+      "rationale": "从 LLaDA-8B-Instruct 参数继续预训练，支持连续状态推理。",
+      "evidence_level": "explicit",
+      "verified": true,
+      "verification_sources": [
+        {
+          "url": "https://arxiv.org/abs/2606.01024",
+          "locator": "Abstract / related work",
+          "accessed_at": "2026-09-11"
+        }
+      ],
+      "note": null
+    },
+    {
+      "id": "fmlm--extends--fixed-point-flows",
+      "source": "fmlm",
+      "target": "fixed-point-flows",
+      "type": "extends",
+      "rationale": "将 self-conditioning 的 fixed-point 迭代纳入 flow map 框架。",
+      "evidence_level": "explicit",
+      "verified": true,
+      "verification_sources": [
+        {
+          "url": "https://arxiv.org/abs/2607.00714",
+          "locator": "Abstract / related work",
+          "accessed_at": "2026-09-11"
+        }
+      ],
+      "note": null
+    },
+    {
+      "id": "fmlm--extends--fmlm-plus",
+      "source": "fmlm",
+      "target": "fmlm-plus",
+      "type": "extends",
+      "rationale": "加入 masking-style schedules 与 posterior refinement。",
+      "evidence_level": "explicit",
+      "verified": true,
+      "verification_sources": [
+        {
+          "url": "https://arxiv.org/abs/2606.24773",
+          "locator": "Abstract / related work",
+          "accessed_at": "2026-09-11"
+        }
+      ],
+      "note": null
+    },
+    {
+      "id": "mdlm--research_evolution--cadd",
+      "source": "mdlm",
+      "target": "cadd",
+      "type": "research_evolution",
+      "rationale": "masked diffusion 家族的语义空缺问题引出连续增强；MDLM 是背景代表，并非宣称唯一直接祖先。",
+      "evidence_level": "editorial",
+      "verified": false,
+      "verification_sources": [
+        {
+          "url": "https://arxiv.org/abs/2510.01329",
+          "locator": "Abstract / related work",
+          "accessed_at": "2026-09-11"
+        }
+      ],
+      "note": "research_evolution 是编辑性问题谱系，不表示作者直接继承代码。"
+    },
+    {
+      "id": "mdlm--research_evolution--candi",
+      "source": "mdlm",
+      "target": "candi",
+      "type": "research_evolution",
+      "rationale": "从离散条件结构与连续几何的取舍演化到解耦腐化。",
+      "evidence_level": "editorial",
+      "verified": false,
+      "verification_sources": [
+        {
+          "url": "https://arxiv.org/abs/2510.22510",
+          "locator": "Abstract / related work",
+          "accessed_at": "2026-09-11"
+        }
+      ],
+      "note": "research_evolution 是编辑性问题谱系，不表示作者直接继承代码。"
+    },
+    {
+      "id": "elf--addresses_limitation_of--decoder-interface-problem",
+      "source": "elf",
+      "target": "decoder-interface-problem",
+      "type": "addresses_limitation_of",
+      "rationale": "明确审计公开 ELF checkpoint 的 decoder basin 与读出边界。",
+      "evidence_level": "explicit",
+      "verified": true,
+      "verification_sources": [
+        {
+          "url": "https://arxiv.org/abs/2606.08810",
+          "locator": "Abstract / related work",
+          "accessed_at": "2026-09-11"
+        }
+      ],
+      "note": null
+    },
+    {
+      "id": "elf--builds_on--deltaflow",
+      "source": "elf",
+      "target": "deltaflow",
+      "type": "builds_on",
+      "rationale": "用双向 GDN 替换 ELF 的全注意力序列混合骨干。",
+      "evidence_level": "explicit",
+      "verified": true,
+      "verification_sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.01240",
+          "locator": "Abstract / related work",
+          "accessed_at": "2026-09-11"
+        }
+      ],
+      "note": null
+    },
+    {
+      "id": "ld4lg--research_evolution--codar",
+      "source": "ld4lg",
+      "target": "codar",
+      "type": "research_evolution",
+      "rationale": "从连续 latent 生成发展到显式研究 contextual token rounding。",
+      "evidence_level": "editorial",
+      "verified": false,
+      "verification_sources": [
+        {
+          "url": "https://arxiv.org/abs/2603.02547",
+          "locator": "Abstract / related work",
+          "accessed_at": "2026-09-11"
+        }
+      ],
+      "note": "research_evolution 是编辑性问题谱系，不表示作者直接继承代码。"
+    },
+    {
+      "id": "ld4lg--research_evolution--textldm",
+      "source": "ld4lg",
+      "target": "textldm",
+      "type": "research_evolution",
+      "rationale": "从 autoencoder latent diffusion 发展到 REPA 对齐 VAE 与 DiT。",
+      "evidence_level": "editorial",
+      "verified": false,
+      "verification_sources": [
+        {
+          "url": "https://arxiv.org/abs/2605.07748",
+          "locator": "Abstract / related work",
+          "accessed_at": "2026-09-11"
+        }
+      ],
+      "note": "research_evolution 是编辑性问题谱系，不表示作者直接继承代码。"
+    },
+    {
+      "id": "ld4lg--research_evolution--ldlm",
+      "source": "ld4lg",
+      "target": "ldlm",
+      "type": "research_evolution",
+      "rationale": "进一步把表示与 denoiser、decoder 联合优化。",
+      "evidence_level": "editorial",
+      "verified": false,
+      "verification_sources": [
+        {
+          "url": "https://arxiv.org/abs/2605.07933",
+          "locator": "Abstract / related work",
+          "accessed_at": "2026-09-11"
+        }
+      ],
+      "note": "research_evolution 是编辑性问题谱系，不表示作者直接继承代码。"
+    },
+    {
+      "id": "cdcd--research_evolution--langflow",
+      "source": "cdcd",
+      "target": "langflow",
+      "type": "research_evolution",
+      "rationale": "从 embedding score interpolation / noise scheduling 发展到 Bregman flow 与 NLL bound。",
+      "evidence_level": "editorial",
+      "verified": false,
+      "verification_sources": [
+        {
+          "url": "https://arxiv.org/abs/2604.11748",
+          "locator": "Abstract / related work",
+          "accessed_at": "2026-09-11"
+        }
+      ],
+      "note": "research_evolution 是编辑性问题谱系，不表示作者直接继承代码。"
+    },
+    {
+      "id": "plaid--builds_on--early-halting",
+      "source": "plaid",
+      "target": "early-halting",
+      "type": "builds_on",
+      "rationale": "该方法在 Plaid 等模型上评估早停；关系并不表示首次发布日期的先后。",
+      "evidence_level": "explicit",
+      "verified": true,
+      "verification_sources": [
+        {
+          "url": "https://arxiv.org/abs/2305.10818",
+          "locator": "Abstract / related work",
+          "accessed_at": "2026-09-11"
+        }
+      ],
+      "note": null
+    }
+  ]
+}

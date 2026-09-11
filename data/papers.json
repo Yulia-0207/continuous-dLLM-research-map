@@ -1,0 +1,3542 @@
+[
+  {
+    "id": "diffusion-lm",
+    "alias": [
+      "Diffusion-LM"
+    ],
+    "title": "Diffusion-LM Improves Controllable Text Generation",
+    "year": 2022,
+    "venue": "NeurIPS",
+    "publication_status": "published",
+    "authors": [
+      "Xiang Lisa Li",
+      "John Thickstun",
+      "Ishaan Gulrajani",
+      "Percy Liang",
+      "Tatsunori B. Hashimoto"
+    ],
+    "paper_url": "https://arxiv.org/abs/2205.14217",
+    "project_url": null,
+    "code_url": null,
+    "categories": [
+      "representation.embedding",
+      "decoder.readout",
+      "decoder.rounding"
+    ],
+    "state_space": "continuous_embedding",
+    "representation_unit": "token_embedding",
+    "generation_type": "non_autoregressive",
+    "decoder_type": "embedding_rounding",
+    "model_scale": null,
+    "main_problem": "复杂属性的可控文本生成",
+    "main_contribution": "用连续去噪轨迹支持梯度控制",
+    "method_summary": "Gaussian 向量迭代去噪为词向量，再映射到词元。",
+    "inference_focus": "none",
+    "efficiency_mechanism": null,
+    "evaluation_metrics": null,
+    "tags": [
+      "continuous_embedding",
+      "none",
+      "core"
+    ],
+    "verified": true,
+    "verification_sources": [
+      {
+        "url": "https://arxiv.org/abs/2205.14217",
+        "type": "original_paper",
+        "supports": [
+          "identity",
+          "authors",
+          "year",
+          "method"
+        ],
+        "locator": "Abstract; method sections where noted",
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://arxiv.org/abs/2205.14217",
+          "status": 200,
+          "final_url": "https://arxiv.org/abs/2205.14217",
+          "checked_at": "2026-09-11"
+        }
+      },
+      {
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/1be5bc25d50895ee656b8c2d9eb89d6a-Abstract.html",
+        "type": "official_publication",
+        "supports": [
+          "publication_status",
+          "venue"
+        ],
+        "locator": null,
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/1be5bc25d50895ee656b8c2d9eb89d6a-Abstract.html",
+          "status": 200,
+          "final_url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/1be5bc25d50895ee656b8c2d9eb89d6a-Abstract.html",
+          "checked_at": "2026-09-11"
+        }
+      }
+    ],
+    "verification_level": "primary_source_core_verified",
+    "pending_verification": [
+      "model_scale：尚未逐配置核实，保留 null",
+      "官方 code_url 未核到可确认链接，保留 null",
+      "独立官方 project_url 未核到，保留 null",
+      "evaluation_metrics 未逐表抽取，保留 null"
+    ],
+    "arxiv_id": "2205.14217",
+    "first_submission_date": "2022-05-27",
+    "publication_year": 2022,
+    "scope": "core",
+    "systems_evidence": null,
+    "results": null,
+    "time_parameterization": null,
+    "verification_note": "verified 仅表示身份和核心方法有一手证据，不表示结果复现、全部字段完整或所有实验无矛盾。"
+  },
+  {
+    "id": "diffuseq",
+    "alias": [
+      "DiffuSeq"
+    ],
+    "title": "DiffuSeq: Sequence to Sequence Text Generation with Diffusion Models",
+    "year": 2022,
+    "venue": "ICLR",
+    "publication_status": "published",
+    "authors": [
+      "Shansan Gong",
+      "Mukai Li",
+      "Jiangtao Feng",
+      "Zhiyong Wu",
+      "Lingpeng Kong"
+    ],
+    "paper_url": "https://arxiv.org/abs/2210.08933",
+    "project_url": null,
+    "code_url": "https://github.com/Shark-NLP/DiffuSeq",
+    "categories": [
+      "representation.embedding",
+      "decoder.readout"
+    ],
+    "state_space": "continuous_embedding",
+    "representation_unit": "token_embedding",
+    "generation_type": "conditional_non_autoregressive",
+    "decoder_type": "token_readout",
+    "model_scale": null,
+    "main_problem": "条件 seq2seq 的非自回归生成",
+    "main_contribution": "将条件序列与目标序列纳入连续扩散",
+    "method_summary": "以源文本为条件，迭代恢复目标的连续表示。",
+    "inference_focus": "none",
+    "efficiency_mechanism": null,
+    "evaluation_metrics": null,
+    "tags": [
+      "continuous_embedding",
+      "none",
+      "core"
+    ],
+    "verified": true,
+    "verification_sources": [
+      {
+        "url": "https://arxiv.org/abs/2210.08933",
+        "type": "original_paper",
+        "supports": [
+          "identity",
+          "authors",
+          "year",
+          "method"
+        ],
+        "locator": "Abstract; method sections where noted",
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://arxiv.org/abs/2210.08933",
+          "status": 200,
+          "final_url": "https://arxiv.org/abs/2210.08933",
+          "checked_at": "2026-09-11"
+        }
+      },
+      {
+        "url": "https://github.com/Shark-NLP/DiffuSeq",
+        "type": "official_code",
+        "supports": [
+          "code_identity"
+        ],
+        "locator": null,
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://github.com/Shark-NLP/DiffuSeq",
+          "status": 200,
+          "final_url": "https://github.com/Shark-NLP/DiffuSeq",
+          "checked_at": "2026-09-11"
+        }
+      }
+    ],
+    "verification_level": "primary_source_core_verified",
+    "pending_verification": [
+      "model_scale：尚未逐配置核实，保留 null",
+      "独立官方 project_url 未核到，保留 null",
+      "evaluation_metrics 未逐表抽取，保留 null"
+    ],
+    "arxiv_id": "2210.08933",
+    "first_submission_date": "2022-10-17",
+    "publication_year": 2023,
+    "scope": "core",
+    "systems_evidence": null,
+    "results": null,
+    "time_parameterization": null,
+    "verification_note": "verified 仅表示身份和核心方法有一手证据，不表示结果复现、全部字段完整或所有实验无矛盾。"
+  },
+  {
+    "id": "ssd-lm",
+    "alias": [
+      "SSD-LM"
+    ],
+    "title": "SSD-LM: Semi-autoregressive Simplex-based Diffusion Language Model for Text Generation and Modular Control",
+    "year": 2022,
+    "venue": "ACL",
+    "publication_status": "published",
+    "authors": [
+      "Xiaochuang Han",
+      "Sachin Kumar",
+      "Yulia Tsvetkov"
+    ],
+    "paper_url": "https://arxiv.org/abs/2210.17432",
+    "project_url": null,
+    "code_url": null,
+    "categories": [
+      "representation.categorical",
+      "decoder.readout"
+    ],
+    "state_space": "continuous_categorical_geometry",
+    "representation_unit": "vocabulary_logits_per_token",
+    "generation_type": "semi_autoregressive_blocks",
+    "decoder_type": "simplex_token_projection",
+    "model_scale": null,
+    "main_problem": "灵活长度与可控生成",
+    "main_contribution": "块间自回归与词表空间扩散结合",
+    "method_summary": "在每个块内连续去噪，利用现有分类器施加控制。",
+    "inference_focus": "none",
+    "efficiency_mechanism": null,
+    "evaluation_metrics": null,
+    "tags": [
+      "continuous_categorical_geometry",
+      "none",
+      "core"
+    ],
+    "verified": true,
+    "verification_sources": [
+      {
+        "url": "https://arxiv.org/abs/2210.17432",
+        "type": "original_paper",
+        "supports": [
+          "identity",
+          "authors",
+          "year",
+          "method"
+        ],
+        "locator": "Abstract; method sections where noted",
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://arxiv.org/abs/2210.17432",
+          "status": 200,
+          "final_url": "https://arxiv.org/abs/2210.17432",
+          "checked_at": "2026-09-11"
+        }
+      },
+      {
+        "url": "https://aclanthology.org/2023.acl-long.647/",
+        "type": "official_publication",
+        "supports": [
+          "publication_status",
+          "venue"
+        ],
+        "locator": null,
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://aclanthology.org/2023.acl-long.647/",
+          "status": 200,
+          "final_url": "https://aclanthology.org/2023.acl-long.647/",
+          "checked_at": "2026-09-11"
+        }
+      }
+    ],
+    "verification_level": "primary_source_core_verified",
+    "pending_verification": [
+      "simplex 是方法命名；带噪 logits 不应强行解释为始终满足概率单纯形约束。",
+      "model_scale：尚未逐配置核实，保留 null",
+      "官方 code_url 未核到可确认链接，保留 null",
+      "独立官方 project_url 未核到，保留 null",
+      "evaluation_metrics 未逐表抽取，保留 null"
+    ],
+    "arxiv_id": "2210.17432",
+    "first_submission_date": "2022-10-31",
+    "publication_year": 2023,
+    "scope": "core",
+    "systems_evidence": null,
+    "results": null,
+    "time_parameterization": null,
+    "verification_note": "verified 仅表示身份和核心方法有一手证据，不表示结果复现、全部字段完整或所有实验无矛盾。"
+  },
+  {
+    "id": "cdcd",
+    "alias": [
+      "CDCD"
+    ],
+    "title": "Continuous diffusion for categorical data",
+    "year": 2022,
+    "venue": null,
+    "publication_status": "arxiv_preprint",
+    "authors": [
+      "Sander Dieleman",
+      "Laurent Sartran",
+      "Arman Roshannai",
+      "Nikolay Savinov",
+      "Yaroslav Ganin",
+      "Pierre H. Richemond",
+      "Arnaud Doucet",
+      "Robin Strudel",
+      "Chris Dyer",
+      "Conor Durkan",
+      "Curtis Hawthorne",
+      "Rémi Leblond",
+      "Will Grathwohl",
+      "Jonas Adler"
+    ],
+    "paper_url": "https://arxiv.org/abs/2211.15089",
+    "project_url": null,
+    "code_url": null,
+    "categories": [
+      "representation.embedding",
+      "learning.objective",
+      "decoder.readout"
+    ],
+    "state_space": "continuous_embedding",
+    "representation_unit": "token_embedding",
+    "generation_type": "non_autoregressive",
+    "decoder_type": "categorical_prediction_head",
+    "model_scale": null,
+    "main_problem": "如何保留连续扩散用于 categorical data 的优势",
+    "main_contribution": "score interpolation 与 time warping",
+    "method_summary": "用交叉熵学习 token 后验，在欧氏 embedding 上构建连续 score 并用 ODE 采样。",
+    "inference_focus": "none",
+    "efficiency_mechanism": null,
+    "evaluation_metrics": null,
+    "tags": [
+      "continuous_embedding",
+      "none",
+      "core"
+    ],
+    "verified": true,
+    "verification_sources": [
+      {
+        "url": "https://arxiv.org/abs/2211.15089",
+        "type": "original_paper",
+        "supports": [
+          "identity",
+          "authors",
+          "year",
+          "method"
+        ],
+        "locator": "Abstract; method sections where noted",
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://arxiv.org/abs/2211.15089",
+          "status": 200,
+          "final_url": "https://arxiv.org/abs/2211.15089",
+          "checked_at": "2026-09-11"
+        }
+      },
+      {
+        "url": "https://arxiv.org/html/2211.15089",
+        "type": "original_paper",
+        "supports": [
+          "state_space",
+          "method_summary"
+        ],
+        "locator": "§3.1–3.3",
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://arxiv.org/html/2211.15089",
+          "status": 200,
+          "final_url": "https://arxiv.org/html/2211.15089",
+          "checked_at": "2026-09-11"
+        }
+      }
+    ],
+    "verification_level": "primary_source_core_verified",
+    "pending_verification": [
+      "不能因 categorical 标题就将带噪状态标为 simplex；正式发表状态未找到确认。",
+      "model_scale：尚未逐配置核实，保留 null",
+      "正式发表记录未确认；arxiv_preprint 表示本轮仅核实预印本，不断言尚未获录用",
+      "官方 code_url 未核到可确认链接，保留 null",
+      "独立官方 project_url 未核到，保留 null",
+      "evaluation_metrics 未逐表抽取，保留 null"
+    ],
+    "arxiv_id": "2211.15089",
+    "first_submission_date": "2022-11-28",
+    "publication_year": null,
+    "scope": "core",
+    "systems_evidence": null,
+    "results": null,
+    "time_parameterization": "continuous",
+    "verification_note": "verified 仅表示身份和核心方法有一手证据，不表示结果复现、全部字段完整或所有实验无矛盾。"
+  },
+  {
+    "id": "plaid",
+    "alias": [
+      "Plaid"
+    ],
+    "title": "Likelihood-Based Diffusion Language Models",
+    "year": 2023,
+    "venue": "NeurIPS",
+    "publication_status": "published",
+    "authors": [
+      "Ishaan Gulrajani",
+      "Tatsunori B. Hashimoto"
+    ],
+    "paper_url": "https://arxiv.org/abs/2305.18619",
+    "project_url": null,
+    "code_url": "https://github.com/igul222/plaid",
+    "categories": [
+      "representation.embedding",
+      "learning.objective",
+      "learning.scaling",
+      "learning.large_scale",
+      "decoder.readout"
+    ],
+    "state_space": "continuous_embedding",
+    "representation_unit": "learned_token_embedding",
+    "generation_type": "non_autoregressive",
+    "decoder_type": "learned_token_readout",
+    "model_scale": {
+      "parameters": [
+        1000000000
+      ],
+      "label": "Plaid 1B",
+      "scope": "released model; rounded nominal size",
+      "source": "https://arxiv.org/abs/2305.18619"
+    },
+    "main_problem": "连续 DLM 的似然与训练规模瓶颈",
+    "main_contribution": "似然训练改进与 compute-optimal scaling 分析",
+    "method_summary": "联合优化连续表示与似然目标，并据缩放分析训练模型。",
+    "inference_focus": "none",
+    "efficiency_mechanism": null,
+    "evaluation_metrics": null,
+    "tags": [
+      "continuous_embedding",
+      "none",
+      "core"
+    ],
+    "verified": true,
+    "verification_sources": [
+      {
+        "url": "https://arxiv.org/abs/2305.18619",
+        "type": "original_paper",
+        "supports": [
+          "identity",
+          "authors",
+          "year",
+          "method"
+        ],
+        "locator": "Abstract; method sections where noted",
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://arxiv.org/abs/2305.18619",
+          "status": 200,
+          "final_url": "https://arxiv.org/abs/2305.18619",
+          "checked_at": "2026-09-11"
+        }
+      },
+      {
+        "url": "https://papers.nips.cc/paper_files/paper/2023/file/35b5c175e139bff5f22a5361270fce87-Paper-Conference.pdf",
+        "type": "official_publication",
+        "supports": [
+          "publication_status",
+          "venue"
+        ],
+        "locator": null,
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://papers.nips.cc/paper_files/paper/2023/file/35b5c175e139bff5f22a5361270fce87-Paper-Conference.pdf",
+          "status": 200,
+          "final_url": "https://papers.nips.cc/paper_files/paper/2023/file/35b5c175e139bff5f22a5361270fce87-Paper-Conference.pdf",
+          "checked_at": "2026-09-11"
+        }
+      },
+      {
+        "url": "https://github.com/igul222/plaid",
+        "type": "official_code",
+        "supports": [
+          "code_identity"
+        ],
+        "locator": null,
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://github.com/igul222/plaid",
+          "status": 200,
+          "final_url": "https://github.com/igul222/plaid",
+          "checked_at": "2026-09-11"
+        }
+      }
+    ],
+    "verification_level": "primary_source_core_verified",
+    "pending_verification": [
+      "独立官方 project_url 未核到，保留 null",
+      "evaluation_metrics 未逐表抽取，保留 null"
+    ],
+    "arxiv_id": "2305.18619",
+    "first_submission_date": "2023-05-30",
+    "publication_year": 2023,
+    "scope": "core",
+    "systems_evidence": null,
+    "results": null,
+    "time_parameterization": null,
+    "verification_note": "verified 仅表示身份和核心方法有一手证据，不表示结果复现、全部字段完整或所有实验无矛盾。"
+  },
+  {
+    "id": "diffuseq-v2",
+    "alias": [
+      "DiffuSeq-v2"
+    ],
+    "title": "DiffuSeq-v2: Bridging Discrete and Continuous Text Spaces for Accelerated Seq2Seq Diffusion Models",
+    "year": 2023,
+    "venue": "Findings of EMNLP",
+    "publication_status": "published",
+    "authors": [
+      "Shansan Gong",
+      "Mukai Li",
+      "Jiangtao Feng",
+      "Zhiyong Wu",
+      "Lingpeng Kong"
+    ],
+    "paper_url": "https://arxiv.org/abs/2310.05793",
+    "project_url": null,
+    "code_url": "https://github.com/Shark-NLP/DiffuSeq",
+    "categories": [
+      "representation.embedding",
+      "sampling.few_step",
+      "hybrid.other",
+      "systems.algorithmic"
+    ],
+    "state_space": "hybrid_discrete_continuous",
+    "representation_unit": "token_embedding_with_soft_absorbing_state",
+    "generation_type": "conditional_non_autoregressive",
+    "decoder_type": "token_readout",
+    "model_scale": null,
+    "main_problem": "训练慢与采样步数多",
+    "main_contribution": "soft absorbing state 与连续 ODE solver",
+    "method_summary": "在 Gaussian 空间恢复离散扰动信号，以连续求解器加速采样。",
+    "inference_focus": "algorithmic",
+    "efficiency_mechanism": {
+      "algorithmic": [
+        "ODE solver / fewer sampling steps"
+      ],
+      "systems": null
+    },
+    "evaluation_metrics": null,
+    "tags": [
+      "hybrid_discrete_continuous",
+      "algorithmic",
+      "core"
+    ],
+    "verified": true,
+    "verification_sources": [
+      {
+        "url": "https://arxiv.org/abs/2310.05793",
+        "type": "original_paper",
+        "supports": [
+          "identity",
+          "authors",
+          "year",
+          "method"
+        ],
+        "locator": "Abstract; method sections where noted",
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://arxiv.org/abs/2310.05793",
+          "status": 200,
+          "final_url": "https://arxiv.org/abs/2310.05793",
+          "checked_at": "2026-09-11"
+        }
+      },
+      {
+        "url": "https://aclanthology.org/2023.findings-emnlp.660/",
+        "type": "official_publication",
+        "supports": [
+          "publication_status",
+          "venue"
+        ],
+        "locator": null,
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://aclanthology.org/2023.findings-emnlp.660/",
+          "status": 200,
+          "final_url": "https://aclanthology.org/2023.findings-emnlp.660/",
+          "checked_at": "2026-09-11"
+        }
+      },
+      {
+        "url": "https://github.com/Shark-NLP/DiffuSeq",
+        "type": "official_code",
+        "supports": [
+          "code_identity"
+        ],
+        "locator": null,
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://github.com/Shark-NLP/DiffuSeq",
+          "status": 200,
+          "final_url": "https://github.com/Shark-NLP/DiffuSeq",
+          "checked_at": "2026-09-11"
+        }
+      }
+    ],
+    "verification_level": "primary_source_core_verified",
+    "pending_verification": [
+      "soft absorbing state 属于边界型混合；与 CADD 的 paired latent 机制不同。",
+      "model_scale：尚未逐配置核实，保留 null",
+      "独立官方 project_url 未核到，保留 null",
+      "evaluation_metrics 未逐表抽取，保留 null"
+    ],
+    "arxiv_id": "2310.05793",
+    "first_submission_date": "2023-10-09",
+    "publication_year": 2023,
+    "scope": "core",
+    "systems_evidence": null,
+    "results": null,
+    "time_parameterization": null,
+    "verification_note": "verified 仅表示身份和核心方法有一手证据，不表示结果复现、全部字段完整或所有实验无矛盾。"
+  },
+  {
+    "id": "flowseq",
+    "alias": [
+      "FlowSeq"
+    ],
+    "title": "Flow Matching for Conditional Text Generation in a Few Sampling Steps",
+    "year": 2024,
+    "venue": "EACL (Short Papers)",
+    "publication_status": "published",
+    "authors": [
+      "Vincent Tao Hu",
+      "Di Wu",
+      "Yuki M. Asano",
+      "Pascal Mettes",
+      "Basura Fernando",
+      "Björn Ommer",
+      "Cees G. M. Snoek"
+    ],
+    "paper_url": "https://aclanthology.org/2024.eacl-short.33/",
+    "project_url": null,
+    "code_url": "https://github.com/dongzhuoyao/flowseq",
+    "categories": [
+      "representation.embedding",
+      "sampling.few_step",
+      "sampling.one_step",
+      "learning.objective",
+      "systems.algorithmic"
+    ],
+    "state_space": "continuous_embedding",
+    "representation_unit": "token_embedding",
+    "generation_type": "conditional_non_autoregressive",
+    "decoder_type": "token_readout",
+    "model_scale": null,
+    "main_problem": "条件生成的采样成本与训练采样不一致",
+    "main_contribution": "flow matching 与 anchor loss",
+    "method_summary": "在 embedding 空间学习条件流，anchor loss 支持少步或单步采样。",
+    "inference_focus": "algorithmic",
+    "efficiency_mechanism": {
+      "algorithmic": [
+        "few-step flow matching",
+        "anchor loss"
+      ],
+      "systems": null
+    },
+    "evaluation_metrics": null,
+    "tags": [
+      "continuous_embedding",
+      "algorithmic",
+      "core"
+    ],
+    "verified": true,
+    "verification_sources": [
+      {
+        "url": "https://aclanthology.org/2024.eacl-short.33/",
+        "type": "official_publication",
+        "supports": [
+          "publication_status",
+          "venue"
+        ],
+        "locator": null,
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://aclanthology.org/2024.eacl-short.33/",
+          "status": 200,
+          "final_url": "https://aclanthology.org/2024.eacl-short.33/",
+          "checked_at": "2026-09-11"
+        }
+      },
+      {
+        "url": "https://github.com/dongzhuoyao/flowseq",
+        "type": "official_code",
+        "supports": [
+          "code_identity"
+        ],
+        "locator": null,
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://github.com/dongzhuoyao/flowseq",
+          "status": 200,
+          "final_url": "https://github.com/dongzhuoyao/flowseq",
+          "checked_at": "2026-09-11"
+        }
+      }
+    ],
+    "verification_level": "primary_source_core_verified",
+    "pending_verification": [
+      "本条是 EACL 2024 FlowSeq，不是 2019 同名 normalizing-flow seq2seq 论文。",
+      "model_scale：尚未逐配置核实，保留 null",
+      "独立官方 project_url 未核到，保留 null",
+      "evaluation_metrics 未逐表抽取，保留 null"
+    ],
+    "arxiv_id": null,
+    "first_submission_date": null,
+    "publication_year": 2024,
+    "scope": "core",
+    "systems_evidence": null,
+    "results": null,
+    "time_parameterization": null,
+    "verification_note": "verified 仅表示身份和核心方法有一手证据，不表示结果复现、全部字段完整或所有实验无矛盾。"
+  },
+  {
+    "id": "rdlm",
+    "alias": [
+      "RDLM"
+    ],
+    "title": "Continuous Diffusion Model for Language Modeling",
+    "year": 2025,
+    "venue": "NeurIPS",
+    "publication_status": "published",
+    "authors": [
+      "Jaehyeong Jo",
+      "Sung Ju Hwang"
+    ],
+    "paper_url": "https://arxiv.org/abs/2502.11564",
+    "project_url": null,
+    "code_url": "https://github.com/harryjo97/RDLM",
+    "categories": [
+      "representation.categorical",
+      "learning.objective",
+      "decoder.readout"
+    ],
+    "state_space": "continuous_categorical_geometry",
+    "representation_unit": "categorical_statistical_manifold",
+    "generation_type": "non_autoregressive",
+    "decoder_type": "categorical_readout",
+    "model_scale": null,
+    "main_problem": "离散跳转丢失迭代信息与流形高维问题",
+    "main_contribution": "Riemannian diffusion 与 simulation-free 训练",
+    "method_summary": "连接离散转移分布与统计流形上的连续流，用径向对称及维度拆分训练。",
+    "inference_focus": "none",
+    "efficiency_mechanism": null,
+    "evaluation_metrics": null,
+    "tags": [
+      "continuous_categorical_geometry",
+      "none",
+      "core"
+    ],
+    "verified": true,
+    "verification_sources": [
+      {
+        "url": "https://arxiv.org/abs/2502.11564",
+        "type": "original_paper",
+        "supports": [
+          "identity",
+          "authors",
+          "year",
+          "method"
+        ],
+        "locator": "Abstract; method sections where noted",
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://arxiv.org/abs/2502.11564",
+          "status": 200,
+          "final_url": "https://arxiv.org/abs/2502.11564",
+          "checked_at": "2026-09-11"
+        }
+      },
+      {
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/8c4046a93293442e88f54e19a5849d68-Paper-Conference.pdf",
+        "type": "official_publication",
+        "supports": [
+          "publication_status",
+          "venue"
+        ],
+        "locator": null,
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/8c4046a93293442e88f54e19a5849d68-Paper-Conference.pdf",
+          "status": 200,
+          "final_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/8c4046a93293442e88f54e19a5849d68-Paper-Conference.pdf",
+          "checked_at": "2026-09-11"
+        }
+      },
+      {
+        "url": "https://github.com/harryjo97/RDLM",
+        "type": "official_code",
+        "supports": [
+          "code_identity"
+        ],
+        "locator": null,
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://github.com/harryjo97/RDLM",
+          "status": 200,
+          "final_url": "https://github.com/harryjo97/RDLM",
+          "checked_at": "2026-09-11"
+        }
+      }
+    ],
+    "verification_level": "primary_source_core_verified",
+    "pending_verification": [
+      "model_scale：尚未逐配置核实，保留 null",
+      "独立官方 project_url 未核到，保留 null",
+      "evaluation_metrics 未逐表抽取，保留 null"
+    ],
+    "arxiv_id": "2502.11564",
+    "first_submission_date": "2025-02-17",
+    "publication_year": 2025,
+    "scope": "core",
+    "systems_evidence": null,
+    "results": null,
+    "time_parameterization": null,
+    "verification_note": "verified 仅表示身份和核心方法有一手证据，不表示结果复现、全部字段完整或所有实验无矛盾。"
+  },
+  {
+    "id": "langflow",
+    "alias": [
+      "LangFlow"
+    ],
+    "title": "LangFlow: Continuous Diffusion Rivals Discrete in Language Modeling",
+    "year": 2026,
+    "venue": null,
+    "publication_status": "arxiv_preprint",
+    "authors": [
+      "Yuxin Chen",
+      "Chumeng Liang",
+      "Hangke Sui",
+      "Ruihan Guo",
+      "Chaoran Cheng",
+      "Jiaxuan You",
+      "Ge Liu"
+    ],
+    "paper_url": "https://arxiv.org/abs/2604.11748",
+    "project_url": null,
+    "code_url": "https://github.com/nealchen2003/LangFlow",
+    "categories": [
+      "representation.embedding",
+      "learning.objective",
+      "decoder.readout"
+    ],
+    "state_space": "continuous_embedding",
+    "representation_unit": "token_embedding",
+    "generation_type": "non_autoregressive",
+    "decoder_type": "categorical_prediction_head",
+    "model_scale": null,
+    "main_problem": "连续 DLM 的 likelihood 与生成差距",
+    "main_contribution": "Bregman flow matching、ODE NLL bound 与信息均匀调度",
+    "method_summary": "联合使用可学习噪声调度和 self-conditioning。",
+    "inference_focus": "none",
+    "efficiency_mechanism": null,
+    "evaluation_metrics": [
+      "PPL bound",
+      "generative perplexity"
+    ],
+    "tags": [
+      "continuous_embedding",
+      "none",
+      "core"
+    ],
+    "verified": true,
+    "verification_sources": [
+      {
+        "url": "https://arxiv.org/abs/2604.11748",
+        "type": "original_paper",
+        "supports": [
+          "identity",
+          "authors",
+          "year",
+          "method"
+        ],
+        "locator": "Abstract; method sections where noted",
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://arxiv.org/abs/2604.11748",
+          "status": 200,
+          "final_url": "https://arxiv.org/abs/2604.11748",
+          "checked_at": "2026-09-11"
+        }
+      },
+      {
+        "url": "https://github.com/nealchen2003/LangFlow",
+        "type": "official_code",
+        "supports": [
+          "code_identity"
+        ],
+        "locator": null,
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://github.com/nealchen2003/LangFlow",
+          "status": 200,
+          "final_url": "https://github.com/nealchen2003/LangFlow",
+          "checked_at": "2026-09-11"
+        }
+      }
+    ],
+    "verification_level": "primary_source_core_verified",
+    "pending_verification": [
+      "model_scale：尚未逐配置核实，保留 null",
+      "正式发表记录未确认；arxiv_preprint 表示本轮仅核实预印本，不断言尚未获录用",
+      "独立官方 project_url 未核到，保留 null"
+    ],
+    "arxiv_id": "2604.11748",
+    "first_submission_date": "2026-04-13",
+    "publication_year": null,
+    "scope": "core",
+    "systems_evidence": null,
+    "results": null,
+    "time_parameterization": "continuous",
+    "verification_note": "verified 仅表示身份和核心方法有一手证据，不表示结果复现、全部字段完整或所有实验无矛盾。"
+  },
+  {
+    "id": "elf",
+    "alias": [
+      "ELF"
+    ],
+    "title": "ELF: Embedded Language Flows",
+    "year": 2026,
+    "venue": null,
+    "publication_status": "arxiv_preprint",
+    "authors": [
+      "Keya Hu",
+      "Linlu Qiu",
+      "Yiyang Lu",
+      "Hanhong Zhao",
+      "Tianhong Li",
+      "Yoon Kim",
+      "Jacob Andreas",
+      "Kaiming He"
+    ],
+    "paper_url": "https://arxiv.org/abs/2605.10938",
+    "project_url": "https://linlu-qiu.github.io/assets/html/elf_pd.html",
+    "code_url": "https://github.com/lillian039/ELF",
+    "categories": [
+      "representation.embedding",
+      "representation.latent",
+      "learning.objective",
+      "sampling.few_step",
+      "sampling.distillation",
+      "decoder.readout",
+      "decoder.learned",
+      "systems.algorithmic"
+    ],
+    "state_space": "continuous_latent",
+    "representation_unit": "contextual_token_embedding",
+    "generation_type": "non_autoregressive",
+    "decoder_type": "shared_weight_denoiser_decoder",
+    "model_scale": null,
+    "main_problem": "有效的连续文本生成及离散读出",
+    "main_contribution": "连续 embedding flow 与共享权重 decoder",
+    "method_summary": "默认用 T5 上下文表示，连续流匹配去噪，最后调用 decoder 模式；v2 增加 progressive distillation。",
+    "inference_focus": "algorithmic",
+    "efficiency_mechanism": {
+      "algorithmic": [
+        "few-step sampling",
+        "progressive distillation (v2 Appendix B)"
+      ],
+      "systems": null
+    },
+    "evaluation_metrics": [
+      "generative perplexity",
+      "unigram entropy"
+    ],
+    "tags": [
+      "continuous_latent",
+      "algorithmic",
+      "core"
+    ],
+    "verified": true,
+    "verification_sources": [
+      {
+        "url": "https://arxiv.org/abs/2605.10938",
+        "type": "original_paper",
+        "supports": [
+          "identity",
+          "authors",
+          "year",
+          "method"
+        ],
+        "locator": "Abstract; method sections where noted",
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://arxiv.org/abs/2605.10938",
+          "status": 200,
+          "final_url": "https://arxiv.org/abs/2605.10938",
+          "checked_at": "2026-09-11"
+        }
+      },
+      {
+        "url": "https://github.com/lillian039/ELF",
+        "type": "official_code",
+        "supports": [
+          "code_identity"
+        ],
+        "locator": null,
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://github.com/lillian039/ELF",
+          "status": 200,
+          "final_url": "https://github.com/lillian039/ELF",
+          "checked_at": "2026-09-11"
+        }
+      },
+      {
+        "url": "https://linlu-qiu.github.io/assets/html/elf_pd.html",
+        "type": "official_project",
+        "supports": [
+          "project_identity"
+        ],
+        "locator": null,
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://linlu-qiu.github.io/assets/html/elf_pd.html",
+          "status": 200,
+          "final_url": "https://linlu-qiu.github.io/assets/html/elf_pd.html",
+          "checked_at": "2026-09-11"
+        }
+      },
+      {
+        "url": "https://arxiv.org/html/2605.10938v2",
+        "type": "original_paper",
+        "supports": [
+          "representation_unit",
+          "decoder_type",
+          "efficiency_mechanism"
+        ],
+        "locator": "§3, §4.1 and Appendix B",
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://arxiv.org/html/2605.10938v2",
+          "status": 200,
+          "final_url": "https://arxiv.org/html/2605.10938v2",
+          "checked_at": "2026-09-11"
+        }
+      }
+    ],
+    "verification_level": "primary_source_core_verified",
+    "pending_verification": [
+      "覆盖 contextual 与 non-contextual embedding 消融；主配置不是压缩 VAE，不应统一标为 VAE decoder。",
+      "model_scale：尚未逐配置核实，保留 null",
+      "正式发表记录未确认；arxiv_preprint 表示本轮仅核实预印本，不断言尚未获录用"
+    ],
+    "arxiv_id": "2605.10938",
+    "first_submission_date": "2026-05-11",
+    "publication_year": null,
+    "scope": "core",
+    "systems_evidence": null,
+    "results": null,
+    "time_parameterization": "continuous",
+    "verification_note": "verified 仅表示身份和核心方法有一手证据，不表示结果复现、全部字段完整或所有实验无矛盾。"
+  },
+  {
+    "id": "replaid",
+    "alias": [
+      "RePlaid"
+    ],
+    "title": "Continuous Diffusion Scales Competitively with Discrete Diffusion for Language",
+    "year": 2026,
+    "venue": null,
+    "publication_status": "arxiv_preprint",
+    "authors": [
+      "Zhihan Yang",
+      "Wei Guo",
+      "Shuibai Zhang",
+      "Subham Sekhar Sahoo",
+      "Yongxin Chen",
+      "Arash Vahdat",
+      "Morteza Mardani",
+      "John Thickstun"
+    ],
+    "paper_url": "https://arxiv.org/abs/2605.18530",
+    "project_url": "https://research.nvidia.com/labs/genair/replaid/",
+    "code_url": null,
+    "categories": [
+      "representation.embedding",
+      "learning.objective",
+      "learning.scaling",
+      "decoder.readout"
+    ],
+    "state_space": "continuous_embedding",
+    "representation_unit": "learned_token_embedding",
+    "generation_type": "non_autoregressive",
+    "decoder_type": "learned_token_readout",
+    "model_scale": null,
+    "main_problem": "连续与离散 DLM 的 scaling 比较不充分",
+    "main_contribution": "在统一现代架构下重评 Plaid",
+    "method_summary": "以似然学习 embedding 与噪声调度，分析计算规模与困惑度界。",
+    "inference_focus": "none",
+    "efficiency_mechanism": null,
+    "evaluation_metrics": [
+      "PPL bound",
+      "training compute"
+    ],
+    "tags": [
+      "continuous_embedding",
+      "none",
+      "core"
+    ],
+    "verified": true,
+    "verification_sources": [
+      {
+        "url": "https://arxiv.org/abs/2605.18530",
+        "type": "original_paper",
+        "supports": [
+          "identity",
+          "authors",
+          "year",
+          "method"
+        ],
+        "locator": "Abstract; method sections where noted",
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://arxiv.org/abs/2605.18530",
+          "status": 200,
+          "final_url": "https://arxiv.org/abs/2605.18530",
+          "checked_at": "2026-09-11"
+        }
+      },
+      {
+        "url": "https://research.nvidia.com/labs/genair/replaid/",
+        "type": "official_project",
+        "supports": [
+          "project_identity"
+        ],
+        "locator": null,
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://research.nvidia.com/labs/genair/replaid/",
+          "status": 200,
+          "final_url": "https://research.nvidia.com/labs/genair/replaid/",
+          "checked_at": "2026-09-11"
+        }
+      },
+      {
+        "url": "https://arxiv.org/html/2605.18530",
+        "type": "original_paper",
+        "supports": [
+          "method",
+          "classification",
+          "metrics_or_scale_where_filled"
+        ],
+        "locator": "Method / experiments; special conflicts described in pending_verification",
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://arxiv.org/html/2605.18530",
+          "status": 200,
+          "checked_at": "2026-09-11"
+        }
+      }
+    ],
+    "verification_level": "primary_source_core_verified",
+    "pending_verification": [
+      "采用 2026-09-09 的 v2 元数据；不同版本结果不能混用。",
+      "model_scale：尚未逐配置核实，保留 null",
+      "正式发表记录未确认；arxiv_preprint 表示本轮仅核实预印本，不断言尚未获录用",
+      "官方 code_url 未核到可确认链接，保留 null"
+    ],
+    "arxiv_id": "2605.18530",
+    "first_submission_date": "2026-05-18",
+    "publication_year": null,
+    "scope": "core",
+    "systems_evidence": null,
+    "results": null,
+    "time_parameterization": null,
+    "verification_note": "verified 仅表示身份和核心方法有一手证据，不表示结果复现、全部字段完整或所有实验无矛盾。"
+  },
+  {
+    "id": "dsl-llada",
+    "alias": [
+      "DSL-LLaDA"
+    ],
+    "title": "DSL-LLaDA: Scaling Continuous Denoising to 8B Masked Diffusion LMs",
+    "year": 2026,
+    "venue": null,
+    "publication_status": "arxiv_preprint",
+    "authors": [
+      "Longxuan Yu",
+      "Yunshu Wu",
+      "Yu Fu",
+      "Siheng Xiong",
+      "Rob Brekelmans",
+      "Hui Liu",
+      "Yue Dong",
+      "Greg Ver Steeg"
+    ],
+    "paper_url": "https://arxiv.org/abs/2606.01024",
+    "project_url": null,
+    "code_url": null,
+    "categories": [
+      "representation.embedding",
+      "learning.adaptation",
+      "learning.large_scale",
+      "sampling.few_step",
+      "systems.algorithmic"
+    ],
+    "state_space": "continuous_embedding",
+    "representation_unit": "soft_mask_token_embedding",
+    "generation_type": "non_autoregressive",
+    "decoder_type": "final_token_commitment",
+    "model_scale": {
+      "parameters": [
+        8000000000
+      ],
+      "label": "LLaDA-8B-Instruct adaptation",
+      "scope": "nominal backbone size",
+      "source": "https://arxiv.org/abs/2606.01024"
+    },
+    "main_problem": "少步 masked diffusion 的长度质量折衷",
+    "main_contribution": "将现成 LLaDA 适配为连续去噪",
+    "method_summary": "从 LLaDA-8B-Instruct 继续预训练，用 per-token Gaussian 软 mask 取代二值 mask，最后才提交 token。",
+    "inference_focus": "algorithmic",
+    "efficiency_mechanism": {
+      "algorithmic": [
+        "joint continuous denoising at low step budgets"
+      ],
+      "systems": null
+    },
+    "evaluation_metrics": [
+      "ROUGE-1"
+    ],
+    "tags": [
+      "continuous_embedding",
+      "algorithmic",
+      "core"
+    ],
+    "verified": true,
+    "verification_sources": [
+      {
+        "url": "https://arxiv.org/abs/2606.01024",
+        "type": "original_paper",
+        "supports": [
+          "identity",
+          "authors",
+          "year",
+          "method"
+        ],
+        "locator": "Abstract; method sections where noted",
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://arxiv.org/abs/2606.01024",
+          "status": 200,
+          "final_url": "https://arxiv.org/abs/2606.01024",
+          "checked_at": "2026-09-11"
+        }
+      },
+      {
+        "url": "https://arxiv.org/html/2606.01024",
+        "type": "original_paper",
+        "supports": [
+          "method",
+          "classification",
+          "metrics_or_scale_where_filled"
+        ],
+        "locator": "Method / experiments; special conflicts described in pending_verification",
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://arxiv.org/html/2606.01024",
+          "status": 200,
+          "checked_at": "2026-09-11"
+        }
+      }
+    ],
+    "verification_level": "primary_source_core_verified",
+    "pending_verification": [
+      "正式发表记录未确认；arxiv_preprint 表示本轮仅核实预印本，不断言尚未获录用",
+      "官方 code_url 未核到可确认链接，保留 null",
+      "独立官方 project_url 未核到，保留 null"
+    ],
+    "arxiv_id": "2606.01024",
+    "first_submission_date": "2026-05-31",
+    "publication_year": null,
+    "scope": "core",
+    "systems_evidence": null,
+    "results": null,
+    "time_parameterization": null,
+    "verification_note": "verified 仅表示身份和核心方法有一手证据，不表示结果复现、全部字段完整或所有实验无矛盾。"
+  },
+  {
+    "id": "textldm",
+    "alias": [
+      "TextLDM"
+    ],
+    "title": "TextLDM: Language Modeling with Continuous Latent Diffusion",
+    "year": 2026,
+    "venue": null,
+    "publication_status": "arxiv_preprint",
+    "authors": [
+      "Jiaxiu Jiang",
+      "Jingjing Ren",
+      "Wenbo Li",
+      "Bo Wang",
+      "Haoze Sun",
+      "Yijun Yang",
+      "Jianhui Liu",
+      "Yanbing Zhang",
+      "Shenghe Zheng",
+      "Yuan Zhang",
+      "Haoyang Huang",
+      "Nan Duan",
+      "Wangmeng Zuo"
+    ],
+    "paper_url": "https://arxiv.org/abs/2605.07748",
+    "project_url": null,
+    "code_url": null,
+    "categories": [
+      "representation.latent",
+      "learning.objective",
+      "decoder.alignment",
+      "decoder.learned"
+    ],
+    "state_space": "continuous_latent",
+    "representation_unit": "text_vae_latent",
+    "generation_type": "non_autoregressive",
+    "decoder_type": "non_autoregressive_text_vae_decoder",
+    "model_scale": null,
+    "main_problem": "可重建的表示未必适合生成",
+    "main_contribution": "REPA 对齐的文本 VAE 与 DiT",
+    "method_summary": "冻结语言模型提供表示对齐目标，DiT 在 VAE latent 上训练 flow matching。",
+    "inference_focus": "none",
+    "efficiency_mechanism": null,
+    "evaluation_metrics": [
+      "ROUGE-1",
+      "ROUGE-2",
+      "ROUGE-L",
+      "BERTScore",
+      "MAUVE"
+    ],
+    "tags": [
+      "continuous_latent",
+      "none",
+      "core"
+    ],
+    "verified": true,
+    "verification_sources": [
+      {
+        "url": "https://arxiv.org/abs/2605.07748",
+        "type": "original_paper",
+        "supports": [
+          "identity",
+          "authors",
+          "year",
+          "method"
+        ],
+        "locator": "Abstract; method sections where noted",
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://arxiv.org/abs/2605.07748",
+          "status": 200,
+          "final_url": "https://arxiv.org/abs/2605.07748",
+          "checked_at": "2026-09-11"
+        }
+      },
+      {
+        "url": "https://arxiv.org/html/2605.07748",
+        "type": "original_paper",
+        "supports": [
+          "method",
+          "classification",
+          "metrics_or_scale_where_filled"
+        ],
+        "locator": "Method / experiments; special conflicts described in pending_verification",
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://arxiv.org/html/2605.07748",
+          "status": 200,
+          "checked_at": "2026-09-11"
+        }
+      }
+    ],
+    "verification_level": "primary_source_core_verified",
+    "pending_verification": [
+      "model_scale：尚未逐配置核实，保留 null",
+      "正式发表记录未确认；arxiv_preprint 表示本轮仅核实预印本，不断言尚未获录用",
+      "官方 code_url 未核到可确认链接，保留 null",
+      "独立官方 project_url 未核到，保留 null"
+    ],
+    "arxiv_id": "2605.07748",
+    "first_submission_date": "2026-05-08",
+    "publication_year": null,
+    "scope": "core",
+    "systems_evidence": null,
+    "results": null,
+    "time_parameterization": "continuous",
+    "verification_note": "verified 仅表示身份和核心方法有一手证据，不表示结果复现、全部字段完整或所有实验无矛盾。"
+  },
+  {
+    "id": "ldlm",
+    "alias": [
+      "LDLM"
+    ],
+    "title": "How to Train Your Latent Diffusion Language Model Jointly With the Latent Space",
+    "year": 2026,
+    "venue": null,
+    "publication_status": "arxiv_preprint",
+    "authors": [
+      "Viacheslav Meshchaninov",
+      "Alexander Shabalin",
+      "Egor Chimbulatov",
+      "Nikita Gushchin",
+      "Ilya Koziev",
+      "Alexander Korotin",
+      "Dmitry Vetrov"
+    ],
+    "paper_url": "https://arxiv.org/abs/2605.07933",
+    "project_url": null,
+    "code_url": null,
+    "categories": [
+      "representation.latent",
+      "learning.objective",
+      "decoder.alignment",
+      "decoder.learned",
+      "sampling.few_step",
+      "systems.algorithmic"
+    ],
+    "state_space": "continuous_latent",
+    "representation_unit": "learned_contextual_latent",
+    "generation_type": "non_autoregressive",
+    "decoder_type": "jointly_trained_decoder",
+    "model_scale": null,
+    "main_problem": "联合训练潜空间会退化",
+    "main_contribution": "共同训练 encoder、diffusion 与 decoder 的稳定配方",
+    "method_summary": "使用 MSE decoder loss、warmup、时间采样及 decoder 输入加噪。",
+    "inference_focus": "algorithmic",
+    "efficiency_mechanism": {
+      "algorithmic": [
+        "joint denoisable and decodable latent learning"
+      ],
+      "systems": null
+    },
+    "evaluation_metrics": [
+      "generative perplexity",
+      "MAUVE",
+      "entropy"
+    ],
+    "tags": [
+      "continuous_latent",
+      "algorithmic",
+      "core"
+    ],
+    "verified": true,
+    "verification_sources": [
+      {
+        "url": "https://arxiv.org/abs/2605.07933",
+        "type": "original_paper",
+        "supports": [
+          "identity",
+          "authors",
+          "year",
+          "method"
+        ],
+        "locator": "Abstract; method sections where noted",
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://arxiv.org/abs/2605.07933",
+          "status": 200,
+          "final_url": "https://arxiv.org/abs/2605.07933",
+          "checked_at": "2026-09-11"
+        }
+      },
+      {
+        "url": "https://arxiv.org/html/2605.07933",
+        "type": "original_paper",
+        "supports": [
+          "method",
+          "classification",
+          "metrics_or_scale_where_filled"
+        ],
+        "locator": "Method / experiments; special conflicts described in pending_verification",
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://arxiv.org/html/2605.07933",
+          "status": 200,
+          "checked_at": "2026-09-11"
+        }
+      }
+    ],
+    "verification_level": "primary_source_core_verified",
+    "pending_verification": [
+      "论文速度主张不能自动解释为 kernel 加速；需核实完整计时协议。",
+      "model_scale：尚未逐配置核实，保留 null",
+      "正式发表记录未确认；arxiv_preprint 表示本轮仅核实预印本，不断言尚未获录用",
+      "官方 code_url 未核到可确认链接，保留 null",
+      "独立官方 project_url 未核到，保留 null"
+    ],
+    "arxiv_id": "2605.07933",
+    "first_submission_date": "2026-05-08",
+    "publication_year": null,
+    "scope": "core",
+    "systems_evidence": null,
+    "results": null,
+    "time_parameterization": null,
+    "verification_note": "verified 仅表示身份和核心方法有一手证据，不表示结果复现、全部字段完整或所有实验无矛盾。"
+  },
+  {
+    "id": "cola-dlm",
+    "alias": [
+      "Cola DLM",
+      "Cola-DLM"
+    ],
+    "title": "Continuous Latent Diffusion Language Model",
+    "year": 2026,
+    "venue": null,
+    "publication_status": "arxiv_preprint",
+    "authors": [
+      "Hongcan Guo",
+      "Qinyu Zhao",
+      "Yian Zhao",
+      "Shen Nie",
+      "Rui Zhu",
+      "Qiushan Guo",
+      "Feng Wang",
+      "Tao Yang",
+      "Hengshuang Zhao",
+      "Guoqiang Wei",
+      "Yan Zeng"
+    ],
+    "paper_url": "https://arxiv.org/abs/2605.06548",
+    "project_url": "https://hongcanguo.github.io/Cola-DLM/",
+    "code_url": "https://github.com/ByteDance-Seed/Cola-DLM",
+    "categories": [
+      "representation.latent",
+      "learning.scaling",
+      "learning.large_scale",
+      "decoder.alignment",
+      "decoder.learned"
+    ],
+    "state_space": "continuous_latent",
+    "representation_unit": "hierarchical_text_vae_latent",
+    "generation_type": "block_causal_latent_then_conditional_decoding",
+    "decoder_type": "conditional_text_vae_decoder",
+    "model_scale": {
+      "parameters": null,
+      "components": {
+        "text_vae": 500000000,
+        "dit": 1800000000
+      },
+      "label": "paper describes roughly 2B comparison; 500M VAE + 1.8B DiT",
+      "scope": "component counts in experimental setup; no inferred exact total",
+      "source": "https://arxiv.org/html/2605.06548"
+    },
+    "main_problem": "全局语义建模与局部文本实现混在一起",
+    "main_contribution": "分层 latent prior transport",
+    "method_summary": "Text VAE 先预训练；第二阶段 VAE 与 block-causal DiT 共同适配，生成时按 latent 块推进并条件解码。",
+    "inference_focus": "none",
+    "efficiency_mechanism": null,
+    "evaluation_metrics": null,
+    "tags": [
+      "continuous_latent",
+      "none",
+      "core"
+    ],
+    "verified": true,
+    "verification_sources": [
+      {
+        "url": "https://arxiv.org/abs/2605.06548",
+        "type": "original_paper",
+        "supports": [
+          "identity",
+          "authors",
+          "year",
+          "method"
+        ],
+        "locator": "Abstract; method sections where noted",
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://arxiv.org/abs/2605.06548",
+          "status": 200,
+          "final_url": "https://arxiv.org/abs/2605.06548",
+          "checked_at": "2026-09-11"
+        }
+      },
+      {
+        "url": "https://hongcanguo.github.io/Cola-DLM/",
+        "type": "official_project",
+        "supports": [
+          "project_identity"
+        ],
+        "locator": null,
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://hongcanguo.github.io/Cola-DLM/",
+          "status": 200,
+          "final_url": "https://hongcanguo.github.io/Cola-DLM/",
+          "checked_at": "2026-09-11"
+        }
+      },
+      {
+        "url": "https://github.com/ByteDance-Seed/Cola-DLM",
+        "type": "official_code",
+        "supports": [
+          "code_identity"
+        ],
+        "locator": "Linked from original paper / official project",
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://github.com/ByteDance-Seed/Cola-DLM",
+          "status": null,
+          "method": "web.open: content retrieved and identity confirmed",
+          "checked_at": "2026-09-11"
+        }
+      },
+      {
+        "url": "https://arxiv.org/html/2605.06548",
+        "type": "original_paper",
+        "supports": [
+          "method",
+          "classification",
+          "metrics_or_scale_where_filled"
+        ],
+        "locator": "Method / experiments; special conflicts described in pending_verification",
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://arxiv.org/html/2605.06548",
+          "status": 200,
+          "checked_at": "2026-09-11"
+        }
+      }
+    ],
+    "verification_level": "primary_source_core_verified",
+    "pending_verification": [
+      "decoder 是否以及如何自回归，需逐配置确认；不能把 block-causal DiT 等同全序列并行。",
+      "正式发表记录未确认；arxiv_preprint 表示本轮仅核实预印本，不断言尚未获录用",
+      "evaluation_metrics 未逐表抽取，保留 null"
+    ],
+    "arxiv_id": "2605.06548",
+    "first_submission_date": "2026-05-07",
+    "publication_year": null,
+    "scope": "core",
+    "systems_evidence": null,
+    "results": null,
+    "time_parameterization": "continuous",
+    "verification_note": "verified 仅表示身份和核心方法有一手证据，不表示结果复现、全部字段完整或所有实验无矛盾。"
+  },
+  {
+    "id": "aurora-lm",
+    "alias": [
+      "AURORA-LM"
+    ],
+    "title": "AURORA-LM: Autoencoding Unified Representation for Continuous-Latent Diffusion Language Modeling",
+    "year": 2026,
+    "venue": null,
+    "publication_status": "arxiv_preprint",
+    "authors": [
+      "Jiajun Liang",
+      "Yucheng Liao",
+      "Yukang Cao",
+      "Jiazhe Wei",
+      "Ken Li",
+      "Wende Tan",
+      "Jiankun Zhang",
+      "ZY Cui",
+      "Jingkang Yang",
+      "Liucheng Guo",
+      "Shiqi Yang",
+      "B. Yang",
+      "Caifeng Shan",
+      "Ziwei Liu",
+      "Chenyang Si"
+    ],
+    "paper_url": "https://arxiv.org/abs/2608.02602",
+    "project_url": "https://aurora-lm-project.github.io/",
+    "code_url": "https://github.com/fyv587/AURORA-LM",
+    "categories": [
+      "representation.latent",
+      "learning.large_scale",
+      "decoder.alignment",
+      "decoder.learned"
+    ],
+    "state_space": "continuous_latent",
+    "representation_unit": "prefix_aligned_latent_sequence",
+    "generation_type": "semi_autoregressive_latent_blocks",
+    "decoder_type": "query_based_encoder_decoder",
+    "model_scale": {
+      "parameters": [
+        1000000000
+      ],
+      "label": "1B scaling experiment",
+      "scope": "nominal reported scale; component split unverified",
+      "source": "https://arxiv.org/abs/2608.02602"
+    },
+    "main_problem": "压缩表示牺牲 token fidelity",
+    "main_contribution": "高容量可解码 latent 与受限 noisy-input pathway",
+    "method_summary": "query encoder-decoder 形成前缀对齐表示，block-causal flow 生成并使用 trajectory consistency。",
+    "inference_focus": "none",
+    "efficiency_mechanism": null,
+    "evaluation_metrics": null,
+    "tags": [
+      "continuous_latent",
+      "none",
+      "core"
+    ],
+    "verified": true,
+    "verification_sources": [
+      {
+        "url": "https://arxiv.org/abs/2608.02602",
+        "type": "original_paper",
+        "supports": [
+          "identity",
+          "authors",
+          "year",
+          "method"
+        ],
+        "locator": "Abstract; method sections where noted",
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://arxiv.org/abs/2608.02602",
+          "status": 200,
+          "final_url": "https://arxiv.org/abs/2608.02602",
+          "checked_at": "2026-09-11"
+        }
+      },
+      {
+        "url": "https://aurora-lm-project.github.io/",
+        "type": "official_project",
+        "supports": [
+          "project_identity"
+        ],
+        "locator": null,
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://aurora-lm-project.github.io/",
+          "status": 200,
+          "final_url": "https://aurora-lm-project.github.io/",
+          "checked_at": "2026-09-11"
+        }
+      },
+      {
+        "url": "https://github.com/fyv587/AURORA-LM",
+        "type": "official_code",
+        "supports": [
+          "code_identity"
+        ],
+        "locator": "Linked from original paper / official project",
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://github.com/fyv587/AURORA-LM",
+          "status": 200,
+          "final_url": "https://github.com/fyv587/AURORA-LM",
+          "checked_at": "2026-09-11"
+        }
+      },
+      {
+        "url": "https://arxiv.org/html/2608.02602",
+        "type": "original_paper",
+        "supports": [
+          "method",
+          "classification",
+          "metrics_or_scale_where_filled"
+        ],
+        "locator": "Method / experiments; special conflicts described in pending_verification",
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://arxiv.org/html/2608.02602",
+          "status": 200,
+          "checked_at": "2026-09-11"
+        }
+      }
+    ],
+    "verification_level": "primary_source_core_verified",
+    "pending_verification": [
+      "Ascend NPU 实验是平台信息，不是硬件协同设计证据。",
+      "正式发表记录未确认；arxiv_preprint 表示本轮仅核实预印本，不断言尚未获录用",
+      "evaluation_metrics 未逐表抽取，保留 null"
+    ],
+    "arxiv_id": "2608.02602",
+    "first_submission_date": "2026-08-03",
+    "publication_year": null,
+    "scope": "core",
+    "systems_evidence": null,
+    "results": null,
+    "time_parameterization": "continuous",
+    "verification_note": "verified 仅表示身份和核心方法有一手证据，不表示结果复现、全部字段完整或所有实验无矛盾。"
+  },
+  {
+    "id": "fmlm",
+    "alias": [
+      "FMLM",
+      "Flow Map Language Models",
+      "FLM"
+    ],
+    "title": "Flow Map Language Models: One-step Language Modeling via Continuous Denoising",
+    "year": 2026,
+    "venue": null,
+    "publication_status": "arxiv_preprint",
+    "authors": [
+      "Chanhyuk Lee",
+      "Jaehoon Yoo",
+      "Manan Agarwal",
+      "Sheel Shah",
+      "Jerry Huang",
+      "Aditi Raghunathan",
+      "Seunghoon Hong",
+      "Nicholas M. Boffi",
+      "Jinwoo Kim"
+    ],
+    "paper_url": "https://arxiv.org/abs/2602.16813",
+    "project_url": null,
+    "code_url": "https://github.com/david3684/flm",
+    "categories": [
+      "representation.categorical",
+      "learning.objective",
+      "sampling.few_step",
+      "sampling.one_step",
+      "sampling.distillation",
+      "systems.algorithmic"
+    ],
+    "state_space": "continuous_categorical_geometry",
+    "representation_unit": "one_hot_token_embedding",
+    "generation_type": "non_autoregressive",
+    "decoder_type": "simplex_categorical_readout",
+    "model_scale": null,
+    "main_problem": "离散 few-step 生成的因子化误差",
+    "main_contribution": "连续 FLM 及其可蒸馏 flow map",
+    "method_summary": "对 one-hot embedding 连续输运，用交叉熵学习流与跨时间映射。",
+    "inference_focus": "algorithmic",
+    "efficiency_mechanism": {
+      "algorithmic": [
+        "flow-map distillation",
+        "one-step joint sequence transport"
+      ],
+      "systems": null
+    },
+    "evaluation_metrics": null,
+    "tags": [
+      "continuous_categorical_geometry",
+      "algorithmic",
+      "core"
+    ],
+    "verified": true,
+    "verification_sources": [
+      {
+        "url": "https://arxiv.org/abs/2602.16813",
+        "type": "original_paper",
+        "supports": [
+          "identity",
+          "authors",
+          "year",
+          "method"
+        ],
+        "locator": "Abstract; method sections where noted",
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://arxiv.org/abs/2602.16813",
+          "status": 200,
+          "final_url": "https://arxiv.org/abs/2602.16813",
+          "checked_at": "2026-09-11"
+        }
+      },
+      {
+        "url": "https://github.com/david3684/flm",
+        "type": "official_code",
+        "supports": [
+          "code_identity"
+        ],
+        "locator": null,
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://github.com/david3684/flm",
+          "status": 200,
+          "final_url": "https://github.com/david3684/flm",
+          "checked_at": "2026-09-11"
+        }
+      },
+      {
+        "url": "https://arxiv.org/html/2602.16813",
+        "type": "original_paper",
+        "supports": [
+          "method",
+          "classification",
+          "metrics_or_scale_where_filled"
+        ],
+        "locator": "Method / experiments; special conflicts described in pending_verification",
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://arxiv.org/html/2602.16813",
+          "status": 200,
+          "checked_at": "2026-09-11"
+        }
+      }
+    ],
+    "verification_level": "primary_source_core_verified",
+    "pending_verification": [
+      "model_scale：尚未逐配置核实，保留 null",
+      "正式发表记录未确认；arxiv_preprint 表示本轮仅核实预印本，不断言尚未获录用",
+      "独立官方 project_url 未核到，保留 null",
+      "evaluation_metrics 未逐表抽取，保留 null"
+    ],
+    "arxiv_id": "2602.16813",
+    "first_submission_date": "2026-02-18",
+    "publication_year": null,
+    "scope": "core",
+    "systems_evidence": null,
+    "results": null,
+    "time_parameterization": "continuous",
+    "verification_note": "verified 仅表示身份和核心方法有一手证据，不表示结果复现、全部字段完整或所有实验无矛盾。"
+  },
+  {
+    "id": "fixed-point-flows",
+    "alias": [
+      "Fixed-point Flows",
+      "FMLM★",
+      "FMLM-star"
+    ],
+    "title": "Self-conditioned Flow Map Language Models via Fixed-point Flows",
+    "year": 2026,
+    "venue": null,
+    "publication_status": "arxiv_preprint",
+    "authors": [
+      "Jaehoon Yoo",
+      "Wonjung Kim",
+      "Floor Eijkelboom",
+      "Chanhyuk Lee",
+      "Nicholas M. Boffi",
+      "Seunghoon Hong",
+      "Jinwoo Kim"
+    ],
+    "paper_url": "https://arxiv.org/abs/2607.00714",
+    "project_url": null,
+    "code_url": "https://github.com/Ugness/self-conditioned-fmlm",
+    "categories": [
+      "representation.categorical",
+      "sampling.one_step",
+      "sampling.few_step",
+      "sampling.distillation",
+      "systems.algorithmic"
+    ],
+    "state_space": "continuous_categorical_geometry",
+    "representation_unit": "one_hot_token_embedding",
+    "generation_type": "non_autoregressive",
+    "decoder_type": "categorical_readout",
+    "model_scale": null,
+    "main_problem": "self-conditioning 与 flow map 的结合缺乏解释",
+    "main_contribution": "二维 fixed-point flows 与 FMLM★",
+    "method_summary": "分别压缩 fixed-point iteration 和时间流，蒸馏为少步生成器。",
+    "inference_focus": "algorithmic",
+    "efficiency_mechanism": {
+      "algorithmic": [
+        "fixed-point distillation",
+        "flow-map distillation"
+      ],
+      "systems": null
+    },
+    "evaluation_metrics": null,
+    "tags": [
+      "continuous_categorical_geometry",
+      "algorithmic",
+      "core"
+    ],
+    "verified": true,
+    "verification_sources": [
+      {
+        "url": "https://arxiv.org/abs/2607.00714",
+        "type": "original_paper",
+        "supports": [
+          "identity",
+          "authors",
+          "year",
+          "method"
+        ],
+        "locator": "Abstract; method sections where noted",
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://arxiv.org/abs/2607.00714",
+          "status": 200,
+          "final_url": "https://arxiv.org/abs/2607.00714",
+          "checked_at": "2026-09-11"
+        }
+      },
+      {
+        "url": "https://github.com/Ugness/self-conditioned-fmlm",
+        "type": "official_code",
+        "supports": [
+          "code_identity"
+        ],
+        "locator": null,
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://github.com/Ugness/self-conditioned-fmlm",
+          "status": 200,
+          "final_url": "https://github.com/Ugness/self-conditioned-fmlm",
+          "checked_at": "2026-09-11"
+        }
+      }
+    ],
+    "verification_level": "primary_source_core_verified",
+    "pending_verification": [
+      "model_scale：尚未逐配置核实，保留 null",
+      "正式发表记录未确认；arxiv_preprint 表示本轮仅核实预印本，不断言尚未获录用",
+      "独立官方 project_url 未核到，保留 null",
+      "evaluation_metrics 未逐表抽取，保留 null"
+    ],
+    "arxiv_id": "2607.00714",
+    "first_submission_date": "2026-07-01",
+    "publication_year": null,
+    "scope": "core",
+    "systems_evidence": null,
+    "results": null,
+    "time_parameterization": "continuous",
+    "verification_note": "verified 仅表示身份和核心方法有一手证据，不表示结果复现、全部字段完整或所有实验无矛盾。"
+  },
+  {
+    "id": "fmlm-plus",
+    "alias": [
+      "FMLM+"
+    ],
+    "title": "Posterior Refinement: Fast Language Generation via Any-Order Flow Maps",
+    "year": 2026,
+    "venue": null,
+    "publication_status": "arxiv_preprint",
+    "authors": [
+      "Manan Agarwal",
+      "Sheel Shah",
+      "Chanhyuk Lee",
+      "Jaehoon Yoo",
+      "Jerry Huang",
+      "Seunghoon Hong",
+      "Aditi Raghunathan",
+      "Jinwoo Kim",
+      "Nicholas M. Boffi"
+    ],
+    "paper_url": "https://arxiv.org/abs/2606.24773",
+    "project_url": "https://posterior-refinement.github.io/",
+    "code_url": "https://github.com/MananAg007/posterior-refinement",
+    "categories": [
+      "representation.categorical",
+      "sampling.one_step",
+      "sampling.adaptive",
+      "systems.algorithmic"
+    ],
+    "state_space": "continuous_categorical_geometry",
+    "representation_unit": "continuous_token_state_with_masking_style_schedule",
+    "generation_type": "any_order_iterative_refinement",
+    "decoder_type": "categorical_readout",
+    "model_scale": null,
+    "main_problem": "FMLM 缺乏任意位置修订能力",
+    "main_contribution": "masking-style schedules 与 posterior refinement",
+    "method_summary": "先生成完整草稿并评估 token 后验一致性，再选择性纠正。",
+    "inference_focus": "algorithmic",
+    "efficiency_mechanism": {
+      "algorithmic": [
+        "posterior refinement",
+        "fewer NFEs"
+      ],
+      "systems": null
+    },
+    "evaluation_metrics": null,
+    "tags": [
+      "continuous_categorical_geometry",
+      "algorithmic",
+      "core"
+    ],
+    "verified": true,
+    "verification_sources": [
+      {
+        "url": "https://arxiv.org/abs/2606.24773",
+        "type": "original_paper",
+        "supports": [
+          "identity",
+          "authors",
+          "year",
+          "method"
+        ],
+        "locator": "Abstract; method sections where noted",
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://arxiv.org/abs/2606.24773",
+          "status": 200,
+          "final_url": "https://arxiv.org/abs/2606.24773",
+          "checked_at": "2026-09-11"
+        }
+      },
+      {
+        "url": "https://posterior-refinement.github.io/",
+        "type": "official_project",
+        "supports": [
+          "project_identity"
+        ],
+        "locator": null,
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://posterior-refinement.github.io/",
+          "status": 200,
+          "final_url": "https://posterior-refinement.github.io/",
+          "checked_at": "2026-09-11"
+        }
+      },
+      {
+        "url": "https://github.com/MananAg007/posterior-refinement",
+        "type": "official_code",
+        "supports": [
+          "code_identity"
+        ],
+        "locator": "Linked from original paper / official project",
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://github.com/MananAg007/posterior-refinement",
+          "status": 200,
+          "final_url": "https://github.com/MananAg007/posterior-refinement",
+          "checked_at": "2026-09-11"
+        }
+      },
+      {
+        "url": "https://arxiv.org/html/2606.24773",
+        "type": "original_paper",
+        "supports": [
+          "method",
+          "classification",
+          "metrics_or_scale_where_filled"
+        ],
+        "locator": "Method / experiments; special conflicts described in pending_verification",
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://arxiv.org/html/2606.24773",
+          "status": 200,
+          "checked_at": "2026-09-11"
+        }
+      }
+    ],
+    "verification_level": "primary_source_core_verified",
+    "pending_verification": [
+      "masking-style schedule 不等于离散 masked-state DLM；不因 masking 一词归为纯离散。",
+      "model_scale：尚未逐配置核实，保留 null",
+      "正式发表记录未确认；arxiv_preprint 表示本轮仅核实预印本，不断言尚未获录用",
+      "evaluation_metrics 未逐表抽取，保留 null"
+    ],
+    "arxiv_id": "2606.24773",
+    "first_submission_date": "2026-06-23",
+    "publication_year": null,
+    "scope": "core",
+    "systems_evidence": null,
+    "results": null,
+    "time_parameterization": "continuous",
+    "verification_note": "verified 仅表示身份和核心方法有一手证据，不表示结果复现、全部字段完整或所有实验无矛盾。"
+  },
+  {
+    "id": "ttcd",
+    "alias": [
+      "TTCD"
+    ],
+    "title": "Token Time Continuous Diffusion for Language Modeling",
+    "year": 2026,
+    "venue": null,
+    "publication_status": "arxiv_preprint",
+    "authors": [
+      "Parikshit Bansal",
+      "Sujay Sanghavi"
+    ],
+    "paper_url": "https://arxiv.org/abs/2607.14106",
+    "project_url": null,
+    "code_url": null,
+    "categories": [
+      "representation.categorical",
+      "sampling.token_time",
+      "sampling.distillation",
+      "sampling.few_step",
+      "systems.algorithmic"
+    ],
+    "state_space": "continuous_categorical_geometry",
+    "representation_unit": "one_hot_token_canvas",
+    "generation_type": "non_autoregressive",
+    "decoder_type": "final_token_readout",
+    "model_scale": null,
+    "main_problem": "不同位置不能共享同一最优生成进度",
+    "main_contribution": "连续状态与 per-token times",
+    "method_summary": "从 Gaussian noise 确定性映射到 token canvas，按 token 置信度推进时间并自蒸馏。",
+    "inference_focus": "algorithmic",
+    "efficiency_mechanism": {
+      "algorithmic": [
+        "token-wise time",
+        "self-distillation"
+      ],
+      "systems": null
+    },
+    "evaluation_metrics": null,
+    "tags": [
+      "continuous_categorical_geometry",
+      "algorithmic",
+      "core"
+    ],
+    "verified": false,
+    "verification_sources": [
+      {
+        "url": "https://arxiv.org/abs/2607.14106",
+        "type": "original_paper",
+        "supports": [
+          "identity",
+          "authors",
+          "year",
+          "method"
+        ],
+        "locator": "Abstract; method sections where noted",
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://arxiv.org/abs/2607.14106",
+          "status": 200,
+          "final_url": "https://arxiv.org/abs/2607.14106",
+          "checked_at": "2026-09-11"
+        }
+      },
+      {
+        "url": "https://arxiv.org/html/2607.14106",
+        "type": "original_paper",
+        "supports": [
+          "method",
+          "classification",
+          "metrics_or_scale_where_filled"
+        ],
+        "locator": "Method / experiments; special conflicts described in pending_verification",
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://arxiv.org/html/2607.14106",
+          "status": 200,
+          "checked_at": "2026-09-11"
+        }
+      }
+    ],
+    "verification_level": "primary_source_with_metadata_conflict",
+    "pending_verification": [
+      "arXiv ID 为 2607.14106，但原始页面 submission date 显示 2026-05-07；Timeline 精确日期暂置 null，需向作者核实。",
+      "正式发表记录未确认；arxiv_preprint 表示本轮仅核实预印本，不断言尚未获录用",
+      "官方 code_url 未核到可确认链接，保留 null",
+      "独立官方 project_url 未核到，保留 null",
+      "evaluation_metrics 未逐表抽取，保留 null",
+      "原文 Abstract 与 §4.2 写 160M，Contributions / Limitations 写 100M；model_scale 置 null，不能擅自选择。"
+    ],
+    "arxiv_id": "2607.14106",
+    "first_submission_date": null,
+    "publication_year": null,
+    "scope": "core",
+    "systems_evidence": null,
+    "results": null,
+    "time_parameterization": "continuous",
+    "verification_note": "verified 仅表示身份和核心方法有一手证据，不表示结果复现、全部字段完整或所有实验无矛盾。"
+  },
+  {
+    "id": "codar",
+    "alias": [
+      "CoDAR"
+    ],
+    "title": "CoDAR: Continuous Diffusion Language Models are More Powerful Than You Think",
+    "year": 2026,
+    "venue": null,
+    "publication_status": "arxiv_preprint",
+    "authors": [
+      "Junzhe Shen",
+      "Jieru Zhao",
+      "Ziwei He",
+      "Zhouhan Lin"
+    ],
+    "paper_url": "https://arxiv.org/abs/2603.02547",
+    "project_url": null,
+    "code_url": null,
+    "categories": [
+      "representation.embedding",
+      "decoder.rounding",
+      "decoder.alignment",
+      "decoder.learned"
+    ],
+    "state_space": "continuous_embedding",
+    "representation_unit": "denoised_token_embedding",
+    "generation_type": "continuous_parallel_then_autoregressive_decode",
+    "decoder_type": "contextual_autoregressive_transformer",
+    "model_scale": null,
+    "main_problem": "最终 token rounding 是生成瓶颈",
+    "main_contribution": "上下文化 AR discretizer",
+    "method_summary": "两阶段训练；AR decoder cross-attends 连续去噪序列，实现上下文 rounding。",
+    "inference_focus": "none",
+    "efficiency_mechanism": null,
+    "evaluation_metrics": null,
+    "tags": [
+      "continuous_embedding",
+      "none",
+      "core"
+    ],
+    "verified": true,
+    "verification_sources": [
+      {
+        "url": "https://arxiv.org/abs/2603.02547",
+        "type": "original_paper",
+        "supports": [
+          "identity",
+          "authors",
+          "year",
+          "method"
+        ],
+        "locator": "Abstract; method sections where noted",
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://arxiv.org/abs/2603.02547",
+          "status": 200,
+          "final_url": "https://arxiv.org/abs/2603.02547",
+          "checked_at": "2026-09-11"
+        }
+      },
+      {
+        "url": "https://arxiv.org/html/2603.02547",
+        "type": "original_paper",
+        "supports": [
+          "method",
+          "classification",
+          "metrics_or_scale_where_filled"
+        ],
+        "locator": "Method / experiments; special conflicts described in pending_verification",
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://arxiv.org/html/2603.02547",
+          "status": 200,
+          "checked_at": "2026-09-11"
+        }
+      }
+    ],
+    "verification_level": "primary_source_core_verified",
+    "pending_verification": [
+      "扩散阶段并行，不代表端到端非自回归；decoder 成本需单独计量。",
+      "model_scale：尚未逐配置核实，保留 null",
+      "正式发表记录未确认；arxiv_preprint 表示本轮仅核实预印本，不断言尚未获录用",
+      "官方 code_url 未核到可确认链接，保留 null",
+      "独立官方 project_url 未核到，保留 null",
+      "evaluation_metrics 未逐表抽取，保留 null"
+    ],
+    "arxiv_id": "2603.02547",
+    "first_submission_date": "2026-03-03",
+    "publication_year": null,
+    "scope": "core",
+    "systems_evidence": null,
+    "results": null,
+    "time_parameterization": null,
+    "verification_note": "verified 仅表示身份和核心方法有一手证据，不表示结果复现、全部字段完整或所有实验无矛盾。"
+  },
+  {
+    "id": "decoder-interface-problem",
+    "alias": [
+      "Decoder-Interface Problem",
+      "Continuous Language Diffusion as a Decoder-Interface Problem"
+    ],
+    "title": "Continuous Language Diffusion as a Decoder-Interface Problem",
+    "year": 2026,
+    "venue": null,
+    "publication_status": "arxiv_preprint",
+    "authors": [
+      "Zhicheng Du",
+      "Lan Ma"
+    ],
+    "paper_url": "https://arxiv.org/abs/2606.08810",
+    "project_url": null,
+    "code_url": null,
+    "categories": [
+      "decoder.readout",
+      "decoder.rounding",
+      "decoder.alignment",
+      "sampling.adaptive",
+      "systems.algorithmic"
+    ],
+    "state_space": "continuous_latent",
+    "representation_unit": "multiple_audited_continuous_representations",
+    "generation_type": "diagnostic_audit",
+    "decoder_type": "native_decoder_and_alternative_readouts",
+    "model_scale": null,
+    "main_problem": "latent MSE 无法解释 token 恢复",
+    "main_contribution": "decoder basin 与 margin 诊断",
+    "method_summary": "审计 ELF 轨迹、替代读出和 margin gate；边界检查其他连续表示。",
+    "inference_focus": "algorithmic",
+    "efficiency_mechanism": {
+      "algorithmic": [
+        "margin-gated early exit"
+      ],
+      "systems": null
+    },
+    "evaluation_metrics": [
+      "decoder agreement",
+      "generative perplexity",
+      "entropy",
+      "denoising steps"
+    ],
+    "tags": [
+      "continuous_latent",
+      "algorithmic",
+      "core"
+    ],
+    "verified": true,
+    "verification_sources": [
+      {
+        "url": "https://arxiv.org/abs/2606.08810",
+        "type": "original_paper",
+        "supports": [
+          "identity",
+          "authors",
+          "year",
+          "method"
+        ],
+        "locator": "Abstract; method sections where noted",
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://arxiv.org/abs/2606.08810",
+          "status": 200,
+          "final_url": "https://arxiv.org/abs/2606.08810",
+          "checked_at": "2026-09-11"
+        }
+      }
+    ],
+    "verification_level": "primary_source_core_verified",
+    "pending_verification": [
+      "这是审计与诊断研究，不是一个新的通用预训练模型；跨模型结论有边界。",
+      "model_scale：尚未逐配置核实，保留 null",
+      "正式发表记录未确认；arxiv_preprint 表示本轮仅核实预印本，不断言尚未获录用",
+      "官方 code_url 未核到可确认链接，保留 null",
+      "独立官方 project_url 未核到，保留 null"
+    ],
+    "arxiv_id": "2606.08810",
+    "first_submission_date": "2026-06-07",
+    "publication_year": null,
+    "scope": "core",
+    "systems_evidence": null,
+    "results": null,
+    "time_parameterization": null,
+    "verification_note": "verified 仅表示身份和核心方法有一手证据，不表示结果复现、全部字段完整或所有实验无矛盾。"
+  },
+  {
+    "id": "candi",
+    "alias": [
+      "CANDI"
+    ],
+    "title": "CANDI: Hybrid Discrete-Continuous Diffusion Models",
+    "year": 2025,
+    "venue": "ICML",
+    "publication_status": "accepted",
+    "authors": [
+      "Patrick Pynadath",
+      "Jiaxin Shi",
+      "Ruqi Zhang"
+    ],
+    "paper_url": "https://arxiv.org/abs/2510.22510",
+    "project_url": "https://patrickpynadath1.github.io/candi-lander",
+    "code_url": "https://github.com/patrickpynadath1/candi-diffusion",
+    "categories": [
+      "hybrid.candi",
+      "representation.categorical",
+      "sampling.few_step",
+      "systems.algorithmic"
+    ],
+    "state_space": "hybrid_discrete_continuous",
+    "representation_unit": "discrete_identity_and_continuous_geometry",
+    "generation_type": "non_autoregressive",
+    "decoder_type": "hybrid_categorical_readout",
+    "model_scale": null,
+    "main_problem": "离散身份与连续秩损坏存在时间错位",
+    "main_contribution": "解耦 discrete / continuous corruptions",
+    "method_summary": "分别控制离散条件结构与连续几何噪声，用连续梯度指导生成。",
+    "inference_focus": "algorithmic",
+    "efficiency_mechanism": {
+      "algorithmic": [
+        "hybrid continuous gradients at low NFE"
+      ],
+      "systems": null
+    },
+    "evaluation_metrics": null,
+    "tags": [
+      "hybrid_discrete_continuous",
+      "algorithmic",
+      "core"
+    ],
+    "verified": true,
+    "verification_sources": [
+      {
+        "url": "https://arxiv.org/abs/2510.22510",
+        "type": "original_paper",
+        "supports": [
+          "identity",
+          "authors",
+          "year",
+          "method"
+        ],
+        "locator": "Abstract; method sections where noted",
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://arxiv.org/abs/2510.22510",
+          "status": 200,
+          "final_url": "https://arxiv.org/abs/2510.22510",
+          "checked_at": "2026-09-11"
+        }
+      },
+      {
+        "url": "https://jiaxins.io/publications.html",
+        "type": "official_publication",
+        "supports": [
+          "publication_status",
+          "venue"
+        ],
+        "locator": null,
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://jiaxins.io/publications.html",
+          "status": 200,
+          "final_url": "https://jiaxins.io/publications.html",
+          "checked_at": "2026-09-11"
+        }
+      },
+      {
+        "url": "https://patrickpynadath1.github.io/candi-lander",
+        "type": "official_project",
+        "supports": [
+          "project_identity"
+        ],
+        "locator": null,
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://patrickpynadath1.github.io/candi-lander",
+          "status": 200,
+          "final_url": "https://patrickpynadath1.github.io/candi-lander/",
+          "checked_at": "2026-09-11"
+        }
+      },
+      {
+        "url": "https://github.com/patrickpynadath1/candi-diffusion",
+        "type": "official_code",
+        "supports": [
+          "code_identity"
+        ],
+        "locator": "Linked from original paper / official project",
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://github.com/patrickpynadath1/candi-diffusion",
+          "status": null,
+          "method": "web.open: content retrieved and identity confirmed",
+          "checked_at": "2026-09-11"
+        }
+      },
+      {
+        "url": "https://arxiv.org/html/2510.22510",
+        "type": "original_paper",
+        "supports": [
+          "method",
+          "classification",
+          "metrics_or_scale_where_filled"
+        ],
+        "locator": "Method / experiments; special conflicts described in pending_verification",
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://arxiv.org/html/2510.22510",
+          "status": 200,
+          "checked_at": "2026-09-11"
+        }
+      }
+    ],
+    "verification_level": "primary_source_core_verified",
+    "pending_verification": [
+      "model_scale：尚未逐配置核实，保留 null",
+      "作者官网与会议目录确认 ICML 2026；正式 proceedings 条目未核到，因此使用 accepted。",
+      "evaluation_metrics 未逐表抽取，保留 null"
+    ],
+    "arxiv_id": "2510.22510",
+    "first_submission_date": "2025-10-26",
+    "publication_year": 2026,
+    "scope": "core",
+    "systems_evidence": null,
+    "results": null,
+    "time_parameterization": null,
+    "verification_note": "verified 仅表示身份和核心方法有一手证据，不表示结果复现、全部字段完整或所有实验无矛盾。"
+  },
+  {
+    "id": "cadd",
+    "alias": [
+      "CADD"
+    ],
+    "title": "Continuously Augmented Discrete Diffusion model for Categorical Generative Modeling",
+    "year": 2025,
+    "venue": "ICLR",
+    "publication_status": "published",
+    "authors": [
+      "Huangjie Zheng",
+      "Shansan Gong",
+      "Ruixiang Zhang",
+      "Tianrong Chen",
+      "Jiatao Gu",
+      "Mingyuan Zhou",
+      "Navdeep Jaitly",
+      "Yizhe Zhang"
+    ],
+    "paper_url": "https://arxiv.org/abs/2510.01329",
+    "project_url": null,
+    "code_url": "https://github.com/apple/ml-cadd",
+    "categories": [
+      "hybrid.cadd",
+      "representation.latent",
+      "decoder.readout"
+    ],
+    "state_space": "hybrid_discrete_continuous",
+    "representation_unit": "discrete_token_with_paired_continuous_latent",
+    "generation_type": "iterative_discrete_denoising_with_continuous_hints",
+    "decoder_type": "discrete_prediction_head",
+    "model_scale": null,
+    "main_problem": "MASK 丢失跨步语义信息",
+    "main_contribution": "连续 latent 增强离散 mask",
+    "method_summary": "为离散状态配对连续扩散，用连续估计作为离散去噪提示。",
+    "inference_focus": "none",
+    "efficiency_mechanism": null,
+    "evaluation_metrics": null,
+    "tags": [
+      "hybrid_discrete_continuous",
+      "none",
+      "core"
+    ],
+    "verified": true,
+    "verification_sources": [
+      {
+        "url": "https://arxiv.org/abs/2510.01329",
+        "type": "original_paper",
+        "supports": [
+          "identity",
+          "authors",
+          "year",
+          "method"
+        ],
+        "locator": "Abstract; method sections where noted",
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://arxiv.org/abs/2510.01329",
+          "status": 200,
+          "final_url": "https://arxiv.org/abs/2510.01329",
+          "checked_at": "2026-09-11"
+        }
+      },
+      {
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/39b77b5e422b4e070e2811b73ea9bcf7-Abstract-Conference.html",
+        "type": "official_publication",
+        "supports": [
+          "publication_status",
+          "venue"
+        ],
+        "locator": null,
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/39b77b5e422b4e070e2811b73ea9bcf7-Abstract-Conference.html",
+          "status": 200,
+          "final_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/39b77b5e422b4e070e2811b73ea9bcf7-Abstract-Conference.html",
+          "checked_at": "2026-09-11"
+        }
+      },
+      {
+        "url": "https://github.com/apple/ml-cadd",
+        "type": "official_code",
+        "supports": [
+          "code_identity"
+        ],
+        "locator": null,
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://github.com/apple/ml-cadd",
+          "status": 200,
+          "final_url": "https://github.com/apple/ml-cadd",
+          "checked_at": "2026-09-11"
+        }
+      },
+      {
+        "url": "https://arxiv.org/html/2510.01329",
+        "type": "original_paper",
+        "supports": [
+          "method",
+          "classification",
+          "metrics_or_scale_where_filled"
+        ],
+        "locator": "Method / experiments; special conflicts described in pending_verification",
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://arxiv.org/html/2510.01329",
+          "status": 200,
+          "checked_at": "2026-09-11"
+        }
+      }
+    ],
+    "verification_level": "primary_source_core_verified",
+    "pending_verification": [
+      "model_scale：尚未逐配置核实，保留 null",
+      "独立官方 project_url 未核到，保留 null",
+      "evaluation_metrics 未逐表抽取，保留 null"
+    ],
+    "arxiv_id": "2510.01329",
+    "first_submission_date": "2025-10-01",
+    "publication_year": 2026,
+    "scope": "core",
+    "systems_evidence": null,
+    "results": null,
+    "time_parameterization": null,
+    "verification_note": "verified 仅表示身份和核心方法有一手证据，不表示结果复现、全部字段完整或所有实验无矛盾。"
+  },
+  {
+    "id": "cobit",
+    "alias": [
+      "CoBit",
+      "Continuous Bitstream Diffusion",
+      "BitstreamDiffusion",
+      "Towards Closing the Autoregressive Gap in Language Modeling via Entropy-Gated Continuous Bitstream Diffusion"
+    ],
+    "title": "CoBit: Language Modeling with Bitstream Diffusion",
+    "year": 2026,
+    "venue": null,
+    "publication_status": "arxiv_preprint",
+    "authors": [
+      "Georgios Batzolis",
+      "Mark Girolami",
+      "Luca Ambrogioni"
+    ],
+    "paper_url": "https://arxiv.org/abs/2605.07013",
+    "project_url": null,
+    "code_url": "https://github.com/GBATZOLIS/BitstreamDiffusion",
+    "categories": [
+      "representation.binary",
+      "decoder.readout",
+      "systems.algorithmic",
+      "systems.runtime"
+    ],
+    "state_space": "continuous_analog_bits",
+    "representation_unit": "fixed_width_token_bitstream",
+    "generation_type": "non_autoregressive",
+    "decoder_type": "bitwise_readout",
+    "model_scale": {
+      "parameters": [
+        130000000,
+        462000000
+      ],
+      "label": "CoBit-S / CoBit-M",
+      "scope": "v2 Appendix G model labels; rounded counts",
+      "source": "https://arxiv.org/html/2605.07013"
+    },
+    "main_problem": "词表维度成本与质量多样性折衷",
+    "main_contribution": "analog bitstream 与 entropy-gated corrections",
+    "method_summary": "利用独立 bit 后验及残差建模，按熵分配 Langevin 式随机修正。",
+    "inference_focus": "algorithmic_architecture_and_systems_measurement",
+    "efficiency_mechanism": {
+      "algorithmic": [
+        "entropy-gated stochastic corrections"
+      ],
+      "architecture": [
+        "logarithmic vocabulary output width"
+      ],
+      "systems": [
+        "减少词表宽度输出张量；固定 NFE 的 GPU profiling 测量内存与吞吐，而非专用 kernel 创新"
+      ]
+    },
+    "evaluation_metrics": [
+      "generative perplexity",
+      "entropy",
+      "NFE",
+      "peak allocated CUDA memory",
+      "semantic tokens/s"
+    ],
+    "tags": [
+      "continuous_analog_bits",
+      "algorithmic_architecture_and_systems_measurement",
+      "core"
+    ],
+    "verified": true,
+    "verification_sources": [
+      {
+        "url": "https://arxiv.org/abs/2605.07013",
+        "type": "original_paper",
+        "supports": [
+          "identity",
+          "authors",
+          "year",
+          "method"
+        ],
+        "locator": "Abstract; method sections where noted",
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://arxiv.org/abs/2605.07013",
+          "status": 200,
+          "final_url": "https://arxiv.org/abs/2605.07013",
+          "checked_at": "2026-09-11"
+        }
+      },
+      {
+        "url": "https://github.com/GBATZOLIS/BitstreamDiffusion",
+        "type": "official_code",
+        "supports": [
+          "code_identity"
+        ],
+        "locator": "Linked from original paper / official project",
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://github.com/GBATZOLIS/BitstreamDiffusion",
+          "status": 200,
+          "final_url": "https://github.com/GBATZOLIS/BitstreamDiffusion",
+          "checked_at": "2026-09-11"
+        }
+      },
+      {
+        "url": "https://arxiv.org/html/2605.07013",
+        "type": "original_paper",
+        "supports": [
+          "method",
+          "classification",
+          "metrics_or_scale_where_filled"
+        ],
+        "locator": "Method / experiments; special conflicts described in pending_verification",
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://arxiv.org/html/2605.07013",
+          "status": 200,
+          "checked_at": "2026-09-11"
+        }
+      }
+    ],
+    "verification_level": "primary_source_core_verified",
+    "pending_verification": [
+      "旧题名 Continuous Bitstream Diffusion 与 CoBit 共用 arXiv ID；仅收录一次。",
+      "正式发表记录未确认；arxiv_preprint 表示本轮仅核实预印本，不断言尚未获录用",
+      "独立官方 project_url 未核到，保留 null",
+      "Appendix F 为合成状态 profiling；真实请求端到端服务成本、memory traffic 与专用 kernel 效果仍未核实。"
+    ],
+    "arxiv_id": "2605.07013",
+    "first_submission_date": "2026-05-07",
+    "publication_year": null,
+    "scope": "core",
+    "systems_evidence": {
+      "kind": "controlled_gpu_profiling",
+      "hardware": "NVIDIA GH200",
+      "precision": "BF16",
+      "nfe": 128,
+      "data": "synthetic states and random targets",
+      "compile": false,
+      "measures": [
+        "peak allocated CUDA memory",
+        "semantic tokens/s"
+      ],
+      "includes": [
+        "denoising loop"
+      ],
+      "excludes": [
+        "decoding",
+        "tokenization",
+        "I/O",
+        "caching",
+        "external evaluation",
+        "host-device transfer"
+      ],
+      "limitations": "不是完整 serving benchmark，也未证明硬件 co-design；不将吞吐改善归因于少 NFE。",
+      "source": "https://arxiv.org/html/2605.07013",
+      "locator": "Appendix F.1–F.5"
+    },
+    "results": null,
+    "time_parameterization": null,
+    "verification_note": "verified 仅表示身份和核心方法有一手证据，不表示结果复现、全部字段完整或所有实验无矛盾。"
+  },
+  {
+    "id": "bitlm",
+    "alias": [
+      "BitLM"
+    ],
+    "title": "BitLM: Unlocking Multi-Token Language Generation with Bitwise Continuous Diffusion",
+    "year": 2026,
+    "venue": null,
+    "publication_status": "arxiv_preprint",
+    "authors": [
+      "Shaobin Zhuang",
+      "Yuang Ai",
+      "Jiaming Han",
+      "Xiaohui Li",
+      "Huaibo Huang",
+      "Xiangyu Yue",
+      "Xuefeng Hu",
+      "Kun Xu",
+      "Yali Wang",
+      "Hao Chen"
+    ],
+    "paper_url": "https://arxiv.org/abs/2605.11577",
+    "project_url": null,
+    "code_url": null,
+    "categories": [
+      "representation.binary",
+      "decoder.readout",
+      "systems.algorithmic",
+      "learning.large_scale"
+    ],
+    "state_space": "continuous_analog_bits",
+    "representation_unit": "fixed_length_binary_token_code",
+    "generation_type": "semi_autoregressive_blocks",
+    "decoder_type": "bitwise_diffusion_head",
+    "model_scale": {
+      "parameters": [
+        600000000,
+        1700000000,
+        4000000000,
+        8000000000
+      ],
+      "label": "0.6B / 1.7B / 4B / 8B",
+      "scope": "§4 nominal model sizes; backbone/head split not verified",
+      "source": "https://arxiv.org/html/2605.11577"
+    },
+    "main_problem": "单 token softmax 接口限制并行输出",
+    "main_contribution": "轻量 bit diffusion head 联合生成块内多个 token",
+    "method_summary": "保留块间 causal attention，在块内连续去噪 binary code。",
+    "inference_focus": "algorithmic_and_architecture",
+    "efficiency_mechanism": {
+      "algorithmic": [
+        "parallel within-block token generation"
+      ],
+      "architecture": [
+        "compact bitwise output head"
+      ],
+      "systems": null
+    },
+    "evaluation_metrics": [
+      "ROUGE-1",
+      "ROUGE-2",
+      "ROUGE-L",
+      "training loss"
+    ],
+    "tags": [
+      "continuous_analog_bits",
+      "algorithmic_and_architecture",
+      "core"
+    ],
+    "verified": true,
+    "verification_sources": [
+      {
+        "url": "https://arxiv.org/abs/2605.11577",
+        "type": "original_paper",
+        "supports": [
+          "identity",
+          "authors",
+          "year",
+          "method"
+        ],
+        "locator": "Abstract; method sections where noted",
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://arxiv.org/abs/2605.11577",
+          "status": 200,
+          "final_url": "https://arxiv.org/abs/2605.11577",
+          "checked_at": "2026-09-11"
+        }
+      },
+      {
+        "url": "https://arxiv.org/html/2605.11577",
+        "type": "original_paper",
+        "supports": [
+          "method",
+          "classification",
+          "metrics_or_scale_where_filled"
+        ],
+        "locator": "Method / experiments; special conflicts described in pending_verification",
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://arxiv.org/html/2605.11577",
+          "status": 200,
+          "checked_at": "2026-09-11"
+        }
+      }
+    ],
+    "verification_level": "primary_source_core_verified",
+    "pending_verification": [
+      "AR+连续生成，不自动等于 discrete–continuous hybrid diffusion；不是量化权重模型 BitNet。",
+      "正式发表记录未确认；arxiv_preprint 表示本轮仅核实预印本，不断言尚未获录用",
+      "官方 code_url 未核到可确认链接，保留 null",
+      "独立官方 project_url 未核到，保留 null",
+      "§4 正文与 Table 1 的 XSum ROUGE 数值不同；结果不录入，不能据摘要宣称已证明推理速度优势。"
+    ],
+    "arxiv_id": "2605.11577",
+    "first_submission_date": "2026-05-12",
+    "publication_year": null,
+    "scope": "core",
+    "systems_evidence": null,
+    "results": null,
+    "time_parameterization": null,
+    "verification_note": "verified 仅表示身份和核心方法有一手证据，不表示结果复现、全部字段完整或所有实验无矛盾。"
+  },
+  {
+    "id": "ld4lg",
+    "alias": [
+      "LD4LG"
+    ],
+    "title": "Latent Diffusion for Language Generation",
+    "year": 2022,
+    "venue": "NeurIPS",
+    "publication_status": "published",
+    "authors": [
+      "Justin Lovelace",
+      "Varsha Kishore",
+      "Chao Wan",
+      "Eliot Shekhtman",
+      "Kilian Q. Weinberger"
+    ],
+    "paper_url": "https://arxiv.org/abs/2212.09462",
+    "project_url": null,
+    "code_url": "https://github.com/justinlovelace/latent-diffusion-for-language",
+    "categories": [
+      "representation.latent",
+      "decoder.learned",
+      "decoder.alignment"
+    ],
+    "state_space": "continuous_latent",
+    "representation_unit": "language_autoencoder_latent",
+    "generation_type": "latent_diffusion_then_pretrained_decoding",
+    "decoder_type": "pretrained_language_decoder",
+    "model_scale": null,
+    "main_problem": "如何复用预训练语言表示",
+    "main_contribution": "语言 autoencoder 空间中的连续扩散",
+    "method_summary": "先获得高质量 autoencoder，再学习连续 latent diffusion 并解码。",
+    "inference_focus": "none",
+    "efficiency_mechanism": null,
+    "evaluation_metrics": null,
+    "tags": [
+      "continuous_latent",
+      "none",
+      "core"
+    ],
+    "verified": true,
+    "verification_sources": [
+      {
+        "url": "https://arxiv.org/abs/2212.09462",
+        "type": "original_paper",
+        "supports": [
+          "identity",
+          "authors",
+          "year",
+          "method"
+        ],
+        "locator": "Abstract; method sections where noted",
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://arxiv.org/abs/2212.09462",
+          "status": 200,
+          "final_url": "https://arxiv.org/abs/2212.09462",
+          "checked_at": "2026-09-11"
+        }
+      },
+      {
+        "url": "https://papers.neurips.cc/paper_files/paper/2023/hash/b2a2bd5d5051ff6af52e1ef60aefd255-Abstract-Conference.html",
+        "type": "official_publication",
+        "supports": [
+          "publication_status",
+          "venue"
+        ],
+        "locator": null,
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://papers.neurips.cc/paper_files/paper/2023/hash/b2a2bd5d5051ff6af52e1ef60aefd255-Abstract-Conference.html",
+          "status": 200,
+          "final_url": "https://papers.neurips.cc/paper_files/paper/2023/hash/b2a2bd5d5051ff6af52e1ef60aefd255-Abstract-Conference.html",
+          "checked_at": "2026-09-11"
+        }
+      },
+      {
+        "url": "https://github.com/justinlovelace/latent-diffusion-for-language",
+        "type": "official_code",
+        "supports": [
+          "code_identity"
+        ],
+        "locator": null,
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://github.com/justinlovelace/latent-diffusion-for-language",
+          "status": 200,
+          "final_url": "https://github.com/justinlovelace/latent-diffusion-for-language",
+          "checked_at": "2026-09-11"
+        }
+      }
+    ],
+    "verification_level": "primary_source_core_verified",
+    "pending_verification": [
+      "model_scale：尚未逐配置核实，保留 null",
+      "独立官方 project_url 未核到，保留 null",
+      "evaluation_metrics 未逐表抽取，保留 null"
+    ],
+    "arxiv_id": "2212.09462",
+    "first_submission_date": "2022-12-19",
+    "publication_year": 2023,
+    "scope": "core",
+    "systems_evidence": null,
+    "results": null,
+    "time_parameterization": null,
+    "verification_note": "verified 仅表示身份和核心方法有一手证据，不表示结果复现、全部字段完整或所有实验无矛盾。"
+  },
+  {
+    "id": "early-halting",
+    "alias": [
+      "Early Halting"
+    ],
+    "title": "Diffusion Language Models Generation Can Be Halted Early",
+    "year": 2023,
+    "venue": null,
+    "publication_status": "arxiv_preprint",
+    "authors": [
+      "Sofia Maria Lo Cicero Vaina",
+      "Nikita Balagansky",
+      "Daniil Gavrilov"
+    ],
+    "paper_url": "https://arxiv.org/abs/2305.10818",
+    "project_url": null,
+    "code_url": null,
+    "categories": [
+      "sampling.adaptive",
+      "systems.algorithmic"
+    ],
+    "state_space": "multiple_continuous_state_spaces",
+    "representation_unit": "inherited_from_base_model",
+    "generation_type": "adaptive_halting",
+    "decoder_type": "inherited_from_base_model",
+    "model_scale": null,
+    "main_problem": "冗余去噪迭代",
+    "main_contribution": "估计生成完成度并提前终止",
+    "method_summary": "在 Plaid、SSD 和 CDCD 上检测文本是否已完成。",
+    "inference_focus": "algorithmic",
+    "efficiency_mechanism": {
+      "algorithmic": [
+        "adaptive halting"
+      ],
+      "systems": null
+    },
+    "evaluation_metrics": [
+      "generation time",
+      "sample quality"
+    ],
+    "tags": [
+      "multiple_continuous_state_spaces",
+      "algorithmic",
+      "core"
+    ],
+    "verified": true,
+    "verification_sources": [
+      {
+        "url": "https://arxiv.org/abs/2305.10818",
+        "type": "original_paper",
+        "supports": [
+          "identity",
+          "authors",
+          "year",
+          "method"
+        ],
+        "locator": "Abstract; method sections where noted",
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://arxiv.org/abs/2305.10818",
+          "status": 200,
+          "final_url": "https://arxiv.org/abs/2305.10818",
+          "checked_at": "2026-09-11"
+        }
+      }
+    ],
+    "verification_level": "primary_source_core_verified",
+    "pending_verification": [
+      "是否正式发表未确认；发表 venue 保留 null。",
+      "model_scale：尚未逐配置核实，保留 null",
+      "正式发表记录未确认；arxiv_preprint 表示本轮仅核实预印本，不断言尚未获录用",
+      "官方 code_url 未核到可确认链接，保留 null",
+      "独立官方 project_url 未核到，保留 null"
+    ],
+    "arxiv_id": "2305.10818",
+    "first_submission_date": "2023-05-18",
+    "publication_year": null,
+    "scope": "core",
+    "systems_evidence": null,
+    "results": null,
+    "time_parameterization": null,
+    "verification_note": "verified 仅表示身份和核心方法有一手证据，不表示结果复现、全部字段完整或所有实验无矛盾。"
+  },
+  {
+    "id": "deltaflow",
+    "alias": [
+      "DeltaFlow"
+    ],
+    "title": "DeltaFlow: Noise-Adaptive Bidirectional Gated Delta Networks for Embedded Language Flows",
+    "year": 2026,
+    "venue": null,
+    "publication_status": "arxiv_preprint",
+    "authors": [
+      "Guangfu Guo",
+      "Xiaoqian Lu",
+      "Linsey Pang",
+      "Weiran Yao",
+      "Haolin Chen",
+      "Kunpeng Liu",
+      "Long Cheng"
+    ],
+    "paper_url": "https://arxiv.org/abs/2608.01240",
+    "project_url": null,
+    "code_url": null,
+    "categories": [
+      "representation.embedding",
+      "systems.algorithmic"
+    ],
+    "state_space": "continuous_latent",
+    "representation_unit": "contextual_token_embedding",
+    "generation_type": "non_autoregressive",
+    "decoder_type": "elf_style_readout",
+    "model_scale": null,
+    "main_problem": "ELF 每步全注意力的序列混合成本",
+    "main_contribution": "双向 Gated Delta Network backbone",
+    "method_summary": "交替或并行双向扫描，配合噪声自适应记忆和 temporal state consistency。",
+    "inference_focus": "architecture",
+    "efficiency_mechanism": {
+      "architecture": [
+        "bidirectional recurrent sequence mixing"
+      ],
+      "systems": null
+    },
+    "evaluation_metrics": [
+      "denoiser throughput",
+      "generative perplexity",
+      "unigram entropy"
+    ],
+    "tags": [
+      "continuous_latent",
+      "architecture",
+      "core"
+    ],
+    "verified": true,
+    "verification_sources": [
+      {
+        "url": "https://arxiv.org/abs/2608.01240",
+        "type": "original_paper",
+        "supports": [
+          "identity",
+          "authors",
+          "year",
+          "method"
+        ],
+        "locator": "Abstract; method sections where noted",
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://arxiv.org/abs/2608.01240",
+          "status": 200,
+          "final_url": "https://arxiv.org/abs/2608.01240",
+          "checked_at": "2026-09-11"
+        }
+      }
+    ],
+    "verification_level": "primary_source_core_verified",
+    "pending_verification": [
+      "吞吐是 denoiser-only benchmark；不能当作端到端 serving 加速或专用 kernel 贡献。",
+      "model_scale：尚未逐配置核实，保留 null",
+      "正式发表记录未确认；arxiv_preprint 表示本轮仅核实预印本，不断言尚未获录用",
+      "官方 code_url 未核到可确认链接，保留 null",
+      "独立官方 project_url 未核到，保留 null"
+    ],
+    "arxiv_id": "2608.01240",
+    "first_submission_date": "2026-08-02",
+    "publication_year": null,
+    "scope": "core",
+    "systems_evidence": null,
+    "results": null,
+    "time_parameterization": null,
+    "verification_note": "verified 仅表示身份和核心方法有一手证据，不表示结果复现、全部字段完整或所有实验无矛盾。"
+  },
+  {
+    "id": "plaidq",
+    "alias": [
+      "PlaidQ"
+    ],
+    "title": "Distilled Continuous Diffusion Language Models Can Write Code in Few Steps---or One",
+    "year": 2026,
+    "venue": null,
+    "publication_status": "arxiv_preprint",
+    "authors": [
+      "Fred Zhangzhi Peng",
+      "Kaiwen Zheng",
+      "Anru R. Zhang"
+    ],
+    "paper_url": "https://arxiv.org/abs/2609.04531",
+    "project_url": null,
+    "code_url": null,
+    "categories": [
+      "representation.embedding",
+      "sampling.few_step",
+      "sampling.one_step",
+      "sampling.distillation",
+      "systems.algorithmic"
+    ],
+    "state_space": "continuous_embedding",
+    "representation_unit": "token_embedding",
+    "generation_type": "non_autoregressive",
+    "decoder_type": "token_readout",
+    "model_scale": {
+      "parameters": [
+        700000000
+      ],
+      "label": "PlaidQ 0.7B",
+      "scope": "nominal model scale",
+      "source": "https://arxiv.org/abs/2609.04531"
+    },
+    "main_problem": "代码生成连续轨迹的蒸馏",
+    "main_contribution": "少步 distribution matching 与单步轨迹监督",
+    "method_summary": "将预训练 AR 模型改为双向连续 denoiser，再蒸馏多步或单步学生。",
+    "inference_focus": "algorithmic",
+    "efficiency_mechanism": {
+      "algorithmic": [
+        "distribution matching distillation",
+        "paired-trajectory one-step supervision"
+      ],
+      "systems": null
+    },
+    "evaluation_metrics": [
+      "HumanEval pass@k",
+      "MBPP+ pass@k",
+      "denoising steps"
+    ],
+    "tags": [
+      "continuous_embedding",
+      "algorithmic",
+      "core"
+    ],
+    "verified": true,
+    "verification_sources": [
+      {
+        "url": "https://arxiv.org/abs/2609.04531",
+        "type": "original_paper",
+        "supports": [
+          "identity",
+          "authors",
+          "year",
+          "method"
+        ],
+        "locator": "Abstract; method sections where noted",
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://arxiv.org/abs/2609.04531",
+          "status": 200,
+          "final_url": "https://arxiv.org/abs/2609.04531",
+          "checked_at": "2026-09-11"
+        }
+      }
+    ],
+    "verification_level": "primary_source_core_verified",
+    "pending_verification": [
+      "正式发表记录未确认；arxiv_preprint 表示本轮仅核实预印本，不断言尚未获录用",
+      "独立官方 project_url 未核到，保留 null",
+      "原论文给出的 pengzhangzhi/plaidq 仓库于核验日返回 HTTP 404；code_url 置 null，待确认公开地址。"
+    ],
+    "arxiv_id": "2609.04531",
+    "first_submission_date": "2026-09-03",
+    "publication_year": null,
+    "scope": "core",
+    "systems_evidence": null,
+    "results": null,
+    "time_parameterization": null,
+    "verification_note": "verified 仅表示身份和核心方法有一手证据，不表示结果复现、全部字段完整或所有实验无矛盾。"
+  },
+  {
+    "id": "llada",
+    "alias": [
+      "LLaDA"
+    ],
+    "title": "Large Language Diffusion Models",
+    "year": 2025,
+    "venue": null,
+    "publication_status": "arxiv_preprint",
+    "authors": [
+      "Shen Nie",
+      "Fengqi Zhu",
+      "Zebin You",
+      "Xiaolu Zhang",
+      "Jingyang Ou",
+      "Jun Hu",
+      "Jun Zhou",
+      "Yankai Lin",
+      "Ji-Rong Wen",
+      "Chongxuan Li"
+    ],
+    "paper_url": "https://arxiv.org/abs/2502.09992",
+    "project_url": "https://ml-gsai.github.io/LLaDA-demo/",
+    "code_url": "https://github.com/ML-GSAI/LLaDA",
+    "categories": [
+      "learning.adaptation"
+    ],
+    "state_space": "discrete_masked",
+    "representation_unit": "discrete_token",
+    "generation_type": "iterative_unmasking",
+    "decoder_type": "categorical_token_head",
+    "model_scale": {
+      "parameters": [
+        8000000000
+      ],
+      "label": "LLaDA 8B",
+      "scope": "nominal scale",
+      "source": "https://arxiv.org/abs/2502.09992"
+    },
+    "main_problem": "离散 diffusion 的语言预训练规模",
+    "main_contribution": "masked diffusion 预训练与指令微调",
+    "method_summary": "离散 token 与 MASK 之间腐化和恢复；只作为 DSL-LLaDA 的背景节点。",
+    "inference_focus": "none",
+    "efficiency_mechanism": null,
+    "evaluation_metrics": null,
+    "tags": [
+      "discrete_masked",
+      "none",
+      "context_only"
+    ],
+    "verified": true,
+    "verification_sources": [
+      {
+        "url": "https://arxiv.org/abs/2502.09992",
+        "type": "original_paper",
+        "supports": [
+          "identity",
+          "authors",
+          "year",
+          "method"
+        ],
+        "locator": "Abstract; method sections where noted",
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://arxiv.org/abs/2502.09992",
+          "status": 200,
+          "final_url": "https://arxiv.org/abs/2502.09992",
+          "checked_at": "2026-09-11"
+        }
+      },
+      {
+        "url": "https://ml-gsai.github.io/LLaDA-demo/",
+        "type": "official_project",
+        "supports": [
+          "project_identity"
+        ],
+        "locator": null,
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://ml-gsai.github.io/LLaDA-demo/",
+          "status": 200,
+          "final_url": "https://ml-gsai.github.io/LLaDA-demo/",
+          "checked_at": "2026-09-11"
+        }
+      },
+      {
+        "url": "https://github.com/ML-GSAI/LLaDA",
+        "type": "official_code",
+        "supports": [
+          "code_identity"
+        ],
+        "locator": "Linked from original paper / official project",
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://github.com/ML-GSAI/LLaDA",
+          "status": null,
+          "method": "web.open: content retrieved and identity confirmed",
+          "checked_at": "2026-09-11"
+        }
+      }
+    ],
+    "verification_level": "primary_source_core_verified",
+    "pending_verification": [
+      "正式发表记录未确认；arxiv_preprint 表示本轮仅核实预印本，不断言尚未获录用",
+      "evaluation_metrics 未逐表抽取，保留 null"
+    ],
+    "arxiv_id": "2502.09992",
+    "first_submission_date": "2025-02-14",
+    "publication_year": null,
+    "scope": "context_only",
+    "systems_evidence": null,
+    "results": null,
+    "time_parameterization": null,
+    "verification_note": "verified 仅表示身份和核心方法有一手证据，不表示结果复现、全部字段完整或所有实验无矛盾。"
+  },
+  {
+    "id": "mdlm",
+    "alias": [
+      "MDLM"
+    ],
+    "title": "Simple and Effective Masked Diffusion Language Models",
+    "year": 2024,
+    "venue": "NeurIPS",
+    "publication_status": "published",
+    "authors": [
+      "Subham Sekhar Sahoo",
+      "Marianne Arriola",
+      "Yair Schiff",
+      "Aaron Gokaslan",
+      "Edgar Marroquin",
+      "Justin T Chiu",
+      "Alexander Rush",
+      "Volodymyr Kuleshov"
+    ],
+    "paper_url": "https://arxiv.org/abs/2406.07524",
+    "project_url": null,
+    "code_url": "https://github.com/kuleshov-group/mdlm",
+    "categories": [
+      "learning.objective"
+    ],
+    "state_space": "discrete_masked",
+    "representation_unit": "discrete_token",
+    "generation_type": "iterative_unmasking",
+    "decoder_type": "categorical_token_head",
+    "model_scale": null,
+    "main_problem": "masked diffusion 的训练与似然",
+    "main_contribution": "简化 Rao-Blackwellized objective",
+    "method_summary": "采用 masked language modeling 损失混合；作为混合研究的离散背景，不计入连续主地图。",
+    "inference_focus": "none",
+    "efficiency_mechanism": null,
+    "evaluation_metrics": null,
+    "tags": [
+      "discrete_masked",
+      "none",
+      "context_only"
+    ],
+    "verified": true,
+    "verification_sources": [
+      {
+        "url": "https://arxiv.org/abs/2406.07524",
+        "type": "original_paper",
+        "supports": [
+          "identity",
+          "authors",
+          "year",
+          "method",
+          "venue",
+          "publication_status"
+        ],
+        "locator": "Abstract page Comments: NeurIPS 2024",
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://arxiv.org/abs/2406.07524",
+          "status": 200,
+          "final_url": "https://arxiv.org/abs/2406.07524",
+          "checked_at": "2026-09-11"
+        }
+      },
+      {
+        "url": "https://github.com/kuleshov-group/mdlm",
+        "type": "official_code",
+        "supports": [
+          "code_identity"
+        ],
+        "locator": null,
+        "accessed_at": "2026-09-11",
+        "url_check": {
+          "url": "https://github.com/kuleshov-group/mdlm",
+          "status": 200,
+          "final_url": "https://github.com/kuleshov-group/mdlm",
+          "checked_at": "2026-09-11"
+        }
+      }
+    ],
+    "verification_level": "primary_source_core_verified",
+    "pending_verification": [
+      "model_scale：尚未逐配置核实，保留 null",
+      "独立官方 project_url 未核到，保留 null",
+      "evaluation_metrics 未逐表抽取，保留 null"
+    ],
+    "arxiv_id": "2406.07524",
+    "first_submission_date": "2024-06-11",
+    "publication_year": 2024,
+    "scope": "context_only",
+    "systems_evidence": null,
+    "results": null,
+    "time_parameterization": null,
+    "verification_note": "verified 仅表示身份和核心方法有一手证据，不表示结果复现、全部字段完整或所有实验无矛盾。"
+  }
+]

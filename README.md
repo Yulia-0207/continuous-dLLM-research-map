@@ -43,3 +43,20 @@ npm run preview
 - 架构效率、算法效率、GPU 测量分开呈现。没有记录的系统类别只标为当前数据中 relatively underexplored。
 
 原始研究范围与来源见 `PROJECT_SPEC.md`、`REFERENCES.md`。
+
+## 阅读结构与 Daily Brief
+
+首页默认 Timeline，按首次公开年份阅读 Motivation / Problem、Solution，以及已有的前序和后续关系。问题部分来自 `main_problem`，没有另行推断动机；Technical Routes 同时展示路线问题、已有关系及子方向。Evolution Map 保留可交互关系图，原论文数据与核实规则不变。
+
+Daily Brief 独立读取 `data/briefs.json`。`.github/workflows/daily-brief.yml` 每天 UTC 01:17（北京时间 09:17）计划运行，也可在 Actions 手动运行。它用 Python 标准库访问 arXiv 官方 Atom API 和已收录核心论文的官方 GitHub 仓库，无需付费模型密钥，工作流使用内置 `github.token` 读取公开仓库并提交简报。
+
+- arXiv 最多获取按更新时间排序的 100 条检索结果，再用语言生成任务和连续表示关键词筛选；回看 30 天。匹配存在误报和漏报，不自动新增论文、改 venue 或推断继承。
+- GitHub 每个仓库最多读取 5 个 release、3 个最近 commit。Systems 只表示标题/摘要或提交标题命中 GPU、kernel、latency 等词，不表示已经核实的系统创新。当前监测范围不包括整个系统软件生态。
+- 新论文与已有论文的新版本均标为待核实。论文候选显示链接与匹配原因，不自动生成未经核实的 Motivation / Solution。正式扩充论文库仍需人工核实。
+- 单个来源失败会记录错误，并保留 30 天窗口内已有线索；最多保留 200 条。来源状态和运行时间直接显示在页面。仅更新简报文件，不触碰三个研究 JSON。
+- 提交简报后显式调用 Pages 可复用工作流重新部署，避免内置 token 的 push 不触发下一次工作流的问题。
+- GitHub 定时任务可能延迟；公开仓库长期无活动时可能被暂停。可在 Actions → Daily Brief 检查并重新启用。仓库需允许 Actions 写入内容，且 main 分支保护规则需允许此更新方式；若组织规则禁止机器人推送，任务会明确失败。
+
+本地验证：`python3 -m unittest discover -s scripts -p 'test_*.py'`。手动采集：`python3 scripts/update_brief.py`；未提供 `GH_TOKEN` 时读取公开 API，但限额较低。
+
+来源文档：[arXiv API](https://info.arxiv.org/help/api/user-manual.html)、[GitHub scheduled workflows](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule)、[GitHub Releases API](https://docs.github.com/en/rest/releases/releases)。

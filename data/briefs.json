@@ -1,0 +1,200 @@
+{
+  "generated_at": "2026-09-11T12:52:34.029348+00:00",
+  "window_days": 30,
+  "sources": [
+    {
+      "name": "arXiv · continuous language diffusion / flow",
+      "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22diffusion%22+OR+all%3A%22flow+matching%22+OR+all%3A%22flow+map%22%29+AND+%28all%3A%22language%22+OR+all%3A%22text+generation%22%29+AND+%28all%3A%22continuous%22+OR+all%3A%22latent%22+OR+all%3A%22embedding%22+OR+all%3A%22bitstream%22%29&max_results=100&sortBy=lastUpdatedDate&sortOrder=descending",
+      "status": "ok",
+      "count": 7
+    },
+    {
+      "name": "ByteDance-Seed/Cola-DLM",
+      "url": "https://github.com/ByteDance-Seed/Cola-DLM",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "name": "GBATZOLIS/BitstreamDiffusion",
+      "url": "https://github.com/GBATZOLIS/BitstreamDiffusion",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "name": "MananAg007/posterior-refinement",
+      "url": "https://github.com/MananAg007/posterior-refinement",
+      "status": "ok",
+      "count": 1
+    },
+    {
+      "name": "Shark-NLP/DiffuSeq",
+      "url": "https://github.com/Shark-NLP/DiffuSeq",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "name": "Ugness/self-conditioned-fmlm",
+      "url": "https://github.com/Ugness/self-conditioned-fmlm",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "name": "apple/ml-cadd",
+      "url": "https://github.com/apple/ml-cadd",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "name": "david3684/flm",
+      "url": "https://github.com/david3684/flm",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "name": "dongzhuoyao/flowseq",
+      "url": "https://github.com/dongzhuoyao/flowseq",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "name": "fyv587/AURORA-LM",
+      "url": "https://github.com/fyv587/AURORA-LM",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "name": "harryjo97/RDLM",
+      "url": "https://github.com/harryjo97/RDLM",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "name": "igul222/plaid",
+      "url": "https://github.com/igul222/plaid",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "name": "justinlovelace/latent-diffusion-for-language",
+      "url": "https://github.com/justinlovelace/latent-diffusion-for-language",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "name": "lillian039/ELF",
+      "url": "https://github.com/lillian039/ELF",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "name": "nealchen2003/LangFlow",
+      "url": "https://github.com/nealchen2003/LangFlow",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "name": "patrickpynadath1/candi-diffusion",
+      "url": "https://github.com/patrickpynadath1/candi-diffusion",
+      "status": "ok",
+      "count": 0
+    }
+  ],
+  "items": [
+    {
+      "id": "arxiv:2605.18530",
+      "kind": "paper",
+      "title": "Continuous Diffusion Scales Competitively with Discrete Diffusion for Language",
+      "url": "https://arxiv.org/abs/2605.18530",
+      "date": "2026-09-09T21:20:41Z",
+      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
+      "reason": "已收录论文的近期版本线索；日期为 arXiv updated，非正式发表日期。",
+      "systems_signal": false,
+      "review_status": "unreviewed",
+      "source": "arXiv · continuous language diffusion / flow"
+    },
+    {
+      "id": "MananAg007/posterior-refinement:commit:73652f9002d166e616879d386ba115b35df18b96",
+      "kind": "github",
+      "title": "MananAg007/posterior-refinement · Added Uncond Sudoku Train + Eval",
+      "url": "https://github.com/MananAg007/posterior-refinement/commit/73652f9002d166e616879d386ba115b35df18b96",
+      "date": "2026-09-05T17:39:20Z",
+      "summary": "Commit：代码活动不等于新论文或已验证的系统改进。",
+      "reason": "监测已收录连续 / 混合论文的官方仓库；单次最多 5 个 release、3 个 commit。",
+      "systems_signal": false,
+      "review_status": "unreviewed",
+      "source": "MananAg007/posterior-refinement"
+    },
+    {
+      "id": "arxiv:2609.04531",
+      "kind": "paper",
+      "title": "Distilled Continuous Diffusion Language Models Can Write Code in Few Steps---or One",
+      "url": "https://arxiv.org/abs/2609.04531",
+      "date": "2026-09-03T22:42:57Z",
+      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
+      "reason": "已收录论文的近期版本线索；日期为 arXiv updated，非正式发表日期。",
+      "systems_signal": false,
+      "review_status": "unreviewed",
+      "source": "arXiv · continuous language diffusion / flow"
+    },
+    {
+      "id": "arxiv:2606.16847",
+      "kind": "paper",
+      "title": "Follow the Latent Roadmap: Navigating Revocable Decoding for Diffusion LLMs with Anchor Tokens",
+      "url": "https://arxiv.org/abs/2606.16847",
+      "date": "2026-09-02T11:15:54Z",
+      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
+      "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
+      "systems_signal": true,
+      "review_status": "unreviewed",
+      "source": "arXiv · continuous language diffusion / flow"
+    },
+    {
+      "id": "arxiv:2506.00290",
+      "kind": "paper",
+      "title": "DLM-One: Diffusion Language Models for One-Step Sequence Generation",
+      "url": "https://arxiv.org/abs/2506.00290",
+      "date": "2026-09-02T05:34:02Z",
+      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
+      "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
+      "systems_signal": false,
+      "review_status": "unreviewed",
+      "source": "arXiv · continuous language diffusion / flow"
+    },
+    {
+      "id": "arxiv:2605.27971",
+      "kind": "paper",
+      "title": "Semantic Flow Regularization: Teaching LLMs to Generate Diverse Yet Coherent Responses",
+      "url": "https://arxiv.org/abs/2605.27971",
+      "date": "2026-08-31T06:12:17Z",
+      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
+      "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
+      "systems_signal": false,
+      "review_status": "unreviewed",
+      "source": "arXiv · continuous language diffusion / flow"
+    },
+    {
+      "id": "arxiv:2608.23551",
+      "kind": "paper",
+      "title": "ConvergeFlow: Language Flow with Provable Convergence to Token Embeddings",
+      "url": "https://arxiv.org/abs/2608.23551",
+      "date": "2026-08-24T17:54:14Z",
+      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
+      "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
+      "systems_signal": false,
+      "review_status": "unreviewed",
+      "source": "arXiv · continuous language diffusion / flow"
+    },
+    {
+      "id": "arxiv:2606.29066",
+      "kind": "paper",
+      "title": "$x$-Prediction Flow: Efficient Continuous Decoding for Masked Diffusion Language Models",
+      "url": "https://arxiv.org/abs/2606.29066",
+      "date": "2026-08-17T02:35:18Z",
+      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
+      "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
+      "systems_signal": false,
+      "review_status": "unreviewed",
+      "source": "arXiv · continuous language diffusion / flow"
+    }
+  ]
+}

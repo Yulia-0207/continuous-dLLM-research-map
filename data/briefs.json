@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T12:54:49.093988+00:00",
+  "generated_at": "2026-09-12T05:45:18.190313+00:00",
   "window_days": 30,
   "sources": [
     {
@@ -42,7 +42,7 @@
       "name": "apple/ml-cadd",
       "url": "https://github.com/apple/ml-cadd",
       "status": "ok",
-      "count": 0
+      "count": 1
     },
     {
       "name": "david3684/flm",
@@ -100,6 +100,18 @@
     }
   ],
   "items": [
+    {
+      "id": "apple/ml-cadd:commit:a10369bc60f2c96fc253d4aeb33fa3872c44390f",
+      "kind": "github",
+      "title": "apple/ml-cadd · Update root files",
+      "url": "https://github.com/apple-aiml-research/ml-cadd/commit/a10369bc60f2c96fc253d4aeb33fa3872c44390f",
+      "date": "2026-09-11T15:50:54Z",
+      "summary": "Commit：代码活动不等于新论文或已验证的系统改进。",
+      "reason": "监测已收录连续 / 混合论文的官方仓库；单次最多 5 个 release、3 个 commit。",
+      "systems_signal": false,
+      "review_status": "unreviewed",
+      "source": "apple/ml-cadd"
+    },
     {
       "id": "arxiv:2605.18530",
       "kind": "paper",

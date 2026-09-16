@@ -1,13 +1,12 @@
 {
-  "generated_at": "2026-09-15T06:09:23.062732+00:00",
+  "generated_at": "2026-09-16T05:59:06.473255+00:00",
   "window_days": 30,
   "sources": [
     {
       "name": "arXiv · continuous language diffusion / flow",
       "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22diffusion%22+OR+all%3A%22flow+matching%22+OR+all%3A%22flow+map%22%29+AND+%28all%3A%22language%22+OR+all%3A%22text+generation%22%29+AND+%28all%3A%22continuous%22+OR+all%3A%22latent%22+OR+all%3A%22embedding%22+OR+all%3A%22bitstream%22%29&max_results=100&sortBy=lastUpdatedDate&sortOrder=descending",
-      "status": "error",
-      "count": 0,
-      "error": "HTTPError: HTTP 429"
+      "status": "ok",
+      "count": 6
     },
     {
       "name": "ByteDance-Seed/Cola-DLM",
@@ -114,6 +113,18 @@
       "source": "apple/ml-cadd"
     },
     {
+      "id": "arxiv:2609.04531",
+      "kind": "paper",
+      "title": "Distilled Continuous Diffusion Language Models Can Write Code in Few Steps---or One",
+      "url": "https://arxiv.org/abs/2609.04531",
+      "date": "2026-09-10T17:58:16Z",
+      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
+      "reason": "已收录论文的近期版本线索；日期为 arXiv updated，非正式发表日期。",
+      "systems_signal": false,
+      "review_status": "unreviewed",
+      "source": "arXiv · continuous language diffusion / flow"
+    },
+    {
       "id": "arxiv:2605.18530",
       "kind": "paper",
       "title": "Continuous Diffusion Scales Competitively with Discrete Diffusion for Language",
@@ -136,18 +147,6 @@
       "systems_signal": false,
       "review_status": "unreviewed",
       "source": "MananAg007/posterior-refinement"
-    },
-    {
-      "id": "arxiv:2609.04531",
-      "kind": "paper",
-      "title": "Distilled Continuous Diffusion Language Models Can Write Code in Few Steps---or One",
-      "url": "https://arxiv.org/abs/2609.04531",
-      "date": "2026-09-03T22:42:57Z",
-      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
-      "reason": "已收录论文的近期版本线索；日期为 arXiv updated，非正式发表日期。",
-      "systems_signal": false,
-      "review_status": "unreviewed",
-      "source": "arXiv · continuous language diffusion / flow"
     },
     {
       "id": "arxiv:2606.16847",
@@ -191,18 +190,6 @@
       "title": "ConvergeFlow: Language Flow with Provable Convergence to Token Embeddings",
       "url": "https://arxiv.org/abs/2608.23551",
       "date": "2026-08-24T17:54:14Z",
-      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
-      "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
-      "systems_signal": false,
-      "review_status": "unreviewed",
-      "source": "arXiv · continuous language diffusion / flow"
-    },
-    {
-      "id": "arxiv:2606.29066",
-      "kind": "paper",
-      "title": "$x$-Prediction Flow: Efficient Continuous Decoding for Masked Diffusion Language Models",
-      "url": "https://arxiv.org/abs/2606.29066",
-      "date": "2026-08-17T02:35:18Z",
       "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
       "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
       "systems_signal": false,

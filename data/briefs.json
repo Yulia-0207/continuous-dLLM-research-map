@@ -1,12 +1,13 @@
 {
-  "generated_at": "2026-09-16T05:59:06.473255+00:00",
+  "generated_at": "2026-09-17T06:07:55.478104+00:00",
   "window_days": 30,
   "sources": [
     {
       "name": "arXiv · continuous language diffusion / flow",
       "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22diffusion%22+OR+all%3A%22flow+matching%22+OR+all%3A%22flow+map%22%29+AND+%28all%3A%22language%22+OR+all%3A%22text+generation%22%29+AND+%28all%3A%22continuous%22+OR+all%3A%22latent%22+OR+all%3A%22embedding%22+OR+all%3A%22bitstream%22%29&max_results=100&sortBy=lastUpdatedDate&sortOrder=descending",
-      "status": "ok",
-      "count": 6
+      "status": "error",
+      "count": 0,
+      "error": "HTTPError: HTTP 406"
     },
     {
       "name": "ByteDance-Seed/Cola-DLM",

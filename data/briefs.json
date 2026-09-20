@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T05:50:39.688202+00:00",
+  "generated_at": "2026-09-20T06:12:47.448678+00:00",
   "window_days": 30,
   "sources": [
     {
@@ -61,7 +61,7 @@
       "name": "fyv587/AURORA-LM",
       "url": "https://github.com/fyv587/AURORA-LM",
       "status": "ok",
-      "count": 0
+      "count": 1
     },
     {
       "name": "harryjo97/RDLM",
@@ -101,6 +101,18 @@
     }
   ],
   "items": [
+    {
+      "id": "fyv587/AURORA-LM:commit:cfa6cfe87fb612880cd9158e43f31e0d7b91d178",
+      "kind": "github",
+      "title": "fyv587/AURORA-LM · Release AURORA-LM-S training and inference code",
+      "url": "https://github.com/fyv587/AURORA-LM/commit/cfa6cfe87fb612880cd9158e43f31e0d7b91d178",
+      "date": "2026-09-19T17:18:41Z",
+      "summary": "Commit：代码活动不等于新论文或已验证的系统改进。",
+      "reason": "监测已收录连续 / 混合论文的官方仓库；单次最多 5 个 release、3 个 commit。",
+      "systems_signal": false,
+      "review_status": "unreviewed",
+      "source": "fyv587/AURORA-LM"
+    },
     {
       "id": "apple/ml-cadd:commit:a10369bc60f2c96fc253d4aeb33fa3872c44390f",
       "kind": "github",

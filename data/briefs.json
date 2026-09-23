@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T06:11:29.064474+00:00",
+  "generated_at": "2026-09-23T05:56:48.906343+00:00",
   "window_days": 30,
   "sources": [
     {
@@ -25,7 +25,7 @@
       "name": "MananAg007/posterior-refinement",
       "url": "https://github.com/MananAg007/posterior-refinement",
       "status": "ok",
-      "count": 1
+      "count": 3
     },
     {
       "name": "Shark-NLP/DiffuSeq",
@@ -101,6 +101,42 @@
     }
   ],
   "items": [
+    {
+      "id": "MananAg007/posterior-refinement:commit:b1dc5806b5655a60156e24233591151d8c53cac7",
+      "kind": "github",
+      "title": "MananAg007/posterior-refinement · Merge pull request #1 from MananAg007/sheelfshah-patch-1",
+      "url": "https://github.com/MananAg007/posterior-refinement/commit/b1dc5806b5655a60156e24233591151d8c53cac7",
+      "date": "2026-09-22T16:21:13Z",
+      "summary": "Commit：代码活动不等于新论文或已验证的系统改进。",
+      "reason": "监测已收录连续 / 混合论文的官方仓库；单次最多 5 个 release、3 个 commit。",
+      "systems_signal": false,
+      "review_status": "unreviewed",
+      "source": "MananAg007/posterior-refinement"
+    },
+    {
+      "id": "MananAg007/posterior-refinement:commit:84c54ea12c99348d277b8876431a5da5e3d03a8f",
+      "kind": "github",
+      "title": "MananAg007/posterior-refinement · Add link to COLM 2026 NonAR-LM Workshop",
+      "url": "https://github.com/MananAg007/posterior-refinement/commit/84c54ea12c99348d277b8876431a5da5e3d03a8f",
+      "date": "2026-09-22T03:10:57Z",
+      "summary": "Commit：代码活动不等于新论文或已验证的系统改进。",
+      "reason": "监测已收录连续 / 混合论文的官方仓库；单次最多 5 个 release、3 个 commit。",
+      "systems_signal": false,
+      "review_status": "unreviewed",
+      "source": "MananAg007/posterior-refinement"
+    },
+    {
+      "id": "MananAg007/posterior-refinement:commit:7102c88b1b45badfe1a91c1fe2bbf5d5b3831c36",
+      "kind": "github",
+      "title": "MananAg007/posterior-refinement · Add news section to README",
+      "url": "https://github.com/MananAg007/posterior-refinement/commit/7102c88b1b45badfe1a91c1fe2bbf5d5b3831c36",
+      "date": "2026-09-22T03:06:49Z",
+      "summary": "Commit：代码活动不等于新论文或已验证的系统改进。",
+      "reason": "监测已收录连续 / 混合论文的官方仓库；单次最多 5 个 release、3 个 commit。",
+      "systems_signal": false,
+      "review_status": "unreviewed",
+      "source": "MananAg007/posterior-refinement"
+    },
     {
       "id": "fyv587/AURORA-LM:commit:cfa6cfe87fb612880cd9158e43f31e0d7b91d178",
       "kind": "github",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T05:56:48.906343+00:00",
+  "generated_at": "2026-09-24T06:09:04.940111+00:00",
   "window_days": 30,
   "sources": [
     {
@@ -227,18 +227,6 @@
       "title": "Semantic Flow Regularization: Teaching LLMs to Generate Diverse Yet Coherent Responses",
       "url": "https://arxiv.org/abs/2605.27971",
       "date": "2026-08-31T06:12:17Z",
-      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
-      "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
-      "systems_signal": false,
-      "review_status": "unreviewed",
-      "source": "arXiv · continuous language diffusion / flow"
-    },
-    {
-      "id": "arxiv:2608.23551",
-      "kind": "paper",
-      "title": "ConvergeFlow: Language Flow with Provable Convergence to Token Embeddings",
-      "url": "https://arxiv.org/abs/2608.23551",
-      "date": "2026-08-24T17:54:14Z",
       "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
       "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
       "systems_signal": false,

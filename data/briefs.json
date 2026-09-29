@@ -1,13 +1,12 @@
 {
-  "generated_at": "2026-09-28T06:50:09.560092+00:00",
+  "generated_at": "2026-09-29T06:52:48.648446+00:00",
   "window_days": 30,
   "sources": [
     {
       "name": "arXiv · continuous language diffusion / flow",
       "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22diffusion%22+OR+all%3A%22flow+matching%22+OR+all%3A%22flow+map%22%29+AND+%28all%3A%22language%22+OR+all%3A%22text+generation%22%29+AND+%28all%3A%22continuous%22+OR+all%3A%22latent%22+OR+all%3A%22embedding%22+OR+all%3A%22bitstream%22%29&max_results=100&sortBy=lastUpdatedDate&sortOrder=descending",
-      "status": "error",
-      "count": 0,
-      "error": "HTTPError: HTTP 406"
+      "status": "ok",
+      "count": 8
     },
     {
       "name": "ByteDance-Seed/Cola-DLM",
@@ -102,6 +101,54 @@
   ],
   "items": [
     {
+      "id": "arxiv:2609.33698",
+      "kind": "paper",
+      "title": "One Latent, Many Tokens: Jointly Learning Compressed Embeddings for Efficient Language Diffusion",
+      "url": "https://arxiv.org/abs/2609.33698",
+      "date": "2026-09-27T16:00:45Z",
+      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
+      "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
+      "systems_signal": true,
+      "review_status": "unreviewed",
+      "source": "arXiv · continuous language diffusion / flow"
+    },
+    {
+      "id": "arxiv:2605.14368",
+      "kind": "paper",
+      "title": "Where Should Diffusion Enter a Language Model? Geometry-Guided Hidden-State Replacement",
+      "url": "https://arxiv.org/abs/2605.14368",
+      "date": "2026-09-27T08:15:38Z",
+      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
+      "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
+      "systems_signal": false,
+      "review_status": "unreviewed",
+      "source": "arXiv · continuous language diffusion / flow"
+    },
+    {
+      "id": "arxiv:2609.29102",
+      "kind": "paper",
+      "title": "ELF-REG: Scaling Continuous Diffusion Language Models to Reasoning Tasks",
+      "url": "https://arxiv.org/abs/2609.29102",
+      "date": "2026-09-24T06:33:19Z",
+      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
+      "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
+      "systems_signal": false,
+      "review_status": "unreviewed",
+      "source": "arXiv · continuous language diffusion / flow"
+    },
+    {
+      "id": "arxiv:2609.27248",
+      "kind": "paper",
+      "title": "Repurposing Pre-trained LLMs as High Fidelity Continuous Text Autoencoders",
+      "url": "https://arxiv.org/abs/2609.27248",
+      "date": "2026-09-23T02:32:12Z",
+      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
+      "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
+      "systems_signal": false,
+      "review_status": "unreviewed",
+      "source": "arXiv · continuous language diffusion / flow"
+    },
+    {
       "id": "MananAg007/posterior-refinement:commit:b1dc5806b5655a60156e24233591151d8c53cac7",
       "kind": "github",
       "title": "MananAg007/posterior-refinement · Merge pull request #1 from MananAg007/sheelfshah-patch-1",
@@ -150,6 +197,30 @@
       "source": "fyv587/AURORA-LM"
     },
     {
+      "id": "arxiv:2609.19356",
+      "kind": "paper",
+      "title": "How to Guide Your Language Flow",
+      "url": "https://arxiv.org/abs/2609.19356",
+      "date": "2026-09-16T19:29:07Z",
+      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
+      "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
+      "systems_signal": false,
+      "review_status": "unreviewed",
+      "source": "arXiv · continuous language diffusion / flow"
+    },
+    {
+      "id": "arxiv:2606.16847",
+      "kind": "paper",
+      "title": "Follow the Latent Roadmap: Navigating Revocable Decoding for Diffusion LLMs with Anchor Tokens",
+      "url": "https://arxiv.org/abs/2606.16847",
+      "date": "2026-09-16T12:28:19Z",
+      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
+      "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
+      "systems_signal": true,
+      "review_status": "unreviewed",
+      "source": "arXiv · continuous language diffusion / flow"
+    },
+    {
       "id": "apple/ml-cadd:commit:a10369bc60f2c96fc253d4aeb33fa3872c44390f",
       "kind": "github",
       "title": "apple/ml-cadd · Update root files",
@@ -196,18 +267,6 @@
       "systems_signal": false,
       "review_status": "unreviewed",
       "source": "MananAg007/posterior-refinement"
-    },
-    {
-      "id": "arxiv:2606.16847",
-      "kind": "paper",
-      "title": "Follow the Latent Roadmap: Navigating Revocable Decoding for Diffusion LLMs with Anchor Tokens",
-      "url": "https://arxiv.org/abs/2606.16847",
-      "date": "2026-09-02T11:15:54Z",
-      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
-      "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
-      "systems_signal": true,
-      "review_status": "unreviewed",
-      "source": "arXiv · continuous language diffusion / flow"
     },
     {
       "id": "arxiv:2506.00290",

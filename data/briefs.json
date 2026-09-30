@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T06:52:48.648446+00:00",
+  "generated_at": "2026-09-30T06:40:29.114017+00:00",
   "window_days": 30,
   "sources": [
     {
@@ -100,6 +100,18 @@
     }
   ],
   "items": [
+    {
+      "id": "arxiv:2609.37391",
+      "kind": "paper",
+      "title": "Rethinking Soft Tokens for Parallel Decoding in Diffusion Language Models",
+      "url": "https://arxiv.org/abs/2609.37391",
+      "date": "2026-09-29T12:38:30Z",
+      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
+      "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
+      "systems_signal": false,
+      "review_status": "unreviewed",
+      "source": "arXiv · continuous language diffusion / flow"
+    },
     {
       "id": "arxiv:2609.33698",
       "kind": "paper",
@@ -274,18 +286,6 @@
       "title": "DLM-One: Diffusion Language Models for One-Step Sequence Generation",
       "url": "https://arxiv.org/abs/2506.00290",
       "date": "2026-09-02T05:34:02Z",
-      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
-      "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
-      "systems_signal": false,
-      "review_status": "unreviewed",
-      "source": "arXiv · continuous language diffusion / flow"
-    },
-    {
-      "id": "arxiv:2605.27971",
-      "kind": "paper",
-      "title": "Semantic Flow Regularization: Teaching LLMs to Generate Diverse Yet Coherent Responses",
-      "url": "https://arxiv.org/abs/2605.27971",
-      "date": "2026-08-31T06:12:17Z",
       "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
       "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
       "systems_signal": false,

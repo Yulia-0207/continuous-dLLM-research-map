@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T07:10:22.730963+00:00",
+  "generated_at": "2026-10-02T06:59:12.746666+00:00",
   "window_days": 30,
   "sources": [
     {
@@ -292,18 +292,6 @@
       "systems_signal": false,
       "review_status": "unreviewed",
       "source": "MananAg007/posterior-refinement"
-    },
-    {
-      "id": "arxiv:2506.00290",
-      "kind": "paper",
-      "title": "DLM-One: Diffusion Language Models for One-Step Sequence Generation",
-      "url": "https://arxiv.org/abs/2506.00290",
-      "date": "2026-09-02T05:34:02Z",
-      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
-      "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
-      "systems_signal": false,
-      "review_status": "unreviewed",
-      "source": "arXiv · continuous language diffusion / flow"
     }
   ]
 }

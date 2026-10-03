@@ -1,13 +1,12 @@
 {
-  "generated_at": "2026-10-02T06:59:12.746666+00:00",
+  "generated_at": "2026-10-03T06:29:28.720150+00:00",
   "window_days": 30,
   "sources": [
     {
       "name": "arXiv · continuous language diffusion / flow",
       "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22diffusion%22+OR+all%3A%22flow+matching%22+OR+all%3A%22flow+map%22%29+AND+%28all%3A%22language%22+OR+all%3A%22text+generation%22%29+AND+%28all%3A%22continuous%22+OR+all%3A%22latent%22+OR+all%3A%22embedding%22+OR+all%3A%22bitstream%22%29&max_results=100&sortBy=lastUpdatedDate&sortOrder=descending",
-      "status": "error",
-      "count": 0,
-      "error": "TimeoutError：未能获取有效响应"
+      "status": "ok",
+      "count": 13
     },
     {
       "name": "ByteDance-Seed/Cola-DLM",
@@ -102,6 +101,66 @@
   ],
   "items": [
     {
+      "id": "arxiv:2610.02193",
+      "kind": "paper",
+      "title": "Hierarchical Continuous Diffusion Language Models",
+      "url": "https://arxiv.org/abs/2610.02193",
+      "date": "2026-10-01T17:59:39Z",
+      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
+      "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
+      "systems_signal": false,
+      "review_status": "unreviewed",
+      "source": "arXiv · continuous language diffusion / flow"
+    },
+    {
+      "id": "arxiv:2607.00714",
+      "kind": "paper",
+      "title": "Self-conditioned Flow Map Language Models via Fixed-point Flows",
+      "url": "https://arxiv.org/abs/2607.00714",
+      "date": "2026-10-01T04:02:19Z",
+      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
+      "reason": "已收录论文的近期版本线索；日期为 arXiv updated，非正式发表日期。",
+      "systems_signal": false,
+      "review_status": "unreviewed",
+      "source": "arXiv · continuous language diffusion / flow"
+    },
+    {
+      "id": "arxiv:2610.01016",
+      "kind": "paper",
+      "title": "Scaling and Distilling Text Embeddings for Better Diffusibility",
+      "url": "https://arxiv.org/abs/2610.01016",
+      "date": "2026-10-01T03:59:36Z",
+      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
+      "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
+      "systems_signal": false,
+      "review_status": "unreviewed",
+      "source": "arXiv · continuous language diffusion / flow"
+    },
+    {
+      "id": "arxiv:2610.00894",
+      "kind": "paper",
+      "title": "Clock Diffusion: Efficient Semi-Autoregressive Continuous Diffusion Language Models",
+      "url": "https://arxiv.org/abs/2610.00894",
+      "date": "2026-10-01T01:17:31Z",
+      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
+      "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
+      "systems_signal": false,
+      "review_status": "unreviewed",
+      "source": "arXiv · continuous language diffusion / flow"
+    },
+    {
+      "id": "arxiv:2609.40235",
+      "kind": "paper",
+      "title": "Distribution Matching Distillation for Continuous Diffusion Language Models",
+      "url": "https://arxiv.org/abs/2609.40235",
+      "date": "2026-09-30T17:32:05Z",
+      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
+      "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
+      "systems_signal": false,
+      "review_status": "unreviewed",
+      "source": "arXiv · continuous language diffusion / flow"
+    },
+    {
       "id": "Ugness/self-conditioned-fmlm:commit:7b82f178bfccbbb2ac985eb38d1bc59011ee674f",
       "kind": "github",
       "title": "Ugness/self-conditioned-fmlm · arxiv_v2",
@@ -112,6 +171,42 @@
       "systems_signal": false,
       "review_status": "unreviewed",
       "source": "Ugness/self-conditioned-fmlm"
+    },
+    {
+      "id": "arxiv:2609.39382",
+      "kind": "paper",
+      "title": "SkillFM: Generating Skills for LLM Agents via Latent Flow Matching",
+      "url": "https://arxiv.org/abs/2609.39382",
+      "date": "2026-09-30T09:32:54Z",
+      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
+      "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
+      "systems_signal": false,
+      "review_status": "unreviewed",
+      "source": "arXiv · continuous language diffusion / flow"
+    },
+    {
+      "id": "arxiv:2607.00588",
+      "kind": "paper",
+      "title": "A Dominant Self-Conditioning Direction Drives Repetition in Unconditional Continuous Diffusion Language Models",
+      "url": "https://arxiv.org/abs/2607.00588",
+      "date": "2026-09-30T09:23:14Z",
+      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
+      "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
+      "systems_signal": false,
+      "review_status": "unreviewed",
+      "source": "arXiv · continuous language diffusion / flow"
+    },
+    {
+      "id": "arxiv:2609.38364",
+      "kind": "paper",
+      "title": "Acceleration of Diffusion Language Model through Discrete Average Generator",
+      "url": "https://arxiv.org/abs/2609.38364",
+      "date": "2026-09-29T18:27:23Z",
+      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
+      "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
+      "systems_signal": true,
+      "review_status": "unreviewed",
+      "source": "arXiv · continuous language diffusion / flow"
     },
     {
       "id": "arxiv:2609.37391",

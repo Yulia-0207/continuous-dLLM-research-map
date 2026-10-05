@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-04T06:48:55.064527+00:00",
+  "generated_at": "2026-10-05T07:00:11.118101+00:00",
   "window_days": 30,
   "sources": [
     {
       "name": "arXiv · continuous language diffusion / flow",
       "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22diffusion%22+OR+all%3A%22flow+matching%22+OR+all%3A%22flow+map%22%29+AND+%28all%3A%22language%22+OR+all%3A%22text+generation%22%29+AND+%28all%3A%22continuous%22+OR+all%3A%22latent%22+OR+all%3A%22embedding%22+OR+all%3A%22bitstream%22%29&max_results=100&sortBy=lastUpdatedDate&sortOrder=descending",
       "status": "ok",
-      "count": 13
+      "count": 14
     },
     {
       "name": "ByteDance-Seed/Cola-DLM",
@@ -48,7 +48,7 @@
       "name": "david3684/flm",
       "url": "https://github.com/david3684/flm",
       "status": "ok",
-      "count": 0
+      "count": 1
     },
     {
       "name": "dongzhuoyao/flowseq",
@@ -100,6 +100,42 @@
     }
   ],
   "items": [
+    {
+      "id": "david3684/flm:commit:904468af4d5be949b488e79cfdcde1aa51b0d1cd",
+      "kind": "github",
+      "title": "david3684/flm · Update README.md",
+      "url": "https://github.com/david3684/flm/commit/904468af4d5be949b488e79cfdcde1aa51b0d1cd",
+      "date": "2026-10-04T12:22:40Z",
+      "summary": "Commit：代码活动不等于新论文或已验证的系统改进。",
+      "reason": "监测已收录连续 / 混合论文的官方仓库；单次最多 5 个 release、3 个 commit。",
+      "systems_signal": false,
+      "review_status": "unreviewed",
+      "source": "david3684/flm"
+    },
+    {
+      "id": "arxiv:2609.27248",
+      "kind": "paper",
+      "title": "Repurposing Pre-trained LLMs as High Fidelity Continuous Text Autoencoders",
+      "url": "https://arxiv.org/abs/2609.27248",
+      "date": "2026-10-02T04:25:28Z",
+      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
+      "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
+      "systems_signal": false,
+      "review_status": "unreviewed",
+      "source": "arXiv · continuous language diffusion / flow"
+    },
+    {
+      "id": "arxiv:2610.02665",
+      "kind": "paper",
+      "title": "Large Language Continuous Diffusion Models",
+      "url": "https://arxiv.org/abs/2610.02665",
+      "date": "2026-10-02T01:34:44Z",
+      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
+      "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
+      "systems_signal": false,
+      "review_status": "unreviewed",
+      "source": "arXiv · continuous language diffusion / flow"
+    },
     {
       "id": "arxiv:2610.02193",
       "kind": "paper",
@@ -250,18 +286,6 @@
       "title": "ELF-REG: Scaling Continuous Diffusion Language Models to Reasoning Tasks",
       "url": "https://arxiv.org/abs/2609.29102",
       "date": "2026-09-24T06:33:19Z",
-      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
-      "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
-      "systems_signal": false,
-      "review_status": "unreviewed",
-      "source": "arXiv · continuous language diffusion / flow"
-    },
-    {
-      "id": "arxiv:2609.27248",
-      "kind": "paper",
-      "title": "Repurposing Pre-trained LLMs as High Fidelity Continuous Text Autoencoders",
-      "url": "https://arxiv.org/abs/2609.27248",
-      "date": "2026-09-23T02:32:12Z",
       "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
       "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
       "systems_signal": false,

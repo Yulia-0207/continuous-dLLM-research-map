@@ -1,13 +1,12 @@
 {
-  "generated_at": "2026-10-06T07:31:48.900728+00:00",
+  "generated_at": "2026-10-07T07:11:50.673707+00:00",
   "window_days": 30,
   "sources": [
     {
       "name": "arXiv · continuous language diffusion / flow",
       "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22diffusion%22+OR+all%3A%22flow+matching%22+OR+all%3A%22flow+map%22%29+AND+%28all%3A%22language%22+OR+all%3A%22text+generation%22%29+AND+%28all%3A%22continuous%22+OR+all%3A%22latent%22+OR+all%3A%22embedding%22+OR+all%3A%22bitstream%22%29&max_results=100&sortBy=lastUpdatedDate&sortOrder=descending",
-      "status": "error",
-      "count": 0,
-      "error": "TimeoutError：未能获取有效响应"
+      "status": "ok",
+      "count": 15
     },
     {
       "name": "ByteDance-Seed/Cola-DLM",
@@ -101,6 +100,30 @@
     }
   ],
   "items": [
+    {
+      "id": "arxiv:2609.29102",
+      "kind": "paper",
+      "title": "ELF-REG: Scaling Continuous Diffusion Language Models to Reasoning Tasks",
+      "url": "https://arxiv.org/abs/2609.29102",
+      "date": "2026-10-06T17:43:50Z",
+      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
+      "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
+      "systems_signal": false,
+      "review_status": "unreviewed",
+      "source": "arXiv · continuous language diffusion / flow"
+    },
+    {
+      "id": "arxiv:2610.08738",
+      "kind": "paper",
+      "title": "Denoising Hierarchical Representations: Joint Continuous Diffusion for Language Modeling",
+      "url": "https://arxiv.org/abs/2610.08738",
+      "date": "2026-10-06T17:38:19Z",
+      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
+      "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
+      "systems_signal": false,
+      "review_status": "unreviewed",
+      "source": "arXiv · continuous language diffusion / flow"
+    },
     {
       "id": "david3684/flm:commit:904468af4d5be949b488e79cfdcde1aa51b0d1cd",
       "kind": "github",
@@ -275,18 +298,6 @@
       "title": "Where Should Diffusion Enter a Language Model? Geometry-Guided Hidden-State Replacement",
       "url": "https://arxiv.org/abs/2605.14368",
       "date": "2026-09-27T08:15:38Z",
-      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
-      "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
-      "systems_signal": false,
-      "review_status": "unreviewed",
-      "source": "arXiv · continuous language diffusion / flow"
-    },
-    {
-      "id": "arxiv:2609.29102",
-      "kind": "paper",
-      "title": "ELF-REG: Scaling Continuous Diffusion Language Models to Reasoning Tasks",
-      "url": "https://arxiv.org/abs/2609.29102",
-      "date": "2026-09-24T06:33:19Z",
       "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
       "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
       "systems_signal": false,

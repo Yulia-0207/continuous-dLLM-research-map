@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-07T07:11:50.673707+00:00",
+  "generated_at": "2026-10-08T07:20:50.391630+00:00",
   "window_days": 30,
   "sources": [
     {
       "name": "arXiv · continuous language diffusion / flow",
       "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22diffusion%22+OR+all%3A%22flow+matching%22+OR+all%3A%22flow+map%22%29+AND+%28all%3A%22language%22+OR+all%3A%22text+generation%22%29+AND+%28all%3A%22continuous%22+OR+all%3A%22latent%22+OR+all%3A%22embedding%22+OR+all%3A%22bitstream%22%29&max_results=100&sortBy=lastUpdatedDate&sortOrder=descending",
       "status": "ok",
-      "count": 15
+      "count": 17
     },
     {
       "name": "ByteDance-Seed/Cola-DLM",
@@ -100,6 +100,30 @@
     }
   ],
   "items": [
+    {
+      "id": "arxiv:2610.09416",
+      "kind": "paper",
+      "title": "Efficient Reasoning with Flow Language Models",
+      "url": "https://arxiv.org/abs/2610.09416",
+      "date": "2026-10-07T04:18:22Z",
+      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
+      "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
+      "systems_signal": false,
+      "review_status": "unreviewed",
+      "source": "arXiv · continuous language diffusion / flow"
+    },
+    {
+      "id": "arxiv:2610.09145",
+      "kind": "paper",
+      "title": "Noise Your Prompt: Noising Conditioning Tokens in Continuous Diffusion Language Models",
+      "url": "https://arxiv.org/abs/2610.09145",
+      "date": "2026-10-06T21:38:52Z",
+      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
+      "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
+      "systems_signal": false,
+      "review_status": "unreviewed",
+      "source": "arXiv · continuous language diffusion / flow"
+    },
     {
       "id": "arxiv:2609.29102",
       "kind": "paper",

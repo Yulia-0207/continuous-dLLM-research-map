@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T07:21:34.220042+00:00",
+  "generated_at": "2026-10-10T07:02:57.961627+00:00",
   "window_days": 30,
   "sources": [
     {
@@ -418,18 +418,6 @@
       "title": "Distilled Continuous Diffusion Language Models Can Write Code in Few Steps---or One",
       "url": "https://arxiv.org/abs/2609.04531",
       "date": "2026-09-10T17:58:16Z",
-      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
-      "reason": "已收录论文的近期版本线索；日期为 arXiv updated，非正式发表日期。",
-      "systems_signal": false,
-      "review_status": "unreviewed",
-      "source": "arXiv · continuous language diffusion / flow"
-    },
-    {
-      "id": "arxiv:2605.18530",
-      "kind": "paper",
-      "title": "Continuous Diffusion Scales Competitively with Discrete Diffusion for Language",
-      "url": "https://arxiv.org/abs/2605.18530",
-      "date": "2026-09-09T21:20:41Z",
       "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
       "reason": "已收录论文的近期版本线索；日期为 arXiv updated，非正式发表日期。",
       "systems_signal": false,

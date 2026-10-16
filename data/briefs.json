@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T05:52:56.692183+00:00",
+  "generated_at": "2026-10-16T05:49:23.079633+00:00",
   "window_days": 30,
   "sources": [
     {
@@ -100,6 +100,18 @@
     }
   ],
   "items": [
+    {
+      "id": "arxiv:2610.22330",
+      "kind": "paper",
+      "title": "Designing Transformers for Continuous Diffusion Language Models",
+      "url": "https://arxiv.org/abs/2610.22330",
+      "date": "2026-10-15T17:52:31Z",
+      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
+      "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
+      "systems_signal": false,
+      "review_status": "unreviewed",
+      "source": "arXiv · continuous language diffusion / flow"
+    },
     {
       "id": "arxiv:2610.15527",
       "kind": "paper",

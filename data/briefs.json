@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-19T06:09:46.908365+00:00",
+  "generated_at": "2026-10-20T05:59:10.884992+00:00",
   "window_days": 30,
   "sources": [
     {
       "name": "arXiv · continuous language diffusion / flow",
       "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22diffusion%22+OR+all%3A%22flow+matching%22+OR+all%3A%22flow+map%22%29+AND+%28all%3A%22language%22+OR+all%3A%22text+generation%22%29+AND+%28all%3A%22continuous%22+OR+all%3A%22latent%22+OR+all%3A%22embedding%22+OR+all%3A%22bitstream%22%29&max_results=100&sortBy=lastUpdatedDate&sortOrder=descending",
       "status": "ok",
-      "count": 11
+      "count": 8
     },
     {
       "name": "ByteDance-Seed/Cola-DLM",
@@ -60,7 +60,7 @@
       "name": "fyv587/AURORA-LM",
       "url": "https://github.com/fyv587/AURORA-LM",
       "status": "ok",
-      "count": 1
+      "count": 0
     },
     {
       "name": "harryjo97/RDLM",
@@ -411,18 +411,6 @@
       "systems_signal": false,
       "review_status": "unreviewed",
       "source": "MananAg007/posterior-refinement"
-    },
-    {
-      "id": "fyv587/AURORA-LM:commit:cfa6cfe87fb612880cd9158e43f31e0d7b91d178",
-      "kind": "github",
-      "title": "fyv587/AURORA-LM · Release AURORA-LM-S training and inference code",
-      "url": "https://github.com/fyv587/AURORA-LM/commit/cfa6cfe87fb612880cd9158e43f31e0d7b91d178",
-      "date": "2026-09-19T17:18:41Z",
-      "summary": "Commit：代码活动不等于新论文或已验证的系统改进。",
-      "reason": "监测已收录连续 / 混合论文的官方仓库；单次最多 5 个 release、3 个 commit。",
-      "systems_signal": false,
-      "review_status": "unreviewed",
-      "source": "fyv587/AURORA-LM"
     }
   ]
 }

@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-21T05:59:53.123049+00:00",
+  "generated_at": "2026-10-22T06:06:08.531455+00:00",
   "window_days": 30,
   "sources": [
     {
       "name": "arXiv · continuous language diffusion / flow",
       "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22diffusion%22+OR+all%3A%22flow+matching%22+OR+all%3A%22flow+map%22%29+AND+%28all%3A%22language%22+OR+all%3A%22text+generation%22%29+AND+%28all%3A%22continuous%22+OR+all%3A%22latent%22+OR+all%3A%22embedding%22+OR+all%3A%22bitstream%22%29&max_results=100&sortBy=lastUpdatedDate&sortOrder=descending",
       "status": "ok",
-      "count": 9
+      "count": 12
     },
     {
       "name": "ByteDance-Seed/Cola-DLM",
@@ -24,7 +24,7 @@
       "name": "MananAg007/posterior-refinement",
       "url": "https://github.com/MananAg007/posterior-refinement",
       "status": "ok",
-      "count": 3
+      "count": 1
     },
     {
       "name": "Shark-NLP/DiffuSeq",
@@ -100,6 +100,42 @@
     }
   ],
   "items": [
+    {
+      "id": "arxiv:2610.30068",
+      "kind": "paper",
+      "title": "Loopholing All the Way: Language Modeling with pure Self-Conditioning",
+      "url": "https://arxiv.org/abs/2610.30068",
+      "date": "2026-10-21T17:25:08Z",
+      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
+      "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
+      "systems_signal": false,
+      "review_status": "unreviewed",
+      "source": "arXiv · continuous language diffusion / flow"
+    },
+    {
+      "id": "arxiv:2610.29136",
+      "kind": "paper",
+      "title": "GRAFT: Restoring the Missing Sampling Interface in Continuous Diffusion Language Models",
+      "url": "https://arxiv.org/abs/2610.29136",
+      "date": "2026-10-21T03:15:30Z",
+      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
+      "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
+      "systems_signal": false,
+      "review_status": "unreviewed",
+      "source": "arXiv · continuous language diffusion / flow"
+    },
+    {
+      "id": "arxiv:2610.28905",
+      "kind": "paper",
+      "title": "Hidden Messages Between Diffusion Language Model Agents: Causal Evidence for Latent Communication",
+      "url": "https://arxiv.org/abs/2610.28905",
+      "date": "2026-10-20T20:31:16Z",
+      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
+      "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
+      "systems_signal": false,
+      "review_status": "unreviewed",
+      "source": "arXiv · continuous language diffusion / flow"
+    },
     {
       "id": "arxiv:2610.28559",
       "kind": "paper",
@@ -406,30 +442,6 @@
       "title": "MananAg007/posterior-refinement · Merge pull request #1 from MananAg007/sheelfshah-patch-1",
       "url": "https://github.com/MananAg007/posterior-refinement/commit/b1dc5806b5655a60156e24233591151d8c53cac7",
       "date": "2026-09-22T16:21:13Z",
-      "summary": "Commit：代码活动不等于新论文或已验证的系统改进。",
-      "reason": "监测已收录连续 / 混合论文的官方仓库；单次最多 5 个 release、3 个 commit。",
-      "systems_signal": false,
-      "review_status": "unreviewed",
-      "source": "MananAg007/posterior-refinement"
-    },
-    {
-      "id": "MananAg007/posterior-refinement:commit:84c54ea12c99348d277b8876431a5da5e3d03a8f",
-      "kind": "github",
-      "title": "MananAg007/posterior-refinement · Add link to COLM 2026 NonAR-LM Workshop",
-      "url": "https://github.com/MananAg007/posterior-refinement/commit/84c54ea12c99348d277b8876431a5da5e3d03a8f",
-      "date": "2026-09-22T03:10:57Z",
-      "summary": "Commit：代码活动不等于新论文或已验证的系统改进。",
-      "reason": "监测已收录连续 / 混合论文的官方仓库；单次最多 5 个 release、3 个 commit。",
-      "systems_signal": false,
-      "review_status": "unreviewed",
-      "source": "MananAg007/posterior-refinement"
-    },
-    {
-      "id": "MananAg007/posterior-refinement:commit:7102c88b1b45badfe1a91c1fe2bbf5d5b3831c36",
-      "kind": "github",
-      "title": "MananAg007/posterior-refinement · Add news section to README",
-      "url": "https://github.com/MananAg007/posterior-refinement/commit/7102c88b1b45badfe1a91c1fe2bbf5d5b3831c36",
-      "date": "2026-09-22T03:06:49Z",
       "summary": "Commit：代码活动不等于新论文或已验证的系统改进。",
       "reason": "监测已收录连续 / 混合论文的官方仓库；单次最多 5 个 release、3 个 commit。",
       "systems_signal": false,

@@ -1,13 +1,12 @@
 {
-  "generated_at": "2026-10-26T06:08:36.199543+00:00",
+  "generated_at": "2026-10-27T06:14:26.406886+00:00",
   "window_days": 30,
   "sources": [
     {
       "name": "arXiv · continuous language diffusion / flow",
       "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22diffusion%22+OR+all%3A%22flow+matching%22+OR+all%3A%22flow+map%22%29+AND+%28all%3A%22language%22+OR+all%3A%22text+generation%22%29+AND+%28all%3A%22continuous%22+OR+all%3A%22latent%22+OR+all%3A%22embedding%22+OR+all%3A%22bitstream%22%29&max_results=100&sortBy=lastUpdatedDate&sortOrder=descending",
-      "status": "error",
-      "count": 0,
-      "error": "TimeoutError：未能获取有效响应"
+      "status": "ok",
+      "count": 13
     },
     {
       "name": "ByteDance-Seed/Cola-DLM",
@@ -102,6 +101,66 @@
   ],
   "items": [
     {
+      "id": "arxiv:2610.30068",
+      "kind": "paper",
+      "title": "Loopholing All the Way: Language Modeling with pure Self-Conditioning",
+      "url": "https://arxiv.org/abs/2610.30068",
+      "date": "2026-10-26T10:01:56Z",
+      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
+      "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
+      "systems_signal": false,
+      "review_status": "unreviewed",
+      "source": "arXiv · continuous language diffusion / flow"
+    },
+    {
+      "id": "arxiv:2610.35101",
+      "kind": "paper",
+      "title": "Spherical Brownian Diffusion for Language Modeling",
+      "url": "https://arxiv.org/abs/2610.35101",
+      "date": "2026-10-26T09:40:42Z",
+      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
+      "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
+      "systems_signal": true,
+      "review_status": "unreviewed",
+      "source": "arXiv · continuous language diffusion / flow"
+    },
+    {
+      "id": "arxiv:2605.18530",
+      "kind": "paper",
+      "title": "Continuous Diffusion Scales Competitively with Discrete Diffusion for Language",
+      "url": "https://arxiv.org/abs/2605.18530",
+      "date": "2026-10-24T20:05:07Z",
+      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
+      "reason": "已收录论文的近期版本线索；日期为 arXiv updated，非正式发表日期。",
+      "systems_signal": false,
+      "review_status": "unreviewed",
+      "source": "arXiv · continuous language diffusion / flow"
+    },
+    {
+      "id": "arxiv:2610.33811",
+      "kind": "paper",
+      "title": "Rectified Language Flow",
+      "url": "https://arxiv.org/abs/2610.33811",
+      "date": "2026-10-24T17:16:49Z",
+      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
+      "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
+      "systems_signal": false,
+      "review_status": "unreviewed",
+      "source": "arXiv · continuous language diffusion / flow"
+    },
+    {
+      "id": "arxiv:2610.32604",
+      "kind": "paper",
+      "title": "LLaCO: Continuous Diffusion for Large Language Models with Competition-Aware Semantic Scheduling",
+      "url": "https://arxiv.org/abs/2610.32604",
+      "date": "2026-10-23T13:28:40Z",
+      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
+      "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
+      "systems_signal": true,
+      "review_status": "unreviewed",
+      "source": "arXiv · continuous language diffusion / flow"
+    },
+    {
       "id": "arxiv:2610.31558",
       "kind": "paper",
       "title": "Diffusion Language Models for Perplexity-Aware Black-Box Attacks",
@@ -119,18 +178,6 @@
       "title": "Cola2: Co-Adaptive Hierarchical Language Modeling with Continuous Semantic Compression and Balanced Discrete Generation",
       "url": "https://arxiv.org/abs/2610.31305",
       "date": "2026-10-22T14:04:07Z",
-      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
-      "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
-      "systems_signal": false,
-      "review_status": "unreviewed",
-      "source": "arXiv · continuous language diffusion / flow"
-    },
-    {
-      "id": "arxiv:2610.30068",
-      "kind": "paper",
-      "title": "Loopholing All the Way: Language Modeling with pure Self-Conditioning",
-      "url": "https://arxiv.org/abs/2610.30068",
-      "date": "2026-10-21T17:25:08Z",
       "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
       "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
       "systems_signal": false,

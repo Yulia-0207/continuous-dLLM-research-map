@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T06:57:44.784564+00:00",
+  "generated_at": "2026-11-01T07:29:32.773039+00:00",
   "window_days": 30,
   "sources": [
     {
@@ -363,42 +363,6 @@
       "systems_signal": false,
       "review_status": "unreviewed",
       "source": "david3684/flm"
-    },
-    {
-      "id": "arxiv:2609.27248",
-      "kind": "paper",
-      "title": "Repurposing Pre-trained LLMs as High Fidelity Continuous Text Autoencoders",
-      "url": "https://arxiv.org/abs/2609.27248",
-      "date": "2026-10-02T04:25:28Z",
-      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
-      "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
-      "systems_signal": false,
-      "review_status": "unreviewed",
-      "source": "arXiv · continuous language diffusion / flow"
-    },
-    {
-      "id": "arxiv:2610.02665",
-      "kind": "paper",
-      "title": "Large Language Continuous Diffusion Models",
-      "url": "https://arxiv.org/abs/2610.02665",
-      "date": "2026-10-02T01:34:44Z",
-      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
-      "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
-      "systems_signal": false,
-      "review_status": "unreviewed",
-      "source": "arXiv · continuous language diffusion / flow"
-    },
-    {
-      "id": "arxiv:2610.02193",
-      "kind": "paper",
-      "title": "Hierarchical Continuous Diffusion Language Models",
-      "url": "https://arxiv.org/abs/2610.02193",
-      "date": "2026-10-01T17:59:39Z",
-      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
-      "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
-      "systems_signal": false,
-      "review_status": "unreviewed",
-      "source": "arXiv · continuous language diffusion / flow"
     }
   ]
 }

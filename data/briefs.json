@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-01T07:29:32.773039+00:00",
+  "generated_at": "2026-11-02T07:38:44.386232+00:00",
   "window_days": 30,
   "sources": [
     {
       "name": "arXiv · continuous language diffusion / flow",
       "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22diffusion%22+OR+all%3A%22flow+matching%22+OR+all%3A%22flow+map%22%29+AND+%28all%3A%22language%22+OR+all%3A%22text+generation%22%29+AND+%28all%3A%22continuous%22+OR+all%3A%22latent%22+OR+all%3A%22embedding%22+OR+all%3A%22bitstream%22%29&max_results=100&sortBy=lastUpdatedDate&sortOrder=descending",
       "status": "ok",
-      "count": 13
+      "count": 15
     },
     {
       "name": "ByteDance-Seed/Cola-DLM",
@@ -101,6 +101,18 @@
   ],
   "items": [
     {
+      "id": "arxiv:2610.42084",
+      "kind": "paper",
+      "title": "RangeSWA: Training-Free Length Extrapolation for Continuous Diffusion Language Models",
+      "url": "https://arxiv.org/abs/2610.42084",
+      "date": "2026-10-30T17:35:48Z",
+      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
+      "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
+      "systems_signal": true,
+      "review_status": "unreviewed",
+      "source": "arXiv · continuous language diffusion / flow"
+    },
+    {
       "id": "nealchen2003/LangFlow:commit:f39fc7995889df228c1763ddd8a4f177523a237f",
       "kind": "github",
       "title": "nealchen2003/LangFlow · [train] release training and evaluation code",
@@ -111,6 +123,18 @@
       "systems_signal": false,
       "review_status": "unreviewed",
       "source": "nealchen2003/LangFlow"
+    },
+    {
+      "id": "arxiv:2610.40847",
+      "kind": "paper",
+      "title": "The Generative Gap Between Speculative Drafter and Continuous Diffusion Language Model",
+      "url": "https://arxiv.org/abs/2610.40847",
+      "date": "2026-10-29T18:30:59Z",
+      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
+      "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
+      "systems_signal": true,
+      "review_status": "unreviewed",
+      "source": "arXiv · continuous language diffusion / flow"
     },
     {
       "id": "arxiv:2610.37115",

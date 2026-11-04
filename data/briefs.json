@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T07:53:24.800092+00:00",
+  "generated_at": "2026-11-04T07:28:15.635717+00:00",
   "window_days": 30,
   "sources": [
     {
@@ -48,7 +48,7 @@
       "name": "david3684/flm",
       "url": "https://github.com/david3684/flm",
       "status": "ok",
-      "count": 1
+      "count": 0
     },
     {
       "name": "dongzhuoyao/flowseq",
@@ -399,18 +399,6 @@
       "systems_signal": false,
       "review_status": "unreviewed",
       "source": "arXiv · continuous language diffusion / flow"
-    },
-    {
-      "id": "david3684/flm:commit:904468af4d5be949b488e79cfdcde1aa51b0d1cd",
-      "kind": "github",
-      "title": "david3684/flm · Update README.md",
-      "url": "https://github.com/david3684/flm/commit/904468af4d5be949b488e79cfdcde1aa51b0d1cd",
-      "date": "2026-10-04T12:22:40Z",
-      "summary": "Commit：代码活动不等于新论文或已验证的系统改进。",
-      "reason": "监测已收录连续 / 混合论文的官方仓库；单次最多 5 个 release、3 个 commit。",
-      "systems_signal": false,
-      "review_status": "unreviewed",
-      "source": "david3684/flm"
     }
   ]
 }

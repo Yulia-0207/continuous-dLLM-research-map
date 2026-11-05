@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-04T07:28:15.635717+00:00",
+  "generated_at": "2026-11-05T07:53:26.808709+00:00",
   "window_days": 30,
   "sources": [
     {
       "name": "arXiv · continuous language diffusion / flow",
       "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22diffusion%22+OR+all%3A%22flow+matching%22+OR+all%3A%22flow+map%22%29+AND+%28all%3A%22language%22+OR+all%3A%22text+generation%22%29+AND+%28all%3A%22continuous%22+OR+all%3A%22latent%22+OR+all%3A%22embedding%22+OR+all%3A%22bitstream%22%29&max_results=100&sortBy=lastUpdatedDate&sortOrder=descending",
       "status": "ok",
-      "count": 17
+      "count": 19
     },
     {
       "name": "ByteDance-Seed/Cola-DLM",
@@ -84,7 +84,7 @@
       "name": "lillian039/ELF",
       "url": "https://github.com/lillian039/ELF",
       "status": "ok",
-      "count": 0
+      "count": 1
     },
     {
       "name": "nealchen2003/LangFlow",
@@ -100,6 +100,42 @@
     }
   ],
   "items": [
+    {
+      "id": "lillian039/ELF:commit:5ad6bbbdd324c4ed5a914605aacc0ab7f975fba1",
+      "kind": "github",
+      "title": "lillian039/ELF · update",
+      "url": "https://github.com/lillian039/ELF/commit/5ad6bbbdd324c4ed5a914605aacc0ab7f975fba1",
+      "date": "2026-11-05T00:36:08Z",
+      "summary": "Commit：代码活动不等于新论文或已验证的系统改进。",
+      "reason": "监测已收录连续 / 混合论文的官方仓库；单次最多 5 个 release、3 个 commit。",
+      "systems_signal": false,
+      "review_status": "unreviewed",
+      "source": "lillian039/ELF"
+    },
+    {
+      "id": "arxiv:2607.14106",
+      "kind": "paper",
+      "title": "Token Time Continuous Diffusion for Language Modeling",
+      "url": "https://arxiv.org/abs/2607.14106",
+      "date": "2026-11-04T16:32:30Z",
+      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
+      "reason": "已收录论文的近期版本线索；日期为 arXiv updated，非正式发表日期。",
+      "systems_signal": false,
+      "review_status": "unreviewed",
+      "source": "arXiv · continuous language diffusion / flow"
+    },
+    {
+      "id": "arxiv:2608.02602",
+      "kind": "paper",
+      "title": "AURORA-LM: Autoencoding Unified Representation for Continuous-Latent Diffusion Language Modeling",
+      "url": "https://arxiv.org/abs/2608.02602",
+      "date": "2026-11-04T08:54:29Z",
+      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
+      "reason": "已收录论文的近期版本线索；日期为 arXiv updated，非正式发表日期。",
+      "systems_signal": false,
+      "review_status": "unreviewed",
+      "source": "arXiv · continuous language diffusion / flow"
+    },
     {
       "id": "arxiv:2611.03068",
       "kind": "paper",

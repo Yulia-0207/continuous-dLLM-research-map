@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T07:05:00.892524+00:00",
+  "generated_at": "2026-11-08T07:17:17.588770+00:00",
   "window_days": 30,
   "sources": [
     {
@@ -418,18 +418,6 @@
       "title": "On the Design Space of Continuous Diffusion Language Models",
       "url": "https://arxiv.org/abs/2610.13834",
       "date": "2026-10-09T16:41:32Z",
-      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
-      "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
-      "systems_signal": false,
-      "review_status": "unreviewed",
-      "source": "arXiv · continuous language diffusion / flow"
-    },
-    {
-      "id": "arxiv:2610.12898",
-      "kind": "paper",
-      "title": "Rethinking the Roles of Diffusion and Decoding: Predictive-State Flows for Parallel Language Generation",
-      "url": "https://arxiv.org/abs/2610.12898",
-      "date": "2026-10-09T02:43:30Z",
       "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
       "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
       "systems_signal": false,

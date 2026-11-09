@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-08T07:17:17.588770+00:00",
+  "generated_at": "2026-11-09T07:54:44.148709+00:00",
   "window_days": 30,
   "sources": [
     {
       "name": "arXiv · continuous language diffusion / flow",
       "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22diffusion%22+OR+all%3A%22flow+matching%22+OR+all%3A%22flow+map%22%29+AND+%28all%3A%22language%22+OR+all%3A%22text+generation%22%29+AND+%28all%3A%22continuous%22+OR+all%3A%22latent%22+OR+all%3A%22embedding%22+OR+all%3A%22bitstream%22%29&max_results=100&sortBy=lastUpdatedDate&sortOrder=descending",
       "status": "ok",
-      "count": 21
+      "count": 23
     },
     {
       "name": "ByteDance-Seed/Cola-DLM",
@@ -101,13 +101,37 @@
   ],
   "items": [
     {
+      "id": "arxiv:2605.07013",
+      "kind": "paper",
+      "title": "CoBit: Language Modeling with Bitstream Diffusion",
+      "url": "https://arxiv.org/abs/2605.07013",
+      "date": "2026-11-06T16:59:55Z",
+      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
+      "reason": "已收录论文的近期版本线索；日期为 arXiv updated，非正式发表日期。",
+      "systems_signal": true,
+      "review_status": "unreviewed",
+      "source": "arXiv · continuous language diffusion / flow"
+    },
+    {
       "id": "arxiv:2606.05558",
       "kind": "paper",
       "title": "Autoregressive Diffusion World Models for Off-Policy Evaluation of LLM Agents",
       "url": "https://arxiv.org/abs/2606.05558",
-      "date": "2026-11-05T05:23:24Z",
+      "date": "2026-11-06T04:46:36Z",
       "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
       "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
+      "systems_signal": false,
+      "review_status": "unreviewed",
+      "source": "arXiv · continuous language diffusion / flow"
+    },
+    {
+      "id": "arxiv:2604.11748",
+      "kind": "paper",
+      "title": "LangFlow: Continuous Diffusion Rivals Discrete in Language Modeling",
+      "url": "https://arxiv.org/abs/2604.11748",
+      "date": "2026-11-05T22:09:09Z",
+      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
+      "reason": "已收录论文的近期版本线索；日期为 arXiv updated，非正式发表日期。",
       "systems_signal": false,
       "review_status": "unreviewed",
       "source": "arXiv · continuous language diffusion / flow"
@@ -409,18 +433,6 @@
       "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
       "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
       "systems_signal": true,
-      "review_status": "unreviewed",
-      "source": "arXiv · continuous language diffusion / flow"
-    },
-    {
-      "id": "arxiv:2610.13834",
-      "kind": "paper",
-      "title": "On the Design Space of Continuous Diffusion Language Models",
-      "url": "https://arxiv.org/abs/2610.13834",
-      "date": "2026-10-09T16:41:32Z",
-      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
-      "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
-      "systems_signal": false,
       "review_status": "unreviewed",
       "source": "arXiv · continuous language diffusion / flow"
     }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T07:54:44.148709+00:00",
+  "generated_at": "2026-11-10T08:23:02.633996+00:00",
   "window_days": 30,
   "sources": [
     {
@@ -100,6 +100,30 @@
     }
   ],
   "items": [
+    {
+      "id": "arxiv:2605.07933",
+      "kind": "paper",
+      "title": "How to Train Your Latent Diffusion Language Model Jointly With the Latent Space",
+      "url": "https://arxiv.org/abs/2605.07933",
+      "date": "2026-11-08T17:32:04Z",
+      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
+      "reason": "已收录论文的近期版本线索；日期为 arXiv updated，非正式发表日期。",
+      "systems_signal": false,
+      "review_status": "unreviewed",
+      "source": "arXiv · continuous language diffusion / flow"
+    },
+    {
+      "id": "arxiv:2602.22586",
+      "kind": "paper",
+      "title": "TabDLM: Free-Form Tabular Data Generation via Joint Numerical-Language Diffusion",
+      "url": "https://arxiv.org/abs/2602.22586",
+      "date": "2026-11-07T20:03:52Z",
+      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
+      "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
+      "systems_signal": false,
+      "review_status": "unreviewed",
+      "source": "arXiv · continuous language diffusion / flow"
+    },
     {
       "id": "arxiv:2605.07013",
       "kind": "paper",

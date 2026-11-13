@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T08:16:59.065014+00:00",
+  "generated_at": "2026-11-13T07:53:23.192831+00:00",
   "window_days": 30,
   "sources": [
     {
@@ -100,6 +100,18 @@
     }
   ],
   "items": [
+    {
+      "id": "arxiv:2610.02665",
+      "kind": "paper",
+      "title": "Large Language Continuous Diffusion Models",
+      "url": "https://arxiv.org/abs/2610.02665",
+      "date": "2026-11-12T18:38:36Z",
+      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
+      "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
+      "systems_signal": true,
+      "review_status": "unreviewed",
+      "source": "arXiv · continuous language diffusion / flow"
+    },
     {
       "id": "arxiv:2605.07933",
       "kind": "paper",

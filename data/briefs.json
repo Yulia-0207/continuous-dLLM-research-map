@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T08:15:20.560834+00:00",
+  "generated_at": "2026-11-22T07:57:53.850688+00:00",
   "window_days": 30,
   "sources": [
     {
@@ -397,30 +397,6 @@
       "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
       "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
       "systems_signal": true,
-      "review_status": "unreviewed",
-      "source": "arXiv · continuous language diffusion / flow"
-    },
-    {
-      "id": "arxiv:2610.31558",
-      "kind": "paper",
-      "title": "Diffusion Language Models for Perplexity-Aware Black-Box Attacks",
-      "url": "https://arxiv.org/abs/2610.31558",
-      "date": "2026-10-22T17:00:39Z",
-      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
-      "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
-      "systems_signal": false,
-      "review_status": "unreviewed",
-      "source": "arXiv · continuous language diffusion / flow"
-    },
-    {
-      "id": "arxiv:2610.31305",
-      "kind": "paper",
-      "title": "Cola2: Co-Adaptive Hierarchical Language Modeling with Continuous Semantic Compression and Balanced Discrete Generation",
-      "url": "https://arxiv.org/abs/2610.31305",
-      "date": "2026-10-22T14:04:07Z",
-      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
-      "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
-      "systems_signal": false,
       "review_status": "unreviewed",
       "source": "arXiv · continuous language diffusion / flow"
     }

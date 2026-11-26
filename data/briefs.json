@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-25T09:48:59.566138+00:00",
+  "generated_at": "2026-11-26T09:29:31.631296+00:00",
   "window_days": 30,
   "sources": [
     {
       "name": "arXiv · continuous language diffusion / flow",
       "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22diffusion%22+OR+all%3A%22flow+matching%22+OR+all%3A%22flow+map%22%29+AND+%28all%3A%22language%22+OR+all%3A%22text+generation%22%29+AND+%28all%3A%22continuous%22+OR+all%3A%22latent%22+OR+all%3A%22embedding%22+OR+all%3A%22bitstream%22%29&max_results=100&sortBy=lastUpdatedDate&sortOrder=descending",
       "status": "ok",
-      "count": 14
+      "count": 11
     },
     {
       "name": "ByteDance-Seed/Cola-DLM",
@@ -24,7 +24,7 @@
       "name": "MananAg007/posterior-refinement",
       "url": "https://github.com/MananAg007/posterior-refinement",
       "status": "ok",
-      "count": 0
+      "count": 1
     },
     {
       "name": "Shark-NLP/DiffuSeq",
@@ -100,6 +100,18 @@
     }
   ],
   "items": [
+    {
+      "id": "MananAg007/posterior-refinement:commit:1bbe340b92afaf160b50cf699f4e3292dab4a373",
+      "kind": "github",
+      "title": "MananAg007/posterior-refinement · Updating OWT script with Gumbel commit order for Posterior Refinement",
+      "url": "https://github.com/MananAg007/posterior-refinement/commit/1bbe340b92afaf160b50cf699f4e3292dab4a373",
+      "date": "2026-11-25T20:26:22Z",
+      "summary": "Commit：代码活动不等于新论文或已验证的系统改进。",
+      "reason": "监测已收录连续 / 混合论文的官方仓库；单次最多 5 个 release、3 个 commit。",
+      "systems_signal": false,
+      "review_status": "unreviewed",
+      "source": "MananAg007/posterior-refinement"
+    },
     {
       "id": "arxiv:2610.09145",
       "kind": "paper",
@@ -370,18 +382,6 @@
       "title": "Denoising Hierarchical Representations: Joint Continuous Diffusion for Language Modeling",
       "url": "https://arxiv.org/abs/2610.08738",
       "date": "2026-10-27T10:43:42Z",
-      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
-      "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
-      "systems_signal": false,
-      "review_status": "unreviewed",
-      "source": "arXiv · continuous language diffusion / flow"
-    },
-    {
-      "id": "arxiv:2610.30068",
-      "kind": "paper",
-      "title": "Loopholing All the Way: Language Modeling with pure Self-Conditioning",
-      "url": "https://arxiv.org/abs/2610.30068",
-      "date": "2026-10-27T09:04:19Z",
       "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
       "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
       "systems_signal": false,

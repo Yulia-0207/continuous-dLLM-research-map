@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T09:29:31.631296+00:00",
+  "generated_at": "2026-11-27T09:39:00.866693+00:00",
   "window_days": 30,
   "sources": [
     {
@@ -361,30 +361,6 @@
       "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
       "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
       "systems_signal": true,
-      "review_status": "unreviewed",
-      "source": "arXiv · continuous language diffusion / flow"
-    },
-    {
-      "id": "arxiv:2610.37115",
-      "kind": "paper",
-      "title": "Self-Regularized Flow Language Models",
-      "url": "https://arxiv.org/abs/2610.37115",
-      "date": "2026-10-27T12:12:42Z",
-      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
-      "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
-      "systems_signal": false,
-      "review_status": "unreviewed",
-      "source": "arXiv · continuous language diffusion / flow"
-    },
-    {
-      "id": "arxiv:2610.08738",
-      "kind": "paper",
-      "title": "Denoising Hierarchical Representations: Joint Continuous Diffusion for Language Modeling",
-      "url": "https://arxiv.org/abs/2610.08738",
-      "date": "2026-10-27T10:43:42Z",
-      "summary": "摘要关键词匹配：连续状态 / 表示、latent 或 flow，以及语言 / 文本生成。请打开原论文核查研究范围和方法。",
-      "reason": "新候选论文，尚未纳入已核实论文库；日期为 arXiv updated，非正式发表日期。",
-      "systems_signal": false,
       "review_status": "unreviewed",
       "source": "arXiv · continuous language diffusion / flow"
     }
